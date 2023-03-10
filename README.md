@@ -20,6 +20,10 @@ Sorry, the update script to dump routing tables only works from within ESnet.
 ## or just see the results
 the file output.txt contains the latest run.
 
+## known bugs
+I probably am not including point-to-point links and loopbacks internal ESnet 
+or to its peers correctly.
+
 # disclaimers, etc.
 this is all best-effort
 contact Dale W. Carder, dwcarder@es.net for details

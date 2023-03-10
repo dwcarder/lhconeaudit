@@ -138,7 +138,7 @@
         "description": "The AGLT2 network for the Michigan State University location", 
         "id": 3, 
         "info_url": "https://head01.aglt2.org/AGLT2.html", 
-        "last_modified": "2022-05-13T19:07:41.554785", 
+        "last_modified": "2023-03-06T22:15:30.935647", 
         "lhcone_active": true, 
         "lhcone_aup_date": "2018-09-01T00:00:00", 
         "lhcone_bandwidth": 100, 
@@ -147,7 +147,7 @@
         ], 
         "lhcopn_active": false, 
         "lhcopn_bandwidth": -1, 
-        "monit_url": "", 
+        "monit_url": "https://www.aglt2.org/aglt2-msu-netmon.json", 
         "name": "US-AGLT2 Michigan State University", 
         "noc": [
           "aglt2-noc@umich.edu"
@@ -361,7 +361,7 @@
       {
         "arch": "", 
         "description": "", 
-        "endpoint": "http://es02.aglt2.org:6081", 
+        "endpoint": "http://sl-um-es2.slateci.io:6081", 
         "flavour": "Frontier", 
         "id": 3192, 
         "impl": "", 
@@ -1807,8 +1807,8 @@
       "US-BNL": {
         "description": "", 
         "id": 95, 
-        "info_url": "", 
-        "last_modified": "2021-11-30T17:19:57.427674", 
+        "info_url": "https://www4.rcf.bnl.gov/~usatlas1/US-BNL.html", 
+        "last_modified": "2023-03-01T23:49:10.868032", 
         "lhcone_active": true, 
         "lhcone_aup_date": "2017-01-01T00:00:00", 
         "lhcone_bandwidth": 100, 
@@ -1816,13 +1816,13 @@
           "ESnet"
         ], 
         "lhcopn_active": true, 
-        "lhcopn_bandwidth": 100, 
-        "monit_url": "", 
+        "lhcopn_bandwidth": 200, 
+        "monit_url": "https://www4.rcf.bnl.gov/~usatlas1/bnl-netmon.json", 
         "name": "US-BNL", 
         "noc": [
           "itdhelp@bnl.gov"
         ], 
-        "wan_bandwidth": 0
+        "wan_bandwidth": 200
       }
     }, 
     "oim_groupid": 235, 
@@ -2632,21 +2632,6 @@
     "oim_groupid": 8, 
     "rc_tier_level": 2, 
     "services": [
-      {
-        "arch": "HTCondor-CE", 
-        "description": "CE for NET2", 
-        "endpoint": "ne4.bu.edu:9619", 
-        "flavour": "HTCONDOR-CE", 
-        "id": 3186, 
-        "impl": "", 
-        "is_monitored": true, 
-        "is_virtual": false, 
-        "name": "BU_ATLAS_Tier2-CE-HTCONDOR-CE-ne4.bu.edu", 
-        "state": "ACTIVE", 
-        "status": "production", 
-        "type": "CE", 
-        "version": ""
-      }, 
       {
         "arch": "", 
         "description": "", 
@@ -3686,7 +3671,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "7.2.29"
+        "version": "7.2.36"
       }
     ], 
     "sites": [
@@ -7704,11 +7689,11 @@
         "flavour": "HTCONDOR-CE", 
         "id": 3152, 
         "impl": "", 
-        "is_monitored": false, 
+        "is_monitored": true, 
         "is_virtual": false, 
         "name": "DESY-HH-CE-HTCONDOR-CE-grid-htcondorce2.desy.de", 
         "state": "ACTIVE", 
-        "status": "DISABLED", 
+        "status": "production", 
         "type": "CE", 
         "version": ""
       }, 
@@ -7857,6 +7842,21 @@
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "DESY-HH_SE_0_ATLAS", 
+        "state": "ACTIVE", 
+        "status": null, 
+        "type": "SE", 
+        "version": "8.2.7"
+      }, 
+      {
+        "arch": "Tape", 
+        "description": "dcache-se-atlas.desy.de", 
+        "endpoint": null, 
+        "flavour": null, 
+        "id": 3252, 
+        "impl": "dcache", 
+        "is_monitored": false, 
+        "is_virtual": true, 
+        "name": "DESY-HH_SE_ATLAS_TAPE", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
@@ -8368,7 +8368,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.11"
+        "version": "8.2.15"
       }
     ], 
     "sites": [
@@ -9646,7 +9646,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "7.2.20"
+        "version": "8.2.10"
       }, 
       {
         "arch": "Tape", 
@@ -9661,7 +9661,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "7.2.20"
+        "version": "8.2.10"
       }, 
       {
         "arch": "", 
@@ -10754,6 +10754,21 @@
       {
         "arch": "", 
         "description": "", 
+        "endpoint": "grid-72065.ijclab.in2p3.fr:9619", 
+        "flavour": "HTCONDOR-CE", 
+        "id": 3238, 
+        "impl": "", 
+        "is_monitored": true, 
+        "is_virtual": false, 
+        "name": "GRIF-CE-HTCONDOR-CE-grid-72065.ijclab.in2p3.fr", 
+        "state": "ACTIVE", 
+        "status": "production", 
+        "type": "CE", 
+        "version": ""
+      }, 
+      {
+        "arch": "", 
+        "description": "", 
         "endpoint": "grid06.lal.in2p3.fr:9619", 
         "flavour": "HTCONDOR-CE", 
         "id": 2384, 
@@ -10769,7 +10784,7 @@
       {
         "arch": "", 
         "description": "", 
-        "endpoint": "llrcondorce.in2p3.fr", 
+        "endpoint": "llrcondorce.in2p3.fr:9619", 
         "flavour": "HTCONDOR-CE", 
         "id": 2251, 
         "impl": "", 
@@ -12168,17 +12183,17 @@
       {
         "arch": "", 
         "description": "", 
-        "endpoint": "tochtli64.nucleares.unam.mx:9619", 
+        "endpoint": "submit.lamod.unam.mx:9619", 
         "flavour": "HTCONDOR-CE", 
-        "id": 2738, 
+        "id": 3250, 
         "impl": "", 
         "is_monitored": false, 
         "is_virtual": false, 
-        "name": "ICN-UNAM-CE-HTCONDOR-CE-tochtli64.nucleares.unam.mx", 
+        "name": "ICN-UNAM-CE-HTCONDOR-CE-submit.lamod.unam.mx", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "CE", 
-        "version": null
+        "version": ""
       }
     ], 
     "sites": [
@@ -15397,21 +15412,6 @@
       {
         "arch": "", 
         "description": "", 
-        "endpoint": "htc-recas-ce-01.cs.infn.it", 
-        "flavour": "HTCONDOR-CE", 
-        "id": 2761, 
-        "impl": "", 
-        "is_monitored": true, 
-        "is_virtual": false, 
-        "name": "INFN-COSENZA-CE-HTCONDOR-CE-htc-recas-ce-01.cs.infn.it", 
-        "state": "ACTIVE", 
-        "status": "production", 
-        "type": "CE", 
-        "version": null
-      }, 
-      {
-        "arch": "", 
-        "description": "", 
         "endpoint": "htc-recas-ce-02.cs.infn.it", 
         "flavour": "HTCONDOR-CE", 
         "id": 2762, 
@@ -15423,6 +15423,21 @@
         "status": "production", 
         "type": "CE", 
         "version": null
+      }, 
+      {
+        "arch": "", 
+        "description": "", 
+        "endpoint": "htc-recas-ce-03.cs.infn.it", 
+        "flavour": "HTCONDOR-CE", 
+        "id": 3248, 
+        "impl": "", 
+        "is_monitored": true, 
+        "is_virtual": false, 
+        "name": "INFN-COSENZA-CE-HTCONDOR-CE-htc-recas-ce-03.cs.infn.it", 
+        "state": "ACTIVE", 
+        "status": "production", 
+        "type": "CE", 
+        "version": ""
       }, 
       {
         "arch": "", 
@@ -17582,7 +17597,7 @@
     "cpu_capacity": 278249, 
     "crr_url": "", 
     "description": "INFN-T1 Site", 
-    "disk_capacity": 39972619310531288, 
+    "disk_capacity": 37210000000000000, 
     "federations": [
       "IT-INFN-CNAF"
     ], 
@@ -19712,7 +19727,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.5"
+        "version": "8.2.15"
       }
     ], 
     "sites": [
@@ -21015,7 +21030,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "7.2.26"
+        "version": "7.2.36"
       }
     ], 
     "sites": [
@@ -22583,21 +22598,6 @@
         "is_monitored": true, 
         "is_virtual": false, 
         "name": "NDGF-T1_VoBox_alice-tron.hip.fi_ALICE", 
-        "state": "ACTIVE", 
-        "status": null, 
-        "type": "alience", 
-        "version": null
-      }, 
-      {
-        "arch": "", 
-        "description": "", 
-        "endpoint": "alice.lunarc.lu.se", 
-        "flavour": "AliEn-CE", 
-        "id": 1462, 
-        "impl": "", 
-        "is_monitored": true, 
-        "is_virtual": false, 
-        "name": "NDGF-T1_VoBox_alice.lunarc.lu.se_ALICE", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "alience", 
@@ -29023,7 +29023,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "7.2.13"
+        "version": "7.2.35"
       }, 
       {
         "arch": "Disk", 
@@ -29038,7 +29038,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "7.2.13"
+        "version": "7.2.35"
       }, 
       {
         "arch": "", 
@@ -30280,11 +30280,11 @@
         "flavour": "Bandwidth", 
         "id": 883, 
         "impl": "", 
-        "is_monitored": true, 
+        "is_monitored": false, 
         "is_virtual": false, 
         "name": "T2_Estonia-PerfSonar-Bandwidth-perfsonar2.hep.kbfi.ee", 
         "state": "ACTIVE", 
-        "status": "production", 
+        "status": "DISABLED", 
         "type": "PerfSonar", 
         "version": null
       }, 
@@ -30295,11 +30295,11 @@
         "flavour": "Latency", 
         "id": 1014, 
         "impl": "", 
-        "is_monitored": true, 
+        "is_monitored": false, 
         "is_virtual": false, 
         "name": "T2_Estonia-PerfSonar-Latency-perfsonar1.hep.kbfi.ee", 
         "state": "ACTIVE", 
-        "status": "production", 
+        "status": "DISABLED", 
         "type": "PerfSonar", 
         "version": null
       }, 
@@ -31572,21 +31572,6 @@
       {
         "arch": "", 
         "description": "", 
-        "endpoint": "http://conddb-px02.icepp.jp:3128", 
-        "flavour": "CVMFS", 
-        "id": 2626, 
-        "impl": "", 
-        "is_monitored": true, 
-        "is_virtual": false, 
-        "name": "TOKYO-LCG2-CVMFS-conddb-px02.icepp.jp", 
-        "state": "ACTIVE", 
-        "status": "production", 
-        "type": "Squid", 
-        "version": null
-      }, 
-      {
-        "arch": "", 
-        "description": "", 
         "endpoint": "perfsonar2.icepp.jp", 
         "flavour": "Bandwidth", 
         "id": 820, 
@@ -31617,13 +31602,28 @@
       {
         "arch": "", 
         "description": "", 
-        "endpoint": "http://conddb-px01.icepp.jp:3128", 
+        "endpoint": "http://frontier-squid1.icepp.jp:3128", 
         "flavour": "", 
         "id": 2623, 
         "impl": "", 
         "is_monitored": true, 
         "is_virtual": false, 
-        "name": "TOKYO-LCG2-Squid", 
+        "name": "TOKYO-LCG2-Squid-1", 
+        "state": "ACTIVE", 
+        "status": "production", 
+        "type": "Squid", 
+        "version": null
+      }, 
+      {
+        "arch": "", 
+        "description": "", 
+        "endpoint": "http://frontier-squid2.icepp.jp:3128", 
+        "flavour": "CVMFS", 
+        "id": 2626, 
+        "impl": "", 
+        "is_monitored": true, 
+        "is_virtual": false, 
+        "name": "TOKYO-LCG2-Squid-2", 
         "state": "ACTIVE", 
         "status": "production", 
         "type": "Squid", 
@@ -31657,7 +31657,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "1.15.2"
+        "version": "8.2.12"
       }
     ], 
     "sites": [
@@ -31716,7 +31716,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "1.14.2"
+        "version": "1.15.2"
       }, 
       {
         "arch": "", 
@@ -35541,7 +35541,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "1.14.2"
+        "version": "1.15.2"
       }, 
       {
         "arch": "Disk", 
@@ -35556,7 +35556,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "1.14.2"
+        "version": "1.15.2"
       }
     ], 
     "sites": [
@@ -38040,21 +38040,6 @@
       {
         "arch": "", 
         "description": "", 
-        "endpoint": "gsiftp://nordugrid.unibe.ch:2811", 
-        "flavour": "ARC-CE", 
-        "id": 1572, 
-        "impl": "", 
-        "is_monitored": false, 
-        "is_virtual": false, 
-        "name": "UNIBE-LHEP-CE-ARC-CE-nordugrid.unibe.ch", 
-        "state": "ACTIVE", 
-        "status": "production", 
-        "type": "CE", 
-        "version": null
-      }, 
-      {
-        "arch": "", 
-        "description": "", 
         "endpoint": "http://cvmfs.lhep.unibe.ch:3128", 
         "flavour": null, 
         "id": 2379, 
@@ -38066,21 +38051,6 @@
         "status": "production", 
         "type": "Squid", 
         "version": null
-      }, 
-      {
-        "arch": "Disk", 
-        "description": "", 
-        "endpoint": null, 
-        "flavour": null, 
-        "id": 1586, 
-        "impl": "DPM", 
-        "is_monitored": false, 
-        "is_virtual": true, 
-        "name": "UNIBE-LHEP_SE_0_ATLAS", 
-        "state": "ACTIVE", 
-        "status": null, 
-        "type": "SE", 
-        "version": "1.14.2"
       }
     ], 
     "sites": [
@@ -40538,49 +40508,6 @@
     "tape_capacity": 0, 
     "timezone": ""
   }, 
-  "csTCDie": {
-    "altname": "", 
-    "cert_status": null, 
-    "corepower": 0.0, 
-    "cores": 0, 
-    "country": "Ireland", 
-    "country_code": "IE", 
-    "cpu_capacity": 0, 
-    "crr_url": "", 
-    "description": "", 
-    "disk_capacity": 0, 
-    "federations": [
-      "NON-MOU-Federation"
-    ], 
-    "gocdb_pk": null, 
-    "gocdb_url": "", 
-    "id": 962, 
-    "infourl": "", 
-    "institute": "", 
-    "is_pledged": false, 
-    "latitude": 53.3436, 
-    "longitude": -6.2501, 
-    "monit_tag": "Ireland", 
-    "name": "csTCDie", 
-    "netroutes": {}, 
-    "netsites": {}, 
-    "oim_groupid": null, 
-    "rc_tier_level": 3, 
-    "services": [], 
-    "sites": [
-      {
-        "name": "csTCDie", 
-        "tier_level": 3, 
-        "vo_name": "atlas"
-      }
-    ], 
-    "slots": 0, 
-    "srr_url": "", 
-    "state": "ACTIVE", 
-    "status": null, 
-    "tape_capacity": 0, 
-    "timezone": ""
-  }, 
   "egee.irb.hr": {
     "altname": "Rudjer Boskovic Institute, Zagreb", 
     "cert_status": "certified", 
@@ -41012,7 +40939,7 @@
     "cpu_capacity": 125811, 
     "crr_url": "", 
     "description": "Tier-1 Spanish site", 
-    "disk_capacity": 11930000000000000, 
+    "disk_capacity": 12090000000000000, 
     "federations": [
       "ES-PIC"
     ], 
@@ -41214,7 +41141,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "7.2.22"
+        "version": "8.2.14"
       }, 
       {
         "arch": "Disk", 
@@ -41229,7 +41156,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "7.2.22"
+        "version": "8.2.14"
       }, 
       {
         "arch": "Tape", 
@@ -41244,7 +41171,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "7.2.22"
+        "version": "8.2.14"
       }, 
       {
         "arch": "Disk", 
@@ -41259,7 +41186,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "7.2.22"
+        "version": "8.2.14"
       }, 
       {
         "arch": "", 
@@ -41274,7 +41201,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "7.2.22"
+        "version": "8.2.14"
       }
     ], 
     "sites": [
@@ -41303,7 +41230,7 @@
     "srr_url": "", 
     "state": "ACTIVE", 
     "status": "production", 
-    "tape_capacity": 32180000000000000, 
+    "tape_capacity": 32650000000000000, 
     "timezone": "Europe/Madrid"
   }, 
   "praguelcg2": {

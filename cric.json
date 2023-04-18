@@ -2,6 +2,7 @@
   "AGLT2": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 13644, 
     "country": "United States", 
@@ -406,6 +407,7 @@
   "AM-04-YERPHI": {
     "altname": "Yerevan Physics Institute", 
     "cert_status": "uncertified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Armenia", 
@@ -485,6 +487,7 @@
   "ANLASC": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -580,6 +583,7 @@
   "ARNES": {
     "altname": "ARNES, Arnes, Ljubljana, Slovenia", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Slovenia", 
@@ -779,6 +783,7 @@
   "AUVERGRID": {
     "altname": "IN2P3-LPC, Clermont-Ferrand, France", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "France", 
@@ -841,6 +846,7 @@
   "AYDIN": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Turkey", 
@@ -884,6 +890,7 @@
   "AZ-IFAN": {
     "altname": "Azerbaijan National Grid Segment", 
     "cert_status": "suspended", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Azerbaijan", 
@@ -973,6 +980,7 @@
   "Arizona": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -1032,6 +1040,7 @@
   "Australia-ATLAS": {
     "altname": "Australian HEP ATLAS Tier 2. Melbourne, Australia", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 11.37704918032787, 
     "cores": 7, 
     "country": "Australia", 
@@ -1213,6 +1222,7 @@
   "Azure": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Switzerland", 
@@ -1250,6 +1260,7 @@
   "BEIJING-LCG2": {
     "altname": "Institute of High Energy Physics, Chinese Academy of Sciences", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 19.1133333333333, 
     "cores": 76, 
     "country": "China", 
@@ -1482,6 +1493,7 @@
   "BELLARMINE-ATLAS-T3": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -1525,6 +1537,7 @@
   "BEgrid-ULB-VUB": {
     "altname": "Universite Libre de Bruxelles - Vrije Universiteit Brussel , Belgium", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 8.079980842911878, 
     "cores": 404, 
     "country": "Belgium", 
@@ -1676,6 +1689,7 @@
   "BG05-SUGrid": {
     "altname": "Univeristy of Sofia (Faculty of Mathematics and Informatics, Faculty of Physics)", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Bulgaria", 
@@ -1750,6 +1764,7 @@
   "BNL-ATLAS": {
     "altname": "Brookhaven National Laboratory, New York, USA", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -1757,7 +1772,7 @@
     "cpu_capacity": 0, 
     "crr_url": "", 
     "description": "Brookhaven National Laboratory", 
-    "disk_capacity": 27933436394861592, 
+    "disk_capacity": 32253436394861592, 
     "federations": [
       "US-T1-BNL"
     ], 
@@ -2071,21 +2086,6 @@
       {
         "arch": "", 
         "description": "", 
-        "endpoint": null, 
-        "flavour": null, 
-        "id": 3126, 
-        "impl": "", 
-        "is_monitored": false, 
-        "is_virtual": true, 
-        "name": "BNLSDCC_ATLAS", 
-        "state": "ACTIVE", 
-        "status": null, 
-        "type": "SE", 
-        "version": ""
-      }, 
-      {
-        "arch": "", 
-        "description": "", 
         "endpoint": "http://frontier-cache.sdcc.bnl.gov:3128", 
         "flavour": "CVMFS", 
         "id": 2656, 
@@ -2161,6 +2161,7 @@
   "BNL-ATLAS-OPP": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -2188,19 +2189,19 @@
     "rc_tier_level": 3, 
     "services": [
       {
-        "arch": "", 
-        "description": "", 
-        "endpoint": "gsiftp://arcce01.sdcc.bnl.gov:2811", 
-        "flavour": "ARC-CE", 
-        "id": 2002, 
-        "impl": "", 
+        "arch": "HTCondor-CE", 
+        "description": "HTCondor-CE used to send jobs on the BNL Institutional Cluster", 
+        "endpoint": "hpcce01.sdcc.bnl.gov:9619", 
+        "flavour": "HTCONDOR-CE", 
+        "id": 3267, 
+        "impl": "9.0", 
         "is_monitored": false, 
         "is_virtual": false, 
-        "name": "BNL-ATLAS-OPP-CE-ARC-CE-arcce01.sdcc.bnl.gov", 
+        "name": "BNL-ATLAS-OPP-CE-HTCONDOR-CE-hpcce01.sdcc.bnl.gov", 
         "state": "ACTIVE", 
-        "status": "", 
+        "status": null, 
         "type": "CE", 
-        "version": null
+        "version": ""
       }
     ], 
     "sites": [
@@ -2220,6 +2221,7 @@
   "BOINC": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Switzerland", 
@@ -2359,6 +2361,7 @@
   "BR-RNP-NREN": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Brazil", 
@@ -2435,6 +2438,7 @@
   "BUDAPEST": {
     "altname": "Wigner Research Centre for Physics, Budapest, Hungary", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 12.629861111111111, 
     "cores": 180, 
     "country": "Hungary", 
@@ -2559,6 +2563,7 @@
   "BU_ATLAS_Tier2": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -2775,6 +2780,7 @@
   "BY-NCPHEP": {
     "altname": "Research Institute for Nuclear Problems of Belarusian State University", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Belarus", 
@@ -2818,6 +2824,7 @@
   "Baylor-Kodiak": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -2892,6 +2899,7 @@
   "BelGrid-UCL": {
     "altname": "Universite Catholique de Louvain, Louvain-la-Neuve, Belgium", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 9.2, 
     "cores": 160, 
     "country": "Belgium", 
@@ -3011,6 +3019,7 @@
   "Brandeis-Atlas-T3": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -3054,6 +3063,7 @@
   "Bridges": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "NULL", 
@@ -3105,6 +3115,7 @@
   "CA-ALBERTA-WESTGRID-T2": {
     "altname": "University of Alberta - WestGrid", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Canada", 
@@ -3189,6 +3200,7 @@
   "CA-CANARIE-NREN": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Canada", 
@@ -3266,6 +3278,7 @@
   "CA-MCGILL-CLUMEQ-T2": {
     "altname": "McGill University - McGill HPC. East Canada", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Canada", 
@@ -3410,6 +3423,7 @@
   "CA-SCINET-T2": {
     "altname": "SciNet High Performance Computing Consortium", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Canada", 
@@ -3484,6 +3498,7 @@
   "CA-SFU-T2": {
     "altname": "Compute Canada Simon Fraser University General Purpose Cluster", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 19.6399980784012, 
     "cores": 6505, 
     "country": "Canada", 
@@ -3691,6 +3706,7 @@
   "CA-TORONTO-T3": {
     "altname": "Niagara HPC", 
     "cert_status": "candidate", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Canada", 
@@ -3790,6 +3806,7 @@
   "CA-TRIUMF-DISKLESS": {
     "altname": "DISKLESS site, TRIUMF, Vancouver, Canada", 
     "cert_status": "candidate", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Canada", 
@@ -3849,6 +3866,7 @@
   "CA-TRIUMF-DYNAFED": {
     "altname": "Dynafed, TRIUMF, Vancouver, Canada", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Canada", 
@@ -3892,6 +3910,7 @@
   "CA-UVic-Cloud": {
     "altname": "Canadian HEP site for Belle-II and Atlas", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Canada", 
@@ -3981,6 +4000,7 @@
   "CA-VICTORIA-WESTGRID-T2": {
     "altname": "University of Victoria", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 11.0, 
     "cores": 100, 
     "country": "Canada", 
@@ -4207,6 +4227,7 @@
   "CA-WATERLOO-T2": {
     "altname": "Compute Canada Waterloo Ontario Tier-2", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Canada", 
@@ -4413,6 +4434,7 @@
   "CBPF": {
     "altname": "Centro Brasileiro de Pesquisas Fisicas", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 8.31111111111111, 
     "cores": 30, 
     "country": "Brazil", 
@@ -4573,21 +4595,6 @@
         "status": "production", 
         "type": "PerfSonar", 
         "version": null
-      }, 
-      {
-        "arch": "Disk", 
-        "description": "", 
-        "endpoint": null, 
-        "flavour": null, 
-        "id": 1796, 
-        "impl": "DPM", 
-        "is_monitored": true, 
-        "is_virtual": true, 
-        "name": "CBPF_SE_LHCB", 
-        "state": "ACTIVE", 
-        "status": null, 
-        "type": "SE", 
-        "version": "1.15.2"
       }
     ], 
     "sites": [
@@ -4612,6 +4619,7 @@
   "CERN-PROD": {
     "altname": "European Organization for Nuclear Research, Geneva, Switzerland", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Switzerland", 
@@ -5163,6 +5171,21 @@
         "status": "", 
         "type": "Squid", 
         "version": null
+      }, 
+      {
+        "arch": "", 
+        "description": "", 
+        "endpoint": "http://atlasfrontierdev-ai.cern.ch:8000/atlr", 
+        "flavour": "Frontier", 
+        "id": 3270, 
+        "impl": "", 
+        "is_monitored": true, 
+        "is_virtual": false, 
+        "name": "CERN-PROD-Frontier-atlasfrontierdev-ai.cern.ch", 
+        "state": "ACTIVE", 
+        "status": null, 
+        "type": "Frontier", 
+        "version": ""
       }, 
       {
         "arch": "", 
@@ -5846,12 +5869,13 @@
     "srr_url": "", 
     "state": "ACTIVE", 
     "status": "production", 
-    "tape_capacity": 451000000000000000, 
+    "tape_capacity": 451465053763440848, 
     "timezone": "Europe/Zurich"
   }, 
   "CERN-PROD-AI": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Switzerland", 
@@ -5895,6 +5919,7 @@
   "CERN-PROD-HLT": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Switzerland", 
@@ -5938,6 +5963,7 @@
   "CERN-PROD-WIGNER": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Switzerland", 
@@ -5981,6 +6007,7 @@
   "CETA-GRID": {
     "altname": "CETA-GRID, Resource Center CETA-CIEMAT", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Spain", 
@@ -6024,6 +6051,7 @@
   "CHTC": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -6061,6 +6089,7 @@
   "CIEMAT-LCG2": {
     "altname": "CIEMAT Madrid, Spain", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 13.95, 
     "cores": 2760, 
     "country": "Spain", 
@@ -6226,6 +6255,7 @@
   "CIEMAT-TIC": {
     "altname": "CIEMAT ICT Division, Madrid, Spain", 
     "cert_status": "suspended", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Spain", 
@@ -6269,6 +6299,7 @@
   "CIT_CMS_T2": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -6502,6 +6533,7 @@
   "CL-REUNA-NREN": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Chile", 
@@ -6581,6 +6613,7 @@
   "CN-BEIJING-PKU": {
     "altname": "", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "China", 
@@ -6640,6 +6673,7 @@
   "CN-CERNET-NREN": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "China", 
@@ -6720,6 +6754,7 @@
   "CSCS-LCG2": {
     "altname": "CSCS, Swiss National Supercomputing Centre", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 12.4500161498708, 
     "cores": 225, 
     "country": "Switzerland", 
@@ -6813,7 +6848,7 @@
         "flavour": "ARC-CE", 
         "id": 3185, 
         "impl": "", 
-        "is_monitored": false, 
+        "is_monitored": true, 
         "is_virtual": false, 
         "name": "CSCS-LCG2-CE-ARC-CE-arc-gele.lcg.cscs.ch", 
         "state": "ACTIVE", 
@@ -6989,6 +7024,7 @@
   "CY-01-KIMON": {
     "altname": "CY-01-KIMON", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Cyprus", 
@@ -7046,6 +7082,7 @@
   "CYFRONET-LCG2": {
     "altname": "ACC CYFRONET AGH, Cracow, Poland", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 11.5, 
     "cores": 64, 
     "country": "Poland", 
@@ -7267,6 +7304,7 @@
   "CZ-CESNET-NREN": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Czechia", 
@@ -7368,6 +7406,7 @@
   "Clemson-Palmetto": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "NULL", 
@@ -7403,6 +7442,7 @@
   "CometVirtualCluster": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -7440,6 +7480,7 @@
   "Crane": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -7493,6 +7534,7 @@
   "DE-DFN-NREN": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Germany", 
@@ -7570,6 +7612,7 @@
   "DESY-HH": {
     "altname": "Deutsches Elektronen-Synchrotron", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 11.6746805463759, 
     "cores": 2462, 
     "country": "Germany", 
@@ -7905,6 +7948,7 @@
   "DESY-ZN": {
     "altname": "Deutsches Elektronen-Synchrotron, Standort Zeuthen", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 20.9299045138889, 
     "cores": 576, 
     "country": "Germany", 
@@ -8107,6 +8151,7 @@
   "DukeT3": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -8150,6 +8195,7 @@
   "EELA-UNLP": {
     "altname": "Sitio GRID de la Universidad Nacional de La Plata", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Argentina", 
@@ -8209,6 +8255,7 @@
   "EELA-UTFSM": {
     "altname": "Universidad Tecnica Federico Santa Maria, Valparaiso, Chile", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 11.5651041667, 
     "cores": 32, 
     "country": "Chile", 
@@ -8368,7 +8415,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.15"
+        "version": "8.2.20"
       }
     ], 
     "sites": [
@@ -8388,6 +8435,7 @@
   "EFDA-JET": {
     "altname": "JET", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United Kingdom", 
@@ -8425,6 +8473,7 @@
   "EXOSCALE": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Switzerland", 
@@ -8484,6 +8533,7 @@
   "FIUPG": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -8527,6 +8577,7 @@
   "FI_HIP_T2": {
     "altname": "Finnish WLCG Resources", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 15.8, 
     "cores": 50, 
     "country": "Finland", 
@@ -8611,7 +8662,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "7.2.28"
+        "version": "7.2.38"
       }
     ], 
     "sites": [
@@ -8631,6 +8682,7 @@
   "FLTECH": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -8674,6 +8726,7 @@
   "FMPhI-UNIBA": {
     "altname": "Faculty of Mathematics, Physics and Informatics, Comenius University, Bratislava", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 10.513392857142858, 
     "cores": 168, 
     "country": "Slovakia", 
@@ -8766,14 +8819,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1635, 
-        "impl": "DPM", 
+        "impl": "xcache", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "FMPhI-UNIBA_SE_0_ATLAS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "1.15.2"
+        "version": "7.2.22"
       }, 
       {
         "arch": "Disk", 
@@ -8833,6 +8886,7 @@
   "FR-ALPAMED": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "France", 
@@ -8892,6 +8946,7 @@
   "FR-ALPES": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "France", 
@@ -8935,6 +8990,7 @@
   "FR-IN2P3-LAL-ORSAY": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "France", 
@@ -9014,6 +9070,7 @@
   "FR-IN2P3-LLR-PALAISEAU": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "France", 
@@ -9092,6 +9149,7 @@
   "FR-IN2P3-LPNHE-PARIS": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "France", 
@@ -9170,6 +9228,7 @@
   "FRESNO-ATLAS-T3": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -9242,6 +9301,7 @@
   "FSU-HEP": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -9285,6 +9345,7 @@
   "FZK-LCG2": {
     "altname": "KIT, Karlsruhe, Germany", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 12.7500059784, 
     "cores": 1489, 
     "country": "Germany", 
@@ -9343,10 +9404,10 @@
         "description": "German WLCG Tier-1", 
         "id": 11, 
         "info_url": "", 
-        "last_modified": "2021-11-30T17:19:56.522795", 
+        "last_modified": "2023-04-15T10:44:31.406847", 
         "lhcone_active": true, 
         "lhcone_aup_date": "2017-01-01T00:00:00", 
-        "lhcone_bandwidth": 100, 
+        "lhcone_bandwidth": 200, 
         "lhcone_providers": [
           "DFN"
         ], 
@@ -9357,7 +9418,7 @@
         "noc": [
           "de-kit-noc@kit.edu"
         ], 
-        "wan_bandwidth": 0
+        "wan_bandwidth": 400
       }
     }, 
     "oim_groupid": null, 
@@ -9541,7 +9602,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.10"
+        "version": "8.2.17"
       }, 
       {
         "arch": "Disk", 
@@ -9586,7 +9647,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.10"
+        "version": "8.2.17"
       }, 
       {
         "arch": "Tape", 
@@ -9711,6 +9772,7 @@
   "FZU-IPV6": {
     "altname": "Prague IPv6 testbed", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Czechia", 
@@ -9754,6 +9816,7 @@
   "Firefly": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -9797,6 +9860,7 @@
   "GEANT REN": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "NULL", 
@@ -9881,6 +9945,7 @@
   "GLOW": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -10092,6 +10157,7 @@
   "GOOGLE": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -10186,6 +10252,7 @@
   "GOOGLE_COMPUTE_ENGINE": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -10229,6 +10296,7 @@
   "GPGRID": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "NULL", 
@@ -10295,6 +10363,7 @@
   "GR-01-AUTH": {
     "altname": "AUTH Aristotle University Thessaloniki, Greece", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Greece", 
@@ -10354,6 +10423,7 @@
   "GR-05-DEMOKRITOS": {
     "altname": "Institute of Nuclear Physics NCSR Demokritos", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Greece", 
@@ -10397,6 +10467,7 @@
   "GR-06-IASA": {
     "altname": "Institute of Accelerating Systems and Applications (IASA)", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Greece", 
@@ -10440,6 +10511,7 @@
   "GR-07-UOI-HEPLAB": {
     "altname": "HEP Laboratory, Physics Department, University of Ioannina, Greece", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 12.0, 
     "cores": 39, 
     "country": "Greece", 
@@ -10589,6 +10661,7 @@
   "GR-12-TEIKAV": {
     "altname": "GRID, Eastern Macedonia and Thrace Institute of Technology, Greece", 
     "cert_status": "suspended", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Greece", 
@@ -10663,6 +10736,7 @@
   "GRIF": {
     "altname": "Grille de Recherche d'Ile de France (GRIF)", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 11.0474784551548, 
     "cores": 822, 
     "country": "France", 
@@ -11214,6 +11288,7 @@
   "GROW-PROD": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -11257,6 +11332,7 @@
   "GSI-LCG2": {
     "altname": "GSI Helmholtzgesellschaft fur Schwerionenforschung GmbH, Darmstadt, Germany", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Germany", 
@@ -11374,6 +11450,7 @@
   "GoeGrid": {
     "altname": "University Goettingen", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 10.2660848733744, 
     "cores": 235, 
     "country": "Germany", 
@@ -11538,6 +11615,7 @@
   "HELIX_NEBULA": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Switzerland", 
@@ -11581,6 +11659,7 @@
   "HEPHY-UIBK": {
     "altname": "UIBK, Innsbruck, Austria", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Austria", 
@@ -11640,6 +11719,7 @@
   "HG-03-AUTH": {
     "altname": "Hellasgrid 03 at AUTH", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Greece", 
@@ -11683,6 +11763,7 @@
   "HK-HKU-CC-01": {
     "altname": "Information Technology Services, The University of Hong Kong, Hong Kong", 
     "cert_status": "suspended", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "China", 
@@ -11726,6 +11807,7 @@
   "HK-LCG2": {
     "altname": "Chinese University of Hong Kong", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 11.8002232142857, 
     "cores": 32, 
     "country": "Hong Kong SAR", 
@@ -11803,14 +11885,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1596, 
-        "impl": "DPM", 
+        "impl": "dCache", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "HK-LCG2_SE_0_ATLAS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "1.15.2"
+        "version": "8.2.10"
       }
     ], 
     "sites": [
@@ -11830,6 +11912,7 @@
   "HU_ATLAS_Tier2": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -11873,6 +11956,7 @@
   "Hampton PPCF ATLAS": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -11916,6 +12000,7 @@
   "Hephy-Vienna": {
     "altname": "Institute of High Energy Physics, Austrian Academy of Sciences", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 11.1, 
     "cores": 1160, 
     "country": "Austria", 
@@ -12084,7 +12169,8 @@
   }, 
   "ICM": {
     "altname": "ICM, University of Warsaw, Poland", 
-    "cert_status": "certified", 
+    "cert_status": "suspended", 
+    "coreenergy": 10.0, 
     "corepower": 16.39992088607595, 
     "cores": 616, 
     "country": "Poland", 
@@ -12154,6 +12240,7 @@
   "ICN-UNAM": {
     "altname": "Instituto de Ciencias Nucleares, UNAM", 
     "cert_status": "suspended", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Mexico", 
@@ -12163,7 +12250,7 @@
     "description": "UNAM Grid Site", 
     "disk_capacity": 0, 
     "federations": [
-      "T2-LATINAMERICA"
+      "NON-MOU-Federation"
     ], 
     "gocdb_pk": "138G0", 
     "gocdb_url": "https://goc.egi.eu/portal/index.php?Page_Type=Site&id=259", 
@@ -12178,7 +12265,7 @@
     "netroutes": {}, 
     "netsites": {}, 
     "oim_groupid": null, 
-    "rc_tier_level": 2, 
+    "rc_tier_level": 3, 
     "services": [
       {
         "arch": "", 
@@ -12213,6 +12300,7 @@
   "IEPSAS-Kosice": {
     "altname": "Institute of Experimental Physics, Slovak Academy of Sciences, Kosice", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 15.9604316546763, 
     "cores": 138, 
     "country": "Slovakia", 
@@ -12327,7 +12415,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "7.2.32"
+        "version": "7.2.37"
       }, 
       {
         "arch": "Disk", 
@@ -12382,6 +12470,7 @@
   "IFCA-LCG2": {
     "altname": "Instituto de Fisica de Cantabria", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 11.4299496644295, 
     "cores": 188, 
     "country": "Spain", 
@@ -12445,11 +12534,11 @@
         "flavour": "Bandwidth", 
         "id": 790, 
         "impl": "", 
-        "is_monitored": true, 
+        "is_monitored": false, 
         "is_virtual": false, 
         "name": "IFCA-LCG2-PerfSonar-Bandwidth-psifca02.ifca.es", 
         "state": "ACTIVE", 
-        "status": "production", 
+        "status": "DISABLED", 
         "type": "PerfSonar", 
         "version": null
       }, 
@@ -12460,11 +12549,11 @@
         "flavour": "Latency", 
         "id": 1018, 
         "impl": "", 
-        "is_monitored": true, 
+        "is_monitored": false, 
         "is_virtual": false, 
         "name": "IFCA-LCG2-PerfSonar-Latency-psifca01.ifca.es", 
         "state": "ACTIVE", 
-        "status": "production", 
+        "status": "DISABLED", 
         "type": "PerfSonar", 
         "version": null
       }, 
@@ -12516,6 +12605,7 @@
   "IFIC-LCG2": {
     "altname": "IFIC (Instituto de Fisica Corpuscular)", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Spain", 
@@ -12650,6 +12740,7 @@
   "IL-TAU-HEP": {
     "altname": "High Energy Physics Group, Tel Aviv University, Israel", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 11.75, 
     "cores": 152, 
     "country": "Israel", 
@@ -12744,6 +12835,7 @@
   "IN-DAE-VECC-02": {
     "altname": "ALICE Tier-II Centre, Kolkata", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "India", 
@@ -12818,6 +12910,7 @@
   "IN-ERNET-NREN": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "India", 
@@ -12916,6 +13009,7 @@
   "IN2P3-CC": {
     "altname": "IN2P3, Lyon, France", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 10.874940004799615, 
     "cores": 768, 
     "country": "France", 
@@ -12923,7 +13017,7 @@
     "cpu_capacity": 161243, 
     "crr_url": "", 
     "description": "CC IN2P3", 
-    "disk_capacity": 40072927750146236, 
+    "disk_capacity": 41487432184319247, 
     "federations": [
       "FR-CCIN2P3"
     ], 
@@ -13097,21 +13191,6 @@
       {
         "arch": "", 
         "description": "", 
-        "endpoint": "http://ccfrontier.in2p3.fr:23128/ccin2p3-AtlasFrontier", 
-        "flavour": "", 
-        "id": 2644, 
-        "impl": "", 
-        "is_monitored": true, 
-        "is_virtual": false, 
-        "name": "IN2P3-CC-Frontier", 
-        "state": "ACTIVE", 
-        "status": "production", 
-        "type": "Frontier", 
-        "version": null
-      }, 
-      {
-        "arch": "", 
-        "description": "", 
         "endpoint": "ccperfsonar1.in2p3.fr", 
         "flavour": "Bandwidth", 
         "id": 900, 
@@ -13182,7 +13261,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.7"
+        "version": "8.2.16"
       }, 
       {
         "arch": "Disk", 
@@ -13257,7 +13336,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.7"
+        "version": "8.2.16"
       }, 
       {
         "arch": "", 
@@ -13272,7 +13351,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.7"
+        "version": "8.2.16"
       }
     ], 
     "sites": [
@@ -13311,12 +13390,13 @@
     "srr_url": "", 
     "state": "ACTIVE", 
     "status": "production", 
-    "tape_capacity": 96805327548387096, 
+    "tape_capacity": 97960861221774194, 
     "timezone": "Europe/Paris"
   }, 
   "IN2P3-CPPM": {
     "altname": "Centre de Physique des Particules de Marseille", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 11.545516304347826, 
     "cores": 147, 
     "country": "France", 
@@ -13537,6 +13617,7 @@
   "IN2P3-IPNL": {
     "altname": "Institut de Physique des 2 Infinis de Lyon", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "France", 
@@ -13663,6 +13744,7 @@
   "IN2P3-IRES": {
     "altname": "Institut Pluridisciplinaire Hubert Curien", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 12.839958158995817, 
     "cores": 280, 
     "country": "France", 
@@ -13849,6 +13931,7 @@
   "IN2P3-LAPP": {
     "altname": "Laboratoire d Annecy de Physique des Particules", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 12.18, 
     "cores": 410, 
     "country": "France", 
@@ -14043,6 +14126,21 @@
         "status": null, 
         "type": "SE", 
         "version": "1.15.2"
+      }, 
+      {
+        "arch": "Disk", 
+        "description": "lapp-dccentral01.in2p3.fr", 
+        "endpoint": null, 
+        "flavour": null, 
+        "id": 3266, 
+        "impl": "dcache", 
+        "is_monitored": false, 
+        "is_virtual": true, 
+        "name": "IN2P3-LAPP_SE_2_ATLAS", 
+        "state": "ACTIVE", 
+        "status": null, 
+        "type": "SE", 
+        "version": "8.2.16"
       }
     ], 
     "sites": [
@@ -14072,6 +14170,7 @@
   "IN2P3-LPC": {
     "altname": "IN2P3-LPC, Clermont-Ferrand, France", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 12.0915900578822, 
     "cores": 282, 
     "country": "France", 
@@ -14240,14 +14339,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1703, 
-        "impl": "DPM", 
+        "impl": "dCache", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "IN2P3-LPC_SE_0_ATLAS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "1.15.2"
+        "version": "8.2.10"
       }, 
       {
         "arch": "Disk", 
@@ -14297,6 +14396,7 @@
   "IN2P3-LPSC": {
     "altname": "Laboratoire de Physique Subatomique et de Cosmologie de Grenoble", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 11.38400789733465, 
     "cores": 136, 
     "country": "France", 
@@ -14396,6 +14496,7 @@
   "IN2P3-SUBATECH": {
     "altname": "IN2P3,Nantes,France", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 13.0347826086957, 
     "cores": 84, 
     "country": "France", 
@@ -14562,6 +14663,7 @@
   "INDIACMS-TIFR": {
     "altname": "Tata Institute of Fundamental Research", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 11.0, 
     "cores": 1000, 
     "country": "India", 
@@ -14760,6 +14862,7 @@
   "INFN-BARI": {
     "altname": "INFN-BARI, BARI, Italy", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 8.0, 
     "cores": 498, 
     "country": "Italy", 
@@ -14996,6 +15099,7 @@
   "INFN-BOLOGNA": {
     "altname": "INFN-BOLOGNA, Bologna, Italy", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Italy", 
@@ -15039,6 +15143,7 @@
   "INFN-BOLOGNA-T3": {
     "altname": "INFN-BOLOGNA-T3, INFN Sez.Bologna , Italy", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Italy", 
@@ -15133,6 +15238,7 @@
   "INFN-CAGLIARI": {
     "altname": "INFN-CAGLIARI, Cagliari, Italy", 
     "cert_status": "suspended", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Italy", 
@@ -15176,6 +15282,7 @@
   "INFN-CATANIA": {
     "altname": "INFN-CATANIA, Catania, Italy", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 48.271186440677965, 
     "cores": 203, 
     "country": "Italy", 
@@ -15346,6 +15453,7 @@
   "INFN-CNAF-LHCB": {
     "altname": "INFN-CNAF-LHCB", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Italy", 
@@ -15383,6 +15491,7 @@
   "INFN-COSENZA": {
     "altname": "INFN-COSENZA, University of Calabria, Italy", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Italy", 
@@ -15409,21 +15518,6 @@
     "oim_groupid": null, 
     "rc_tier_level": 3, 
     "services": [
-      {
-        "arch": "", 
-        "description": "", 
-        "endpoint": "htc-recas-ce-02.cs.infn.it", 
-        "flavour": "HTCONDOR-CE", 
-        "id": 2762, 
-        "impl": "", 
-        "is_monitored": true, 
-        "is_virtual": false, 
-        "name": "INFN-COSENZA-CE-HTCONDOR-CE-htc-recas-ce-02.cs.infn.it", 
-        "state": "ACTIVE", 
-        "status": "production", 
-        "type": "CE", 
-        "version": null
-      }, 
       {
         "arch": "", 
         "description": "", 
@@ -15487,6 +15581,7 @@
   "INFN-FERRARA": {
     "altname": "INFN-FERRARA, Ferrara, Italy", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Italy", 
@@ -15544,6 +15639,7 @@
   "INFN-FIRENZE": {
     "altname": "Istituto Nazionale di Fisica Nucleare Sezione di Firenze", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Italy", 
@@ -15587,6 +15683,7 @@
   "INFN-FRASCATI": {
     "altname": "INFN-FRASCATI", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 11.0399408284024, 
     "cores": 190, 
     "country": "Italy", 
@@ -15816,6 +15913,7 @@
   "INFN-GENOVA": {
     "altname": "INFN Genova", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Italy", 
@@ -15905,6 +16003,7 @@
   "INFN-LECCE": {
     "altname": "INFN Lecce", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Italy", 
@@ -15994,6 +16093,7 @@
   "INFN-LNGS": {
     "altname": "Laboratori Nazionali del Gran Sasso", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Italy", 
@@ -16073,6 +16173,7 @@
   "INFN-LNL-2": {
     "altname": "LEGNARO, Padova, Italy", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 10.6300050684237, 
     "cores": 524, 
     "country": "Italy", 
@@ -16277,6 +16378,7 @@
   "INFN-MIB": {
     "altname": "INFN Milano-Bicocca", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Italy", 
@@ -16351,6 +16453,7 @@
   "INFN-MILANO-ATLASC": {
     "altname": "ATLAS Tier2 Milano Site", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 10.2195, 
     "cores": 360, 
     "country": "Italy", 
@@ -16422,36 +16525,6 @@
     "oim_groupid": null, 
     "rc_tier_level": 2, 
     "services": [
-      {
-        "arch": "", 
-        "description": "", 
-        "endpoint": "t2-ce-01.mi.infn.it", 
-        "flavour": "HTCONDOR-CE", 
-        "id": 2709, 
-        "impl": "", 
-        "is_monitored": true, 
-        "is_virtual": false, 
-        "name": "INFN-MILANO-ATLASC-CE-HTCONDOR-CE-t2-ce-01.mi.infn.it", 
-        "state": "ACTIVE", 
-        "status": "production", 
-        "type": "CE", 
-        "version": null
-      }, 
-      {
-        "arch": "", 
-        "description": "", 
-        "endpoint": "t2-ce-04.mi.infn.it:8443", 
-        "flavour": "HTCONDOR-CE", 
-        "id": 641, 
-        "impl": "", 
-        "is_monitored": true, 
-        "is_virtual": false, 
-        "name": "INFN-MILANO-ATLASC-CE-HTCONDOR-CE-t2-ce-04.mi.infn.it", 
-        "state": "ACTIVE", 
-        "status": "production", 
-        "type": "CE", 
-        "version": "1.16.3"
-      }, 
       {
         "arch": "HTCondor-CE", 
         "description": "", 
@@ -16545,6 +16618,7 @@
   "INFN-NAPOLI-ATLAS": {
     "altname": "INFN-NAPOLI-ATLAS", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 10.38, 
     "cores": 122, 
     "country": "Italy", 
@@ -16619,21 +16693,6 @@
       {
         "arch": "", 
         "description": "", 
-        "endpoint": "htc-atlas-ce01.na.infn.it", 
-        "flavour": "HTCONDOR-CE", 
-        "id": 2708, 
-        "impl": "", 
-        "is_monitored": true, 
-        "is_virtual": false, 
-        "name": "INFN-NAPOLI-ATLAS-CE-HTCONDOR-CE-htc-atlas-ce01.na.infn.it", 
-        "state": "ACTIVE", 
-        "status": "production", 
-        "type": "CE", 
-        "version": null
-      }, 
-      {
-        "arch": "", 
-        "description": "", 
         "endpoint": "htc-atlas-ce02.na.infn.it", 
         "flavour": "HTCONDOR-CE", 
         "id": 3232, 
@@ -16697,14 +16756,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1685, 
-        "impl": "DPM", 
+        "impl": "dCache", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "INFN-NAPOLI-ATLAS_SE_0_ATLAS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "1.15.2"
+        "version": "8.2.10"
       }
     ], 
     "sites": [
@@ -16734,6 +16793,7 @@
   "INFN-PAVIA": {
     "altname": "INFN, PAVIA, ITALY", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Italy", 
@@ -16777,6 +16837,7 @@
   "INFN-PERUGIA": {
     "altname": "INFN-PERUGIA, Perugia, Italy", 
     "cert_status": "suspended", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Italy", 
@@ -16820,6 +16881,7 @@
   "INFN-PISA": {
     "altname": "INFN-PISA, Pisa, Italy", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 10.0, 
     "cores": 1250, 
     "country": "Italy", 
@@ -17020,6 +17082,7 @@
   "INFN-ROMA1": {
     "altname": "INFN-ROMA, Roma, Italy", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 10.8176911544228, 
     "cores": 150, 
     "country": "Italy", 
@@ -17293,6 +17356,7 @@
   "INFN-ROMA1-CMS": {
     "altname": "INFN-ROMA1, Roma, Italy", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 10.0, 
     "cores": 73, 
     "country": "Italy", 
@@ -17442,6 +17506,7 @@
   "INFN-ROMA2": {
     "altname": "INFN Tor Vergata, Roma, Italy", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Italy", 
@@ -17501,6 +17566,7 @@
   "INFN-ROMA3": {
     "altname": "INFN-ROMA3", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Italy", 
@@ -17590,6 +17656,7 @@
   "INFN-T1": {
     "altname": "INFN-T1 Bologna, Italy", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 10.910014115432872, 
     "cores": 1930, 
     "country": "Italy", 
@@ -17597,7 +17664,7 @@
     "cpu_capacity": 278249, 
     "crr_url": "", 
     "description": "INFN-T1 Site", 
-    "disk_capacity": 37210000000000000, 
+    "disk_capacity": 39949379879472800, 
     "federations": [
       "IT-INFN-CNAF"
     ], 
@@ -17966,6 +18033,7 @@
   "INFN-TORINO": {
     "altname": "TORINO (INFN), Italy", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 8.15, 
     "cores": 78, 
     "country": "Italy", 
@@ -18120,6 +18188,7 @@
   "INFN-TRIESTE": {
     "altname": "INFN-TRIESTE", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Italy", 
@@ -18234,6 +18303,7 @@
   "IR-IPM-HEP": {
     "altname": "School of Particles and Accelerators,IPM,IRAN", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Iran, Islamic Republic of", 
@@ -18293,6 +18363,7 @@
   "ITEP": {
     "altname": "ITEP", 
     "cert_status": "suspended", 
+    "coreenergy": 10.0, 
     "corepower": 13.404661016949152, 
     "cores": 724, 
     "country": "Russian Federation", 
@@ -18487,6 +18558,7 @@
   "IllinoisHEP": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -18576,6 +18648,7 @@
   "Indiana_ATLAS_Tier3": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -18657,6 +18730,7 @@
   "JINR-LCG2": {
     "altname": "JINR, Dubna, Russia", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 12.0597826086957, 
     "cores": 1884, 
     "country": "Russian Federation", 
@@ -18835,7 +18909,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "6.2.49"
+        "version": "8.2.17"
       }, 
       {
         "arch": "Disk", 
@@ -18865,7 +18939,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "6.2.49"
+        "version": "8.2.17"
       }
     ], 
     "sites": [
@@ -18900,6 +18974,7 @@
   "JINR-T1": {
     "altname": "JINR Tier1, Dubna, Russia", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 15.02, 
     "cores": 1800, 
     "country": "Russian Federation", 
@@ -18907,7 +18982,7 @@
     "cpu_capacity": 54072, 
     "crr_url": "", 
     "description": "Tier1 in Russia for CMS", 
-    "disk_capacity": 10000000000000000, 
+    "disk_capacity": 11340000000000000, 
     "federations": [
       "RU-JINR-T1"
     ], 
@@ -19043,7 +19118,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "6.2.49"
+        "version": "8.2.17"
       }
     ], 
     "sites": [
@@ -19063,6 +19138,7 @@
   "JP-HIROSHIMA-WLCG": {
     "altname": "Quark Physics Lab. Hiroshima University, Japan", 
     "cert_status": "uncertified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Japan", 
@@ -19106,6 +19182,7 @@
   "JP-JGN-NREN": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Japan", 
@@ -19181,6 +19258,7 @@
   "JP-KEK": {
     "altname": "Kell", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Japan", 
@@ -19266,6 +19344,7 @@
   "JP-SINET-NREN": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Japan", 
@@ -19349,6 +19428,7 @@
   "KR-KISTI-GCRT-01": {
     "altname": "Korea Institute of Science and Technology Information, Republic of Korea", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Korea, Republic of", 
@@ -19392,6 +19472,7 @@
   "KR-KISTI-GSDC-01": {
     "altname": "Korea Institute of Science and Technology Information", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Korea, Republic of", 
@@ -19658,6 +19739,7 @@
   "KR-KISTI-GSDC-02": {
     "altname": "Tier2 Center, Korea Institute of Science and Technology Information, Daejeon, Korea.", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 500, 
     "country": "Korea, Republic of", 
@@ -19727,7 +19809,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.15"
+        "version": "8.2.18"
       }
     ], 
     "sites": [
@@ -19747,6 +19829,7 @@
   "KR-KNU-T3": {
     "altname": "KR-KNU-T3", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Korea, Republic of", 
@@ -19868,6 +19951,7 @@
   "KR-KREONET-NREN": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Korea, Republic of", 
@@ -19945,6 +20029,7 @@
   "KR-UOS-SSCC": {
     "altname": "Unversity of Seoul", 
     "cert_status": "suspended", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Korea, Republic of", 
@@ -20004,6 +20089,7 @@
   "Kharkov-KIPT-LCG2": {
     "altname": "NSC Kharkov Institute of Physics and Technology (Kharkov-KIPT)", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 15.6, 
     "cores": 92, 
     "country": "Ukraine", 
@@ -20155,6 +20241,7 @@
   "LBL_HPCS": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -20280,6 +20367,7 @@
   "LBNL_DSD_ITB": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -20306,6 +20394,21 @@
     "oim_groupid": null, 
     "rc_tier_level": 3, 
     "services": [
+      {
+        "arch": "", 
+        "description": "", 
+        "endpoint": "http://frontiercache.nersc.gov:3128", 
+        "flavour": "Frontier", 
+        "id": 3268, 
+        "impl": "", 
+        "is_monitored": false, 
+        "is_virtual": false, 
+        "name": "LBNL_DSD_ITB-Squid-Frontier-frontiercache.nersc.gov", 
+        "state": "ACTIVE", 
+        "status": null, 
+        "type": "Squid", 
+        "version": ""
+      }, 
       {
         "arch": "Disk", 
         "description": "", 
@@ -20339,6 +20442,7 @@
   "LIP-Coimbra": {
     "altname": "LIP Coimbra, Portugal", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Portugal", 
@@ -20382,6 +20486,7 @@
   "LIP-Lisbon": {
     "altname": "LIP, Lisbon, Portugal", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Portugal", 
@@ -20425,6 +20530,7 @@
   "LRZ-LMU": {
     "altname": "LMU LCG Tier-2", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 9.76082771896054, 
     "cores": 1022, 
     "country": "Germany", 
@@ -20480,6 +20586,21 @@
         "status": "production", 
         "type": "CE", 
         "version": null
+      }, 
+      {
+        "arch": "HTCondor-CE", 
+        "description": "", 
+        "endpoint": "https://lcg-lrz-ce3.grid.lrz.de:9619", 
+        "flavour": "HTCONDOR-CE", 
+        "id": 3261, 
+        "impl": "", 
+        "is_monitored": false, 
+        "is_virtual": false, 
+        "name": "LRZ-LMU-CE-HTCONDOR-CE-lcg-lrz-ce3.grid.lrz.de", 
+        "state": "ACTIVE", 
+        "status": "production", 
+        "type": "CE", 
+        "version": "6"
       }, 
       {
         "arch": "", 
@@ -20589,6 +20710,7 @@
   "MIT_CMS": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -20813,6 +20935,7 @@
   "MIT_CMS_T3": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -20872,6 +20995,7 @@
   "MIT_LHCb": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -20946,6 +21070,7 @@
   "MPPMU": {
     "altname": "Rechenzentrum der Max-Planck-Gesellschaft am Max-Planck-Institut fur Plasmaphysik", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 8.66193853427896, 
     "cores": 955, 
     "country": "Germany", 
@@ -21030,7 +21155,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "7.2.36"
+        "version": "7.2.37"
       }
     ], 
     "sites": [
@@ -21050,6 +21175,7 @@
   "MWT2": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -21173,7 +21299,7 @@
         "description": "", 
         "id": 8, 
         "info_url": "", 
-        "last_modified": "2022-03-31T00:27:18.893799", 
+        "last_modified": "2023-04-14T22:16:18.107666", 
         "lhcone_active": true, 
         "lhcone_aup_date": "2015-07-02T00:00:00", 
         "lhcone_bandwidth": 200, 
@@ -21182,7 +21308,7 @@
         ], 
         "lhcopn_active": false, 
         "lhcopn_bandwidth": -1, 
-        "monit_url": "", 
+        "monit_url": "https://www.mwt2.org/wlcg-netmon/mwt2-netmon-uc.json", 
         "name": "US-MWT2 University of Chicago", 
         "noc": [
           "noc@uchicago.edu"
@@ -21270,6 +21396,36 @@
         "name": "MWT2-CE-HTCONDOR-CE-uct2-gk02.mwt2.org", 
         "state": "ACTIVE", 
         "status": "production", 
+        "type": "CE", 
+        "version": ""
+      }, 
+      {
+        "arch": "HTCondor-CE", 
+        "description": "", 
+        "endpoint": "uiuc-gk.mwt2.org:9619", 
+        "flavour": "HTCONDOR-CE", 
+        "id": 3259, 
+        "impl": "", 
+        "is_monitored": true, 
+        "is_virtual": false, 
+        "name": "MWT2-CE-HTCONDOR-CE-uiuc-gk.mwt2.org", 
+        "state": "ACTIVE", 
+        "status": null, 
+        "type": "CE", 
+        "version": ""
+      }, 
+      {
+        "arch": "HTCondor-CE", 
+        "description": "", 
+        "endpoint": "uiuc-gk02.mwt2.org:9619", 
+        "flavour": "HTCONDOR-CE", 
+        "id": 3265, 
+        "impl": "", 
+        "is_monitored": true, 
+        "is_virtual": false, 
+        "name": "MWT2-CE-HTCONDOR-CE-uiuc-gk02.mwt2.org", 
+        "state": "ACTIVE", 
+        "status": null, 
         "type": "CE", 
         "version": ""
       }, 
@@ -21666,6 +21822,7 @@
   "MY-UM-SIFIR": {
     "altname": "Data Intensive Computing Centre (DICC), University of Malaya", 
     "cert_status": "uncertified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Malaysia", 
@@ -21709,6 +21866,7 @@
   "MY-UPM-BIRUNI-01": {
     "altname": "BIRUNI Grid Computing Center", 
     "cert_status": "suspended", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Malaysia", 
@@ -21752,6 +21910,7 @@
   "MaiGRID": {
     "altname": "German HEP ATLAS Tier3, University of Mainz, Germany", 
     "cert_status": "suspended", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Germany", 
@@ -21795,6 +21954,7 @@
   "NCBJ-CIS": {
     "altname": "National Centre for Nuclear Research, Otwock, Poland", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 9.92, 
     "cores": 412, 
     "country": "Poland", 
@@ -21954,6 +22114,7 @@
   "NCG-INGRID-PT": {
     "altname": "NO CENTRAL GRID - LIP/FCCN/LNEC - Lisbon - Portugal", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 15.0, 
     "cores": 2900, 
     "country": "Portugal", 
@@ -22108,6 +22269,7 @@
   "NCP-LCG2": {
     "altname": "National Centre For Physics, Islamabad, Pakistan", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Pakistan", 
@@ -22247,6 +22409,7 @@
   "NDGF-T1": {
     "altname": "Nordic Data Grid Facility", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 14.3580665025, 
     "cores": 2069, 
     "country": "Nordic", 
@@ -22511,7 +22674,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.9"
+        "version": "8.2.16"
       }, 
       {
         "arch": "Disk", 
@@ -22526,7 +22689,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.11"
+        "version": "8.2.16"
       }, 
       {
         "arch": "Disk", 
@@ -22541,7 +22704,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.11"
+        "version": "8.2.16"
       }, 
       {
         "arch": "Tape", 
@@ -22556,7 +22719,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.11"
+        "version": "8.2.16"
       }, 
       {
         "arch": "Tape", 
@@ -22571,7 +22734,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.11"
+        "version": "8.2.16"
       }, 
       {
         "arch": "", 
@@ -22670,12 +22833,13 @@
     "srr_url": "", 
     "state": "ACTIVE", 
     "status": "production", 
-    "tape_capacity": 22797084057795698, 
+    "tape_capacity": 23144288307795700, 
     "timezone": "Europe/Stockholm"
   }, 
   "NDSU-Lancium": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "NULL", 
@@ -22717,6 +22881,7 @@
   "ND_CAMLGPU": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "NULL", 
@@ -22768,6 +22933,7 @@
   "NERSC-PDSF": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -22825,6 +22991,21 @@
         "version": ""
       }, 
       {
+        "arch": "Disk", 
+        "description": "", 
+        "endpoint": null, 
+        "flavour": null, 
+        "id": 1579, 
+        "impl": "", 
+        "is_monitored": false, 
+        "is_virtual": true, 
+        "name": "NERSC-PDSF_SE_0_ATLAS", 
+        "state": "ACTIVE", 
+        "status": null, 
+        "type": "SE", 
+        "version": null
+      }, 
+      {
         "arch": "", 
         "description": "", 
         "endpoint": null, 
@@ -22862,6 +23043,7 @@
   "NET2": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -22899,6 +23081,7 @@
   "NIHAM": {
     "altname": "NIHAM", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 9.618569328760412, 
     "cores": 637, 
     "country": "Romania", 
@@ -23033,6 +23216,7 @@
   "NIKHEF-ELPROD": {
     "altname": "NIKHEF, Amsterdam, The Netherlands", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 14.090051457976, 
     "cores": 552, 
     "country": "Netherlands", 
@@ -23040,7 +23224,7 @@
     "cpu_capacity": 98235, 
     "crr_url": "", 
     "description": "National Grid Production Facility", 
-    "disk_capacity": 4000000000000000, 
+    "disk_capacity": 4018261263288685, 
     "federations": [
       "NL-T1"
     ], 
@@ -23292,6 +23476,7 @@
   "NL-SURF-NREN": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Netherlands", 
@@ -23367,6 +23552,7 @@
   "NO-NORGRID-T2": {
     "altname": "NORGRID", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Norway", 
@@ -23410,6 +23596,7 @@
   "NULL": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "NULL", 
@@ -23585,6 +23772,7 @@
   "NWICG_NDCMS": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -23659,6 +23847,7 @@
   "NYSGRID-CCR-U2": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -23702,6 +23891,7 @@
   "NYU-ATLAS": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -23745,6 +23935,7 @@
   "Nebraska": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -23978,6 +24169,7 @@
   "Nevis": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -24037,6 +24229,7 @@
   "OLCF": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -24080,6 +24273,7 @@
   "ORNL": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -24201,6 +24395,7 @@
   "ORNL-T2": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -24238,6 +24433,7 @@
   "OUHEP_OSG": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -24297,6 +24493,7 @@
   "OU_OSCER_ATLAS": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -24419,6 +24616,7 @@
   "Oslo": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Norway", 
@@ -24462,6 +24660,7 @@
   "PK-CIIT": {
     "altname": "PK-CIIT", 
     "cert_status": "candidate", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Pakistan", 
@@ -24521,6 +24720,7 @@
   "PL-PSNC-NREN": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Poland", 
@@ -24607,6 +24807,7 @@
   "PSC-Bridges2": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -24660,6 +24861,7 @@
   "PSC-HPC": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "NULL", 
@@ -24701,6 +24903,7 @@
   "PSNC": {
     "altname": "Institute of Bioorganic Chemistry Polish Academy of Sciences Poznan Supercomputing and Networking Center", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 19.2003073176389, 
     "cores": 2178, 
     "country": "Poland", 
@@ -24843,6 +25046,7 @@
   "PennT3": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -24902,6 +25106,7 @@
   "Princeton_ICSE_T3_CMS": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -24961,6 +25166,7 @@
   "Purdue": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -25186,6 +25392,7 @@
   "Purdue-Brown": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -25223,6 +25430,7 @@
   "Purdue-Conte": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -25260,6 +25468,7 @@
   "Purdue-Hadoop": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -25328,6 +25537,7 @@
   "Purdue-Halstead": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -25365,6 +25575,7 @@
   "Purdue-Hammer": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -25402,6 +25613,7 @@
   "Purdue-Rice": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -25439,6 +25651,7 @@
   "RAL-LCG2": {
     "altname": "RAL, GridPP Tier-1 Computing, Oxfordshire UK", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 12.9, 
     "cores": 17750, 
     "country": "United Kingdom", 
@@ -25998,6 +26211,7 @@
   "RIVR.UM": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Slovenia", 
@@ -26057,6 +26271,7 @@
   "RO-02-NIPNE": {
     "altname": "National Institute for Physics and Nuclear Engineering, Bucharest, Romania", 
     "cert_status": "suspended", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Romania", 
@@ -26146,6 +26361,7 @@
   "RO-03-UPB": {
     "altname": "RO-03-UPB", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 10.1396396396396, 
     "cores": 88, 
     "country": "Romania", 
@@ -26250,6 +26466,7 @@
   "RO-07-NIPNE": {
     "altname": "National Institut of Pyshics and Nuclear Engineering, IT Department", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 2.30839495433, 
     "cores": 258, 
     "country": "Romania", 
@@ -26454,6 +26671,7 @@
   "RO-11-NIPNE": {
     "altname": "LHCb Group of the Horia Hulubei National Institute for Physics and Nuclear Engineering (IFIN-HH)", 
     "cert_status": "suspended", 
+    "coreenergy": 10.0, 
     "corepower": 9.720394736842104, 
     "cores": 2, 
     "country": "Romania", 
@@ -26555,6 +26773,7 @@
   "RO-13-ISS": {
     "altname": "Institute of Space Science", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 9.0, 
     "cores": 712, 
     "country": "Romania", 
@@ -26700,6 +26919,7 @@
   "RO-14-ITIM": {
     "altname": "National Institute for Research and Development of Isotopic and Molecular Technologies, Cluj-Napoca, Romania", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 9.80042016806723, 
     "cores": 39, 
     "country": "Romania", 
@@ -26848,6 +27068,7 @@
   "RO-16-UAIC": {
     "altname": "Alexandru Ioan Cuza University  of Iasi", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 9.799657534246576, 
     "cores": 32, 
     "country": "Romania", 
@@ -26993,6 +27214,7 @@
   "RRC-KI": {
     "altname": "Kurchatov Institute", 
     "cert_status": "uncertified", 
+    "coreenergy": 10.0, 
     "corepower": 11.920152091254753, 
     "cores": 263, 
     "country": "Russian Federation", 
@@ -27114,6 +27336,7 @@
   "RRC-KI-T1": {
     "altname": "Tier-1 in National Research Centre", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 15.5, 
     "cores": 4464, 
     "country": "Russian Federation", 
@@ -27121,7 +27344,7 @@
     "cpu_capacity": 138384, 
     "crr_url": "", 
     "description": "Russia, Moscow", 
-    "disk_capacity": 13276485178925957, 
+    "disk_capacity": 13384386704310367, 
     "federations": [
       "NRC-KI-T1"
     ], 
@@ -27393,6 +27616,7 @@
   "RU-BINP": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Russian Federation", 
@@ -27470,6 +27694,7 @@
   "RU-Protvino-IHEP": {
     "altname": "IHEP, Protvino, Russia", 
     "cert_status": "suspended", 
+    "coreenergy": 10.0, 
     "corepower": 8.799932975871315, 
     "cores": 373, 
     "country": "Russian Federation", 
@@ -27709,6 +27934,7 @@
   "RU-SARFTI": {
     "altname": "Sarov Physical Technical Institute", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Russian Federation", 
@@ -27797,6 +28023,7 @@
   "RU-SPbSU": {
     "altname": "Saint-Petersburg State University", 
     "cert_status": "suspended", 
+    "coreenergy": 10.0, 
     "corepower": 12.0, 
     "cores": 28, 
     "country": "Russian Federation", 
@@ -27951,6 +28178,7 @@
   "RWTH-Aachen": {
     "altname": "RWTH Aachen University, Germany", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 9.26802507836991, 
     "cores": 486, 
     "country": "Germany", 
@@ -28133,6 +28361,7 @@
   "Rice": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -28192,6 +28421,7 @@
   "Ru-Troitsk-INR-LCG2": {
     "altname": "Institute for Nuclear Research RAS", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 13.55232558139535, 
     "cores": 72, 
     "country": "Russian Federation", 
@@ -28351,6 +28581,7 @@
   "SAMPA": {
     "altname": "Departamento de Fisica Nuclear, Instituto de Fisica, Universidade de Sao Paulo", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 12.0, 
     "cores": 80, 
     "country": "Brazil", 
@@ -28577,6 +28808,7 @@
   "SARA-MATRIX": {
     "altname": "SURFsara, Amsterdam, The Netherlands", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 17.1299401197605, 
     "cores": 640, 
     "country": "Netherlands", 
@@ -28778,7 +29010,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.7"
+        "version": "8.2.16"
       }, 
       {
         "arch": "Disk", 
@@ -28793,7 +29025,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.7"
+        "version": "8.2.16"
       }, 
       {
         "arch": "Disk", 
@@ -28808,7 +29040,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.7"
+        "version": "8.2.16"
       }, 
       {
         "arch": "Tape", 
@@ -28823,7 +29055,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.7"
+        "version": "8.2.16"
       }, 
       {
         "arch": "Tape", 
@@ -28838,7 +29070,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.7"
+        "version": "8.2.16"
       }, 
       {
         "arch": "Disk", 
@@ -28853,7 +29085,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.7"
+        "version": "8.2.16"
       }
     ], 
     "sites": [
@@ -28883,6 +29115,7 @@
   "SBU_Tier3": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -28926,6 +29159,7 @@
   "SDU-LCG2": {
     "altname": "High Energy Physics Group, Shandong University", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "China", 
@@ -28969,6 +29203,7 @@
   "SE-SNIC-T2": {
     "altname": "SWEGRID", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 12.44, 
     "cores": 20, 
     "country": "Sweden", 
@@ -29023,7 +29258,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "7.2.35"
+        "version": "8.2.17"
       }, 
       {
         "arch": "Disk", 
@@ -29038,7 +29273,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "7.2.35"
+        "version": "8.2.17"
       }, 
       {
         "arch": "", 
@@ -29078,6 +29313,7 @@
   "SEAL": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -29121,6 +29357,7 @@
   "SFU-LCG2": {
     "altname": "Simon Fraser University", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Canada", 
@@ -29209,6 +29446,7 @@
   "SMU_HPC": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -29252,6 +29490,7 @@
   "SPRACE": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Brazil", 
@@ -29371,6 +29610,7 @@
   "SU-ITS": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "NULL", 
@@ -29452,6 +29692,7 @@
   "SUPERCOMPUTO-UNAM": {
     "altname": "Direccion General de Computo y de Tecnologias de Informacion y Comunicacion, UNAM", 
     "cert_status": "suspended", 
+    "coreenergy": 10.0, 
     "corepower": 11.25, 
     "cores": 64, 
     "country": "Mexico", 
@@ -29479,21 +29720,6 @@
     "rc_tier_level": 2, 
     "services": [
       {
-        "arch": "", 
-        "description": "", 
-        "endpoint": "ce.grid.unam.mx:9619", 
-        "flavour": "HTCONDOR-CE", 
-        "id": 2810, 
-        "impl": "", 
-        "is_monitored": false, 
-        "is_virtual": false, 
-        "name": "SUPERCOMPUTO-UNAM-CE-HTCONDOR-CE-ce.grid.unam.mx", 
-        "state": "ACTIVE", 
-        "status": null, 
-        "type": "CE", 
-        "version": ""
-      }, 
-      {
         "arch": "Disk", 
         "description": "", 
         "endpoint": null, 
@@ -29512,7 +29738,7 @@
     "sites": [
       {
         "name": "UNAM_T1", 
-        "tier_level": 2, 
+        "tier_level": 3, 
         "vo_name": "alice"
       }
     ], 
@@ -29526,6 +29752,7 @@
   "SWT2_CPB": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -29720,6 +29947,7 @@
   "Sandhills": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -29757,6 +29985,7 @@
   "SiGNET": {
     "altname": "Jozef Stefan Institute, Slovenia", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 9.800030048076923, 
     "cores": 2298, 
     "country": "Slovenia", 
@@ -29956,6 +30185,7 @@
   "Stampede2": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "NULL", 
@@ -29991,6 +30221,7 @@
   "T-SYSTEMS": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Switzerland", 
@@ -30028,6 +30259,7 @@
   "T2-TH-SUT": {
     "altname": "Suranaree University of Technology", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Thailand", 
@@ -30140,7 +30372,8 @@
   }, 
   "T2_Estonia": {
     "altname": "National Institute of Chemical Physics and Biophysics", 
-    "cert_status": "certified", 
+    "cert_status": "suspended", 
+    "coreenergy": 10.0, 
     "corepower": 9.65005760368664, 
     "cores": 13632, 
     "country": "Estonia", 
@@ -30336,6 +30569,7 @@
   "T3-TH-CHULA": {
     "altname": "Chulalongkorn University", 
     "cert_status": "suspended", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Thailand", 
@@ -30434,6 +30668,7 @@
   "T3_CH_CERN_HelixNebula": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Switzerland", 
@@ -30477,6 +30712,7 @@
   "T3_CH_PSI": {
     "altname": "HPCE Group, SCD/AWI, Paul Scherrer Institut, CH-5232 Villigen PSI, CH", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Switzerland", 
@@ -30516,7 +30752,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "6.2.40"
+        "version": "7.2.39"
       }
     ], 
     "sites": [
@@ -30536,6 +30772,7 @@
   "T3_HU_Debrecen": {
     "altname": "MTA Atomki, Debrecen, Hungary", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Hungary", 
@@ -30579,6 +30816,7 @@
   "T3_IN_TIFRCloud": {
     "altname": "T3_IN_TIFRCloud", 
     "cert_status": "uncertified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "India", 
@@ -30638,6 +30876,7 @@
   "T3_KR_KISTI": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Korea, Republic of", 
@@ -30697,6 +30936,7 @@
   "T3_US_CMU": {
     "altname": "Carnegie Mellon University", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -30756,6 +30996,7 @@
   "T3_US_OSG": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -30799,6 +31040,7 @@
   "TACC": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -30824,7 +31066,38 @@
     "netsites": {}, 
     "oim_groupid": null, 
     "rc_tier_level": 3, 
-    "services": [], 
+    "services": [
+      {
+        "arch": "", 
+        "description": "", 
+        "endpoint": "http://login5.frontera.tacc.utexas.edu:3128", 
+        "flavour": "CVMFS", 
+        "id": 3263, 
+        "impl": "", 
+        "is_monitored": false, 
+        "is_virtual": false, 
+        "name": "TACC-Squid-CVMFS-login5.frontera.tacc.utexas.edu", 
+        "state": "ACTIVE", 
+        "status": null, 
+        "type": "Squid", 
+        "version": ""
+      }, 
+      {
+        "arch": "", 
+        "description": "", 
+        "endpoint": "http://login5.frontera.tacc.utexas.edu:3128", 
+        "flavour": "Frontier", 
+        "id": 3264, 
+        "impl": "", 
+        "is_monitored": false, 
+        "is_virtual": false, 
+        "name": "TACC-Squid-Frontier-login5.frontera.tacc.utexas.edu", 
+        "state": "ACTIVE", 
+        "status": null, 
+        "type": "Squid", 
+        "version": ""
+      }
+    ], 
     "sites": [
       {
         "name": "TACC", 
@@ -30847,6 +31120,7 @@
   "TACC-Stampede2": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "NULL", 
@@ -30904,6 +31178,7 @@
   "TAMU_BRAZOS": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -30978,6 +31253,7 @@
   "TECHNION-HEP": {
     "altname": "Physics Department, Technion - Israel Institute of Technology, Haifa", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 11.750132485426603, 
     "cores": 119, 
     "country": "Israel", 
@@ -31102,6 +31378,7 @@
   "TH-INET-NREN": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Thailand", 
@@ -31156,6 +31433,7 @@
   "TH-NECTEC-NREN": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Thailand", 
@@ -31256,6 +31534,7 @@
   "TH-THAISARN-NREN": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Thailand", 
@@ -31331,6 +31610,7 @@
   "TH-UNINET-NREN": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Thailand", 
@@ -31430,6 +31710,7 @@
   "TOKYO-LCG2": {
     "altname": "ICEPP, Tokyo, Japan", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 21.34, 
     "cores": 224, 
     "country": "Japan", 
@@ -31650,7 +31931,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1676, 
-        "impl": "DPM", 
+        "impl": "dCache", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "TOKYO-LCG2_SE_0_ATLAS", 
@@ -31677,6 +31958,7 @@
   "TR-03-METU": {
     "altname": "TR-03-METU", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 8.0400641025641, 
     "cores": 52, 
     "country": "Turkey", 
@@ -31781,6 +32063,7 @@
   "TR-10-ULAKBIM": {
     "altname": "TR-10-ULAKBIM", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 17.5, 
     "cores": 64, 
     "country": "Turkey", 
@@ -31926,6 +32209,7 @@
   "TRIUMF-LCG2": {
     "altname": "TRIUMF, Vancouver, Canada", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 19.2896917467683, 
     "cores": 1221, 
     "country": "Canada", 
@@ -31952,12 +32236,12 @@
         "asn": 36391, 
         "id": 201, 
         "is_ms": false, 
-        "last_modified": "2021-12-01T15:36:24.003960", 
+        "last_modified": "2023-04-18T16:30:37.116433", 
         "lhcone_bandwidth_limit": 100, 
         "lhcone_collaborations": [
           "WLCG"
         ], 
-        "lhcopn_bandwidth_limit": 40, 
+        "lhcopn_bandwidth_limit": 100, 
         "monit_url": "", 
         "name": "TRIUMF-LCG2-LHCOPNE", 
         "netsite": "CA-TRIUMF", 
@@ -31980,7 +32264,7 @@
         "description": "Canadian ATLAS Tier-1 network", 
         "id": 69, 
         "info_url": "", 
-        "last_modified": "2022-06-24T23:43:56.735757", 
+        "last_modified": "2023-04-18T16:17:39.186483", 
         "lhcone_active": true, 
         "lhcone_aup_date": "2017-01-01T00:00:00", 
         "lhcone_bandwidth": 100, 
@@ -31988,7 +32272,7 @@
           "CANARIE"
         ], 
         "lhcopn_active": true, 
-        "lhcopn_bandwidth": 40, 
+        "lhcopn_bandwidth": 100, 
         "monit_url": "http://status.lcg.triumf.ca/nms1/network/", 
         "name": "CA-TRIUMF", 
         "noc": [
@@ -32088,21 +32372,6 @@
         "state": "ACTIVE", 
         "status": "production", 
         "type": "CE", 
-        "version": null
-      }, 
-      {
-        "arch": "", 
-        "description": "", 
-        "endpoint": "http://frontier-atlas.lcg.triumf.ca:3128/ATLAS_frontier", 
-        "flavour": "", 
-        "id": 2629, 
-        "impl": "", 
-        "is_monitored": false, 
-        "is_virtual": false, 
-        "name": "TRIUMF-LCG2-Frontier", 
-        "state": "ACTIVE", 
-        "status": "", 
-        "type": "Frontier", 
         "version": null
       }, 
       {
@@ -32228,6 +32497,7 @@
   "TTU-ANTAEUS": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -32271,6 +32541,7 @@
   "TTU-TESTWULF": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -32314,6 +32585,7 @@
   "TUDresden-ZIH": {
     "altname": "Center for Information Services and High Performance Computing, Technische Universitaet Dresden", 
     "cert_status": "suspended", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Germany", 
@@ -32357,6 +32629,7 @@
   "TW-FTT": {
     "altname": "ASGC Taipei, Taiwan", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 10.140151515151516, 
     "cores": 82, 
     "country": "Taiwan", 
@@ -32446,6 +32719,7 @@
   "TW-NCHC": {
     "altname": "National Center for High-Performance Computing, Taiwan", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 992, 
     "country": "Taiwan", 
@@ -32550,6 +32824,7 @@
   "TW-NCUHEP": {
     "altname": "HEP Group, National Central University, Taiwan", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Taiwan", 
@@ -32665,6 +32940,7 @@
   "TW-NTU-HEP": {
     "altname": "National Taiwan University, High Energy Physics Research Group", 
     "cert_status": "suspended", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Taiwan", 
@@ -32724,6 +33000,7 @@
   "TW-TWAREN-NREN": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Thailand", 
@@ -32799,6 +33076,7 @@
   "Taiwan-LCG2": {
     "altname": "Academia Sinica Grid Computing Center", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 12.7243778996204, 
     "cores": 496, 
     "country": "Taiwan", 
@@ -33017,14 +33295,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 3108, 
-        "impl": "", 
+        "impl": "EOS", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "Taiwan-LCG2_SE_1_ATLAS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }
     ], 
     "sites": [
@@ -33044,6 +33322,7 @@
   "Tufts_ATLAS_Tier3": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -33087,6 +33366,7 @@
   "Tusker": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -33124,6 +33404,7 @@
   "UA-BITP": {
     "altname": "Bogolubov's Institute for Theoretical Physics", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Ukraine", 
@@ -33183,6 +33464,7 @@
   "UA-ISMA": {
     "altname": "Institute for Scintillation Materials of the National Academy of Sciences of Ukraine", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 23.0, 
     "cores": 86, 
     "country": "Ukraine", 
@@ -33242,6 +33524,7 @@
   "UA-KNU": {
     "altname": "Taras Shevchenko National University of Kyiv", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Ukraine", 
@@ -33301,6 +33584,7 @@
   "UA-URAN-NREN": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Ukraine", 
@@ -33379,6 +33663,7 @@
   "UAM-LCG2": {
     "altname": "UAM, Madrid, Spain", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 12.6995614035, 
     "cores": 160, 
     "country": "Spain", 
@@ -33559,6 +33844,7 @@
   "UA_ICYB_ARC": {
     "altname": "V.M. Glushkov Institute of Cybernetics of the National Academy of Sciences of Ukraine (ICYB)", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Ukraine", 
@@ -33602,6 +33888,7 @@
   "UB-LCG2": {
     "altname": "University of Barcelona, Spain", 
     "cert_status": "suspended", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Spain", 
@@ -33676,6 +33963,7 @@
   "UCD": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -33719,6 +34007,7 @@
   "UCR-HEP": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -33762,6 +34051,7 @@
   "UCSDT2": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -33975,6 +34265,7 @@
   "UColorado_HEP": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -34049,6 +34340,7 @@
   "UERJ": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Brazil", 
@@ -34168,6 +34460,7 @@
   "UFlorida-HPC": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -34463,6 +34756,7 @@
   "UKI-GridPP-Cloud-IC": {
     "altname": "GridPP Cloud, Imperial College", 
     "cert_status": "candidate", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United Kingdom", 
@@ -34506,6 +34800,7 @@
   "UKI-LT2-Brunel": {
     "altname": "Brunel University", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 11.949965963240299, 
     "cores": 275, 
     "country": "United Kingdom", 
@@ -34680,6 +34975,7 @@
   "UKI-LT2-IC-HEP": {
     "altname": "Imperial College, GridPP/LondonGrid, London UK", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 10.419992997198879, 
     "cores": 714, 
     "country": "United Kingdom", 
@@ -34925,6 +35221,7 @@
   "UKI-LT2-QMUL": {
     "altname": "QMUL, GridPP/LT2, London UK", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 12.5799625468165, 
     "cores": 1433, 
     "country": "United Kingdom", 
@@ -35114,6 +35411,7 @@
   "UKI-LT2-RHUL": {
     "altname": "Royal Holloway", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United Kingdom", 
@@ -35288,6 +35586,7 @@
   "UKI-NORTHGRID-LANCS-HEP": {
     "altname": "Lancaster University", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 15.2, 
     "cores": 500, 
     "country": "United Kingdom", 
@@ -35427,6 +35726,7 @@
   "UKI-NORTHGRID-LIV-HEP": {
     "altname": "UKI-NORTHGRID-LIV-HEP, GridPP/NorthGrid, The Liverpool University, UK", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 10.225788288288289, 
     "cores": 219, 
     "country": "United Kingdom", 
@@ -35581,6 +35881,7 @@
   "UKI-NORTHGRID-MAN-HEP": {
     "altname": "UKI-NORTHGRID-MAN-HEP, GridPP/NorthGrid, University of Manchester, UK", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 10.3700440528634, 
     "cores": 64, 
     "country": "United Kingdom", 
@@ -35795,6 +36096,7 @@
   "UKI-NORTHGRID-SHEF-HEP": {
     "altname": "University of Sheffield, GridPP/NorthGrid, UK", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 12.2001953125, 
     "cores": 102, 
     "country": "United Kingdom", 
@@ -35904,6 +36206,7 @@
   "UKI-SCOTGRID-DURHAM": {
     "altname": "Durham University Particle Physics", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 13.4500973709834, 
     "cores": 511, 
     "country": "United Kingdom", 
@@ -36073,6 +36376,7 @@
   "UKI-SCOTGRID-ECDF": {
     "altname": "Edinburgh ECDF", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 13.240243902439, 
     "cores": 196, 
     "country": "United Kingdom", 
@@ -36225,7 +36529,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2752, 
-        "impl": "dpm", 
+        "impl": "dCache", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "UKI-SCOTGRID-ECDF_SE_3_ATLAS", 
@@ -36262,6 +36566,7 @@
   "UKI-SCOTGRID-GLASGOW": {
     "altname": "University of Glasgow, Scottish Grid Service Cluster", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 8.74006359300477, 
     "cores": 1334, 
     "country": "United Kingdom", 
@@ -36381,7 +36686,7 @@
       {
         "arch": "", 
         "description": "", 
-        "endpoint": "http://nat005.gla.scotgrid.ac.uk:3128", 
+        "endpoint": "http://cantucci.gla.scotgrid.ac.uk:3128", 
         "flavour": "", 
         "id": 2588, 
         "impl": "", 
@@ -36399,7 +36704,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2003, 
-        "impl": "", 
+        "impl": "Xrootd", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "UKI-SCOTGRID-GLASGOW_SE_172_ATLAS", 
@@ -36451,6 +36756,7 @@
   "UKI-SOUTHGRID-BHAM-HEP": {
     "altname": "University of Birmingham, GridPP, UK", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United Kingdom", 
@@ -36625,6 +36931,7 @@
   "UKI-SOUTHGRID-BRIS-HEP": {
     "altname": "University of Bristol Physics GridPP", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 11.16969696969697, 
     "cores": 82, 
     "country": "United Kingdom", 
@@ -36764,6 +37071,7 @@
   "UKI-SOUTHGRID-OX-HEP": {
     "altname": "University of Oxford", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 9.48392652123995, 
     "cores": 391, 
     "country": "United Kingdom", 
@@ -36928,6 +37236,7 @@
   "UKI-SOUTHGRID-RALPP": {
     "altname": "RAL Particle Physics Group, Oxfordshire UK", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 10.0, 
     "cores": 681, 
     "country": "United Kingdom", 
@@ -37222,6 +37531,7 @@
   "UKI-SOUTHGRID-SUSX": {
     "altname": "University of Sussex", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United Kingdom", 
@@ -37311,6 +37621,7 @@
   "UM6P": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 10.0, 
     "cores": 0, 
     "country": "Morocco", 
@@ -37400,6 +37711,7 @@
   "UMD_SIAB": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -37437,6 +37749,7 @@
   "UMN-CMS": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -37480,6 +37793,7 @@
   "UMissHEP": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -37554,6 +37868,7 @@
   "UNI-BONN": {
     "altname": "Rheinische Friedrich-Wilhelms-Universitaet Bonn", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Germany", 
@@ -37653,7 +37968,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "5.5.0"
+        "version": "5.5.4"
       }
     ], 
     "sites": [
@@ -37673,6 +37988,7 @@
   "UNI-DORTMUND": {
     "altname": "Dortmund University of Technology", 
     "cert_status": "suspended", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Germany", 
@@ -37716,6 +38032,7 @@
   "UNI-FREIBURG": {
     "altname": "Department of Physics and Computing Center of University of Freiburg, Germany", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 8.99009324009, 
     "cores": 232, 
     "country": "Germany", 
@@ -37845,7 +38162,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "6.2.47"
+        "version": "7.2.38"
       }
     ], 
     "sites": [
@@ -37865,6 +38182,7 @@
   "UNI-SIEGEN-HEP": {
     "altname": "Experimentelle Teilchenphysik; Department Physik; Naturwissenschaftlich-Technische Fakultaet; Universitaet Siegen", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Germany", 
@@ -37908,6 +38226,7 @@
   "UNIANDES": {
     "altname": "Universidad de los Andes, Colombia", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Colombia", 
@@ -37951,6 +38270,7 @@
   "UNIBE-LHEP": {
     "altname": "Grid computing cluster of the LHEP department at the University of Bern", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 12.97, 
     "cores": 134, 
     "country": "Switzerland", 
@@ -38070,6 +38390,7 @@
   "UNICPH-NBI": {
     "altname": "University of Copenhagen / Niels Bohr Institute", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Denmark", 
@@ -38126,6 +38447,7 @@
   "UNIGE-DPNC": {
     "altname": "Grid computing cluster of the DPNC department at the University of Geneva", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Switzerland", 
@@ -38200,6 +38522,7 @@
   "UNLCachingInfrastructure": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "NULL", 
@@ -38251,6 +38574,7 @@
   "UOGRID": {
     "altname": "Grid Site of the University of Oviedo", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Spain", 
@@ -38294,6 +38618,7 @@
   "UPittTier3": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -38353,6 +38678,7 @@
   "US-Austin-Univ": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -38429,6 +38755,7 @@
   "US-ESNET-NREN": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -38515,6 +38842,7 @@
   "US-INTERNET2-NREN": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -38616,6 +38944,7 @@
   "US-SLAC": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -38692,6 +39021,7 @@
   "US-Univ-California-Santa-Barbara": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -38767,6 +39097,7 @@
   "USC-LCG2": {
     "altname": "University of Santiago de Compostela, Spain", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 9.660231660231661, 
     "cores": 158, 
     "country": "Spain", 
@@ -38856,6 +39187,7 @@
   "USCMS-FNAL-WC1": {
     "altname": "Fermi National Accelerator Laboratory, Illinois, USA", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -39201,12 +39533,13 @@
     "srr_url": "", 
     "state": "ACTIVE", 
     "status": "production", 
-    "tape_capacity": 104000000000000000, 
+    "tape_capacity": 104062222222222224, 
     "timezone": ""
   }, 
   "USCST3": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -39250,6 +39583,7 @@
   "USTC-T3": {
     "altname": "USTC-T3", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "China", 
@@ -39293,6 +39627,7 @@
   "UTA_SWT2": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -39379,6 +39714,7 @@
   "UTD-HEP": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -39422,6 +39758,7 @@
   "VC3": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -39465,6 +39802,7 @@
   "VICTORIA-LCG2": {
     "altname": "University of Victoria", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Canada", 
@@ -39508,6 +39846,7 @@
   "Vanderbilt": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -39735,6 +40074,7 @@
   "Vanderbilt_EC2": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -39778,6 +40118,7 @@
   "WEIZMANN-LCG2": {
     "altname": "Weizmann Institute of Science, Rehovot, Israel", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 11.75, 
     "cores": 2500, 
     "country": "Israel", 
@@ -39857,6 +40198,7 @@
   "WISC-ATLAS": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -39916,6 +40258,7 @@
   "WT2": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -40050,6 +40393,7 @@
   "WUT": {
     "altname": "Warsaw University of Technology", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Poland", 
@@ -40139,6 +40483,7 @@
   "Wuhan": {
     "altname": "Wuhan, Huazhong Normal University,China", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "China", 
@@ -40182,6 +40527,7 @@
   "ZA-CHPC": {
     "altname": "Centre for High-Performance Computing (CHPC)", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 168, 
     "country": "South Africa", 
@@ -40276,6 +40622,7 @@
   "ZA-UJ": {
     "altname": "University of Johannesburg HPC site", 
     "cert_status": "suspended", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "South Africa", 
@@ -40319,6 +40666,7 @@
   "ZA-WITS-CORE": {
     "altname": "University of the Witwatersrand CORE", 
     "cert_status": "suspended", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "South Africa", 
@@ -40378,6 +40726,7 @@
   "brown-cms": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -40437,6 +40786,7 @@
   "cinvestav": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Mexico", 
@@ -40511,6 +40861,7 @@
   "egee.irb.hr": {
     "altname": "Rudjer Boskovic Institute, Zagreb", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Croatia", 
@@ -40570,6 +40921,7 @@
   "ifae": {
     "altname": "IFAE, Barcelona, Spain", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 12.1666666667, 
     "cores": 12, 
     "country": "Spain", 
@@ -40755,6 +41107,7 @@
   "mainz": {
     "altname": "German HEP ATLAS Tier3, University of Mainz, Germany", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Germany", 
@@ -40814,6 +41167,7 @@
   "mainzgrid": {
     "altname": "German HEP ATLAS Tier3, University of Mainz, Germany", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Germany", 
@@ -40873,6 +41227,7 @@
   "osu-cms": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -40932,6 +41287,7 @@
   "pic": {
     "altname": "PIC (port d'informacio cientifica)", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 12.120523823616455, 
     "cores": 1308, 
     "country": "Spain", 
@@ -40939,7 +41295,7 @@
     "cpu_capacity": 125811, 
     "crr_url": "", 
     "description": "Tier-1 Spanish site", 
-    "disk_capacity": 12090000000000000, 
+    "disk_capacity": 12080000000000000, 
     "federations": [
       "ES-PIC"
     ], 
@@ -41022,6 +41378,21 @@
         "status": "DISABLED", 
         "type": "CE", 
         "version": ""
+      }, 
+      {
+        "arch": "", 
+        "description": "", 
+        "endpoint": "ce12.pic.es:9619", 
+        "flavour": "HTCONDOR-CE", 
+        "id": 1559, 
+        "impl": "", 
+        "is_monitored": false, 
+        "is_virtual": false, 
+        "name": "pic-CE-HTCONDOR-CE-ce12.pic.es", 
+        "state": "ACTIVE", 
+        "status": "DISABLED", 
+        "type": "CE", 
+        "version": null
       }, 
       {
         "arch": "", 
@@ -41230,12 +41601,13 @@
     "srr_url": "", 
     "state": "ACTIVE", 
     "status": "production", 
-    "tape_capacity": 32650000000000000, 
+    "tape_capacity": 32640000000000000, 
     "timezone": "Europe/Madrid"
   }, 
   "praguelcg2": {
     "altname": "Prague", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 16.7001364499288, 
     "cores": 2128, 
     "country": "Czechia", 
@@ -41312,6 +41684,21 @@
     "oim_groupid": null, 
     "rc_tier_level": 2, 
     "services": [
+      {
+        "arch": "", 
+        "description": "", 
+        "endpoint": "arc-it4i.farm.particle.cz:2811", 
+        "flavour": "ARC-CE", 
+        "id": 340, 
+        "impl": "", 
+        "is_monitored": false, 
+        "is_virtual": false, 
+        "name": "praguelcg2-CE-ARC-CE-arc-it4i.farm.particle.cz", 
+        "state": "ACTIVE", 
+        "status": "DISABLED", 
+        "type": "CE", 
+        "version": null
+      }, 
       {
         "arch": "", 
         "description": "", 
@@ -41505,7 +41892,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.9"
+        "version": "8.2.16"
       }, 
       {
         "arch": "Disk", 
@@ -41565,6 +41952,7 @@
   "ru-Moscow-FIAN-LCG2": {
     "altname": "FIAN", 
     "cert_status": "uncertified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Russian Federation", 
@@ -41613,6 +42001,7 @@
   "ru-Moscow-MEPHI-LCG2": {
     "altname": "National Research Nuclear University \"MEPhI\"", 
     "cert_status": "closed", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Russian Federation", 
@@ -41727,6 +42116,7 @@
   "ru-Moscow-SINP-LCG2": {
     "altname": "SINP MSU WLCG center", 
     "cert_status": "uncertified", 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Russian Federation", 
@@ -41820,6 +42210,7 @@
   "ru-PNPI": {
     "altname": "Petersburg Nuclear Physics Institute", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 11.0, 
     "cores": 88, 
     "country": "Russian Federation", 
@@ -42003,6 +42394,7 @@
   "ru-PNPI_NoXcache": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Russian Federation", 
@@ -42046,6 +42438,7 @@
   "ru-PNPI_XCACHE": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Russian Federation", 
@@ -42105,6 +42498,7 @@
   "ru-PNPI_XCACHE_NODES": {
     "altname": "Petersburg Nuclear Physics Institute", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 11.0, 
     "cores": 0, 
     "country": "Russian Federation", 
@@ -42164,6 +42558,7 @@
   "ru-PRUE-DL": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Russian Federation", 
@@ -42207,6 +42602,7 @@
   "ru-PRUE_XCACHE_NODES": {
     "altname": "Lake prototype of Russian Grid sites", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "Russian Federation", 
@@ -42266,6 +42662,7 @@
   "rutgers-cms": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -42340,6 +42737,7 @@
   "umd-cms": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -42414,6 +42812,7 @@
   "uprm-cms": {
     "altname": "", 
     "cert_status": null, 
+    "coreenergy": 10.0, 
     "corepower": 0.0, 
     "cores": 0, 
     "country": "United States", 
@@ -42488,6 +42887,7 @@
   "wuppertalprod": {
     "altname": "Bergische Universitaet Wuppertal Fachbereich C - Physik, Wuppertal, Germany", 
     "cert_status": "certified", 
+    "coreenergy": 10.0, 
     "corepower": 22.234375, 
     "cores": 601, 
     "country": "Germany", 

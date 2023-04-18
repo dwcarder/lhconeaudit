@@ -488,14 +488,14 @@
       }
     ]
   }
-],"2400:4500::1:0:44/126": [
+],"2400:4500::1:0:4c/126": [
   {
     "valid":true,
     "bestpath":true,
     "pathFrom":"internal",
-    "prefix":"2400:4500::1:0:44",
+    "prefix":"2400:4500::1:0:4c",
     "prefixLen":126,
-    "network":"2400:4500::1:0:44\/126",
+    "network":"2400:4500::1:0:4c\/126",
     "locPrf":10000,
     "weight":0,
     "peerId":"134.55.200.166",
@@ -509,14 +509,14 @@
       }
     ]
   }
-],"2400:4500::1:0:48/126": [
+],"2400:4500::1:0:50/126": [
   {
     "valid":true,
     "bestpath":true,
     "pathFrom":"internal",
-    "prefix":"2400:4500::1:0:48",
+    "prefix":"2400:4500::1:0:50",
     "prefixLen":126,
-    "network":"2400:4500::1:0:48\/126",
+    "network":"2400:4500::1:0:50\/126",
     "locPrf":10000,
     "weight":0,
     "peerId":"134.55.200.166",
@@ -971,27 +971,6 @@
       }
     ]
   }
-],"2804:1f10:8000:801::/64": [
-  {
-    "valid":true,
-    "bestpath":true,
-    "pathFrom":"internal",
-    "prefix":"2804:1f10:8000:801::",
-    "prefixLen":64,
-    "network":"2804:1f10:8000:801::\/64",
-    "locPrf":10000,
-    "weight":0,
-    "peerId":"134.55.200.175",
-    "path":"1916 2715",
-    "origin":"IGP",
-    "nexthops":[
-      {
-        "ip":"::ffff:8637:c8af",
-        "afi":"ipv6",
-        "used":true
-      }
-    ]
-  }
 ] },  "134.55.200.176:64805" : {  },  "134.55.200.177:64805" : {  },  "134.55.200.178:64805" : {  },  "134.55.200.179:64805" : {  },  "134.55.200.180:64805" : {  },  "134.55.200.181:64805" : {  },  "134.55.200.182:64805" : {  },  "134.55.200.183:64805" : {  },  "134.55.200.184:64805" : {  },  "134.55.200.185:64805" : {  },  "134.55.200.186:64805" : {  },  "134.55.200.187:64805" : {  },  "134.55.200.188:64805" : {  },  "134.55.200.189:64805" : {  },  "134.55.200.190:64805" : {  },  "134.55.200.191:64805" : { "2001:252:0:112::/64": [
   {
     "valid":true,
@@ -1025,27 +1004,6 @@
     "weight":0,
     "peerId":"134.55.200.191",
     "path":"17934 24489 24475",
-    "origin":"IGP",
-    "nexthops":[
-      {
-        "ip":"::ffff:8637:c8bf",
-        "afi":"ipv6",
-        "used":true
-      }
-    ]
-  }
-],"2001:400:f003:2::2/127": [
-  {
-    "valid":true,
-    "bestpath":true,
-    "pathFrom":"internal",
-    "prefix":"2001:400:f003:2::2",
-    "prefixLen":127,
-    "network":"2001:400:f003:2::2\/127",
-    "locPrf":10000,
-    "weight":0,
-    "peerId":"134.55.200.191",
-    "path":"17934 24167",
     "origin":"IGP",
     "nexthops":[
       {
@@ -2031,27 +1989,6 @@
       }
     ]
   }
-],"2001:1458:a00:4::/64": [
-  {
-    "valid":true,
-    "bestpath":true,
-    "pathFrom":"internal",
-    "prefix":"2001:1458:a00:4::",
-    "prefixLen":64,
-    "network":"2001:1458:a00:4::\/64",
-    "locPrf":10000,
-    "weight":0,
-    "peerId":"134.55.200.233",
-    "path":"20641",
-    "origin":"IGP",
-    "nexthops":[
-      {
-        "ip":"::ffff:8637:c8e9",
-        "afi":"ipv6",
-        "used":true
-      }
-    ]
-  }
 ],"2001:1458:a00:5::/64": [
   {
     "valid":true,
@@ -2081,27 +2018,6 @@
     "prefix":"2001:1458:a00:7::",
     "prefixLen":64,
     "network":"2001:1458:a00:7::\/64",
-    "locPrf":10000,
-    "weight":0,
-    "peerId":"134.55.200.233",
-    "path":"20641",
-    "origin":"IGP",
-    "nexthops":[
-      {
-        "ip":"::ffff:8637:c8e9",
-        "afi":"ipv6",
-        "used":true
-      }
-    ]
-  }
-],"2001:1458:a00:8::/64": [
-  {
-    "valid":true,
-    "bestpath":true,
-    "pathFrom":"internal",
-    "prefix":"2001:1458:a00:8::",
-    "prefixLen":64,
-    "network":"2001:1458:a00:8::\/64",
     "locPrf":10000,
     "weight":0,
     "peerId":"134.55.200.233",
@@ -3138,6 +3054,28 @@
       }
     ]
   }
+],"2001:738:5001:ff::5:0/124": [
+  {
+    "valid":true,
+    "bestpath":true,
+    "pathFrom":"internal",
+    "prefix":"2001:738:5001:ff::5:0",
+    "prefixLen":124,
+    "network":"2001:738:5001:ff::5:0\/124",
+    "metric":130,
+    "locPrf":10000,
+    "weight":0,
+    "peerId":"134.55.200.236",
+    "path":"20965 1955 3314",
+    "origin":"incomplete",
+    "nexthops":[
+      {
+        "ip":"::ffff:8637:c8ec",
+        "afi":"ipv6",
+        "used":true
+      }
+    ]
+  }
 ],"2001:798:111:1::/64": [
   {
     "valid":true,
@@ -3260,6 +3198,28 @@
     "weight":0,
     "peerId":"134.55.200.236",
     "path":"57484 56333",
+    "origin":"IGP",
+    "nexthops":[
+      {
+        "ip":"::ffff:8637:c8ec",
+        "afi":"ipv6",
+        "used":true
+      }
+    ]
+  }
+],"2001:b30:800:f0e4::/64": [
+  {
+    "valid":true,
+    "bestpath":true,
+    "pathFrom":"internal",
+    "prefix":"2001:b30:800:f0e4::",
+    "prefixLen":64,
+    "network":"2001:b30:800:f0e4::\/64",
+    "metric":130,
+    "locPrf":10000,
+    "weight":0,
+    "peerId":"134.55.200.236",
+    "path":"20965 2614",
     "origin":"IGP",
     "nexthops":[
       {
@@ -3392,28 +3352,6 @@
     "weight":0,
     "peerId":"134.55.200.236",
     "path":"20965 12687",
-    "origin":"IGP",
-    "nexthops":[
-      {
-        "ip":"::ffff:8637:c8ec",
-        "afi":"ipv6",
-        "used":true
-      }
-    ]
-  }
-],"2a02:208:0:1::/64": [
-  {
-    "valid":true,
-    "bestpath":true,
-    "pathFrom":"internal",
-    "prefix":"2a02:208:0:1::",
-    "prefixLen":64,
-    "network":"2a02:208:0:1::\/64",
-    "metric":0,
-    "locPrf":10000,
-    "weight":0,
-    "peerId":"134.55.200.236",
-    "path":"57484 6857",
     "origin":"IGP",
     "nexthops":[
       {

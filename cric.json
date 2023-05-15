@@ -1112,36 +1112,6 @@
       {
         "arch": "", 
         "description": "", 
-        "endpoint": "ce1atlas.coepp.org.au:2811", 
-        "flavour": "ARC-CE", 
-        "id": 339, 
-        "impl": "", 
-        "is_monitored": true, 
-        "is_virtual": false, 
-        "name": "Australia-ATLAS-CE-ARC-CE-ce1atlas.coepp.org.au", 
-        "state": "ACTIVE", 
-        "status": "production", 
-        "type": "CE", 
-        "version": null
-      }, 
-      {
-        "arch": "", 
-        "description": "", 
-        "endpoint": "ce3atlas.coepp.org.au:2811", 
-        "flavour": "ARC-CE", 
-        "id": 696, 
-        "impl": "", 
-        "is_monitored": true, 
-        "is_virtual": false, 
-        "name": "Australia-ATLAS-CE-ARC-CE-ce3atlas.coepp.org.au", 
-        "state": "ACTIVE", 
-        "status": "production", 
-        "type": "CE", 
-        "version": null
-      }, 
-      {
-        "arch": "", 
-        "description": "", 
         "endpoint": "ps-bandwidth.atlas.unimelb.edu.au", 
         "flavour": "Bandwidth", 
         "id": 956, 
@@ -1423,21 +1393,6 @@
       {
         "arch": "Disk", 
         "description": "", 
-        "endpoint": "1.12.0", 
-        "flavour": null, 
-        "id": 1706, 
-        "impl": "DPM", 
-        "is_monitored": false, 
-        "is_virtual": true, 
-        "name": "BEIJING-LCG2_SE_0_ATLAS", 
-        "state": "ACTIVE", 
-        "status": null, 
-        "type": "SE", 
-        "version": "1.15.2"
-      }, 
-      {
-        "arch": "Disk", 
-        "description": "", 
         "endpoint": null, 
         "flavour": null, 
         "id": 1858, 
@@ -1565,14 +1520,14 @@
         "description": "", 
         "id": 16, 
         "info_url": "", 
-        "last_modified": "2022-02-04T14:10:48.205078", 
+        "last_modified": "2023-05-02T15:51:17.999621", 
         "lhcone_active": false, 
         "lhcone_aup_date": null, 
         "lhcone_bandwidth": -1, 
         "lhcone_providers": [], 
         "lhcopn_active": false, 
         "lhcopn_bandwidth": -1, 
-        "monit_url": "", 
+        "monit_url": "https://t2bweb.iihe.ac.be/WLCG-network/BEgrid_ULB-VUB.json", 
         "name": "BE-ULB-VUB", 
         "noc": [], 
         "wan_bandwidth": 20
@@ -1657,7 +1612,7 @@
         "version": null
       }, 
       {
-        "arch": "", 
+        "arch": "Disk", 
         "description": "", 
         "endpoint": null, 
         "flavour": null, 
@@ -1669,7 +1624,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "5.2.26"
+        "version": "7.2.16"
       }
     ], 
     "sites": [
@@ -1737,14 +1692,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 3008, 
-        "impl": "", 
+        "impl": "DPM", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T3_BG_UNI_SOFIA_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }
     ], 
     "sites": [
@@ -2006,7 +1961,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "6.2"
+        "version": "8.2.15"
       }, 
       {
         "arch": "Disk", 
@@ -2021,7 +1976,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "7.2.16"
+        "version": "8.2.15"
       }, 
       {
         "arch": "Tape", 
@@ -2036,7 +1991,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "6.2"
+        "version": "8.2.15"
       }, 
       {
         "arch": "Disk", 
@@ -2044,14 +1999,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 3240, 
-        "impl": "", 
+        "impl": "dcache", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "BNL-ATLAS_SE_TEST_ATLAS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": "8.2.18"
       }, 
       {
         "arch": "", 
@@ -2074,14 +2029,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1708, 
-        "impl": "", 
+        "impl": "XRootD", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "BNLHPC_ATLAS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": null
+        "version": "5.5.0-1.el8"
       }, 
       {
         "arch": "", 
@@ -2104,7 +2059,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 3118, 
-        "impl": "xrootd,lustre", 
+        "impl": "XRootD", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "BNL_SDCC_GLOBUS_ATLAS", 
@@ -2872,14 +2827,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2903, 
-        "impl": "", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T3_US_Baylor_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }
     ], 
     "sites": [
@@ -2992,7 +2947,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2880, 
-        "impl": "BeStMan", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T2_BE_UCL_SE_CMS", 
@@ -3686,7 +3641,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "7.2.36"
+        "version": "7.2.40"
       }
     ], 
     "sites": [
@@ -3988,6 +3943,11 @@
         "name": "CA-UVic-Cloud", 
         "tier_level": 3, 
         "vo_name": "atlas"
+      }, 
+      {
+        "name": "IAAS", 
+        "tier_level": 3, 
+        "vo_name": "atlas"
       }
     ], 
     "slots": 0, 
@@ -4180,7 +4140,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2087, 
-        "impl": "", 
+        "impl": "dCache", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "CA-VICTORIA-WESTGRID-T2_SE", 
@@ -4209,11 +4169,6 @@
       {
         "name": "CA-VICTORIA-WESTGRID-T2", 
         "tier_level": 2, 
-        "vo_name": "atlas"
-      }, 
-      {
-        "name": "IAAS", 
-        "tier_level": 3, 
         "vo_name": "atlas"
       }
     ], 
@@ -4299,51 +4254,6 @@
       {
         "arch": "", 
         "description": "", 
-        "endpoint": "lcg-ce1.uw.computecanada.ca:2811", 
-        "flavour": "ARC-CE", 
-        "id": 686, 
-        "impl": "", 
-        "is_monitored": true, 
-        "is_virtual": false, 
-        "name": "CA-WATERLOO-T2-CE-ARC-CE-lcg-ce1.uw.computecanada.ca", 
-        "state": "ACTIVE", 
-        "status": "production", 
-        "type": "CE", 
-        "version": null
-      }, 
-      {
-        "arch": "", 
-        "description": "", 
-        "endpoint": "lcg-ce2.uw.computecanada.ca:2811", 
-        "flavour": "ARC-CE", 
-        "id": 642, 
-        "impl": "", 
-        "is_monitored": true, 
-        "is_virtual": false, 
-        "name": "CA-WATERLOO-T2-CE-ARC-CE-lcg-ce2.uw.computecanada.ca", 
-        "state": "ACTIVE", 
-        "status": "production", 
-        "type": "CE", 
-        "version": null
-      }, 
-      {
-        "arch": "", 
-        "description": "", 
-        "endpoint": "lcg-ce3.uw.computecanada.ca", 
-        "flavour": "ARC-CE", 
-        "id": 2814, 
-        "impl": "", 
-        "is_monitored": true, 
-        "is_virtual": false, 
-        "name": "CA-WATERLOO-T2-CE-ARC-CE-lcg-ce3.uw.computecanada.ca", 
-        "state": "ACTIVE", 
-        "status": "production", 
-        "type": "CE", 
-        "version": ""
-      }, 
-      {
-        "arch": "", 
-        "description": "", 
         "endpoint": "http://lcg-adm1.uw.computecanada.ca:3128", 
         "flavour": "CVMFS", 
         "id": 2648, 
@@ -4407,7 +4317,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1636, 
-        "impl": "dCache", 
+        "impl": "dcache", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "CA-WATERLOO-T2_SE_0_ATLAS", 
@@ -4627,7 +4537,7 @@
     "cpu_capacity": 0, 
     "crr_url": "", 
     "description": "CERN", 
-    "disk_capacity": 220505309398723072, 
+    "disk_capacity": 234353674243030320, 
     "federations": [
       "CH-CERN"
     ], 
@@ -5380,7 +5290,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": null
+        "version": "5.1.16-1"
       }, 
       {
         "arch": "Disk", 
@@ -5869,7 +5779,7 @@
     "srr_url": "", 
     "state": "ACTIVE", 
     "status": "production", 
-    "tape_capacity": 451465053763440848, 
+    "tape_capacity": 624000000000000000, 
     "timezone": "Europe/Zurich"
   }, 
   "CERN-PROD-AI": {
@@ -6506,14 +6416,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2906, 
-        "impl": "", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T2_US_Caltech_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }
     ], 
     "sites": [
@@ -6646,14 +6556,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 3079, 
-        "impl": "", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T3_CN_PKU_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }
     ], 
     "sites": [
@@ -6852,7 +6762,7 @@
         "is_virtual": false, 
         "name": "CSCS-LCG2-CE-ARC-CE-arc-gele.lcg.cscs.ch", 
         "state": "ACTIVE", 
-        "status": "DISABLED", 
+        "status": "production", 
         "type": "CE", 
         "version": ""
       }, 
@@ -7262,14 +7172,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 3219, 
-        "impl": "", 
+        "impl": "DPM", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T2_PL_Cyfronet_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }
     ], 
     "sites": [
@@ -7896,7 +7806,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 3252, 
-        "impl": "dcache", 
+        "impl": "dCache", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "DESY-HH_SE_ATLAS_TAPE", 
@@ -8408,7 +8318,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1604, 
-        "impl": "dCache", 
+        "impl": "dcache", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "EELA-UTFSM_SE_0_ATLAS", 
@@ -8819,7 +8729,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1635, 
-        "impl": "xcache", 
+        "impl": "dCache", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "FMPhI-UNIBA_SE_0_ATLAS", 
@@ -8919,14 +8829,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2179, 
-        "impl": "", 
+        "impl": "DPM", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "FR-ALPES_SE_0_ATLAS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": null
+        "version": "1.15.2"
       }
     ], 
     "sites": [
@@ -9532,7 +9442,7 @@
       {
         "arch": "", 
         "description": "", 
-        "endpoint": "http://frontier-sq1-kit.gridka.de:3128", 
+        "endpoint": "http://frontier-sq1.gridka.de:3128", 
         "flavour": "CVMFS", 
         "id": 2580, 
         "impl": "", 
@@ -9577,7 +9487,7 @@
       {
         "arch": "", 
         "description": "", 
-        "endpoint": "http://frontier-sq4-kit.gridka.de:3128", 
+        "endpoint": "http://frontier-sq3.gridka.de:3128", 
         "flavour": "CVMFS", 
         "id": 2563, 
         "impl": "", 
@@ -9595,7 +9505,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2532, 
-        "impl": "", 
+        "impl": "dCache", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "FZK-LCG2_SE_1_ATLAS", 
@@ -9677,7 +9587,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.10"
+        "version": "8.2.18"
       }, 
       {
         "arch": "Tape", 
@@ -9692,7 +9602,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.10"
+        "version": "8.2.18"
       }, 
       {
         "arch": "Disk", 
@@ -9707,7 +9617,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.10"
+        "version": "8.2.18"
       }, 
       {
         "arch": "Tape", 
@@ -9722,7 +9632,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.10"
+        "version": "8.2.18"
       }, 
       {
         "arch": "", 
@@ -9766,7 +9676,7 @@
     "srr_url": "", 
     "state": "ACTIVE", 
     "status": "production", 
-    "tape_capacity": 104683082211067120, 
+    "tape_capacity": 122444000000000000, 
     "timezone": "Europe/Berlin"
   }, 
   "FZU-IPV6": {
@@ -10130,14 +10040,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2856, 
-        "impl": "", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T2_US_Wisconsin_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }
     ], 
     "sites": [
@@ -10847,11 +10757,11 @@
         "flavour": "HTCONDOR-CE", 
         "id": 2384, 
         "impl": "", 
-        "is_monitored": true, 
+        "is_monitored": false, 
         "is_virtual": false, 
         "name": "GRIF-CE-HTCONDOR-CE-grid06.lal.in2p3.fr", 
         "state": "ACTIVE", 
-        "status": "production", 
+        "status": "DISABLED", 
         "type": "CE", 
         "version": null
       }, 
@@ -11131,7 +11041,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 3156, 
-        "impl": "xrootd", 
+        "impl": "EOS", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "GRIF_SE_3_ATLAS", 
@@ -11176,7 +11086,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2846, 
-        "impl": "", 
+        "impl": "DPM", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T2_FR_GRIF_IRFU_SE_CMS", 
@@ -11191,7 +11101,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2829, 
-        "impl": "", 
+        "impl": "DPM", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T2_FR_GRIF_LLR_SE_CMS", 
@@ -11510,6 +11420,21 @@
       {
         "arch": "", 
         "description": "", 
+        "endpoint": "arcce3.goegrid.gwdg.de", 
+        "flavour": "ARC-CE", 
+        "id": 3282, 
+        "impl": "", 
+        "is_monitored": true, 
+        "is_virtual": false, 
+        "name": "GoeGrid-CE-ARC-CE-arcce3.goegrid.gwdg.de", 
+        "state": "ACTIVE", 
+        "status": "production", 
+        "type": "CE", 
+        "version": ""
+      }, 
+      {
+        "arch": "", 
+        "description": "", 
         "endpoint": "perfsonar01.goegrid.gwdg.de", 
         "flavour": "Bandwidth", 
         "id": 1003, 
@@ -11588,7 +11513,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1696, 
-        "impl": "dCache", 
+        "impl": "dcache", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "GoeGrid_SE_0_ATLAS", 
@@ -12408,7 +12333,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1587, 
-        "impl": "dCache", 
+        "impl": "dcache", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "IEPSAS-Kosice_SE_0_ATLAS", 
@@ -12578,7 +12503,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2873, 
-        "impl": "StoRM", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T2_ES_IFCA_SE_CMS", 
@@ -12713,7 +12638,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1650, 
-        "impl": "StoRM", 
+        "impl": "storm", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "IFIC-LCG2_SE_0_ATLAS", 
@@ -13017,7 +12942,7 @@
     "cpu_capacity": 161243, 
     "crr_url": "", 
     "description": "CC IN2P3", 
-    "disk_capacity": 41487432184319247, 
+    "disk_capacity": 47421428495462536, 
     "federations": [
       "FR-CCIN2P3"
     ], 
@@ -13191,6 +13116,21 @@
       {
         "arch": "", 
         "description": "", 
+        "endpoint": "cccondorce04.in2p3.fr:9619", 
+        "flavour": "HTCONDOR-CE", 
+        "id": 3283, 
+        "impl": "", 
+        "is_monitored": true, 
+        "is_virtual": false, 
+        "name": "IN2P3-CC-CE-HTCONDOR-CE-cccondorce04.in2p3.fr", 
+        "state": "ACTIVE", 
+        "status": "DISABLED", 
+        "type": "CE", 
+        "version": ""
+      }, 
+      {
+        "arch": "", 
+        "description": "", 
         "endpoint": "ccperfsonar1.in2p3.fr", 
         "flavour": "Bandwidth", 
         "id": 900, 
@@ -13321,7 +13261,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "6.2.41"
+        "version": "8.2.16"
       }, 
       {
         "arch": "Disk", 
@@ -13390,7 +13330,7 @@
     "srr_url": "", 
     "state": "ACTIVE", 
     "status": "production", 
-    "tape_capacity": 97960861221774194, 
+    "tape_capacity": 117912000000000000, 
     "timezone": "Europe/Paris"
   }, 
   "IN2P3-CPPM": {
@@ -13565,14 +13505,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1691, 
-        "impl": "DPM", 
+        "impl": "dCache", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "IN2P3-CPPM_SE_0_ATLAS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "1.15.2"
+        "version": "8.2.10"
       }, 
       {
         "arch": "Disk", 
@@ -14114,26 +14054,11 @@
       }, 
       {
         "arch": "Disk", 
-        "description": "xrootd checksums, gridftp redirection", 
-        "endpoint": null, 
-        "flavour": null, 
-        "id": 1683, 
-        "impl": "DPM", 
-        "is_monitored": true, 
-        "is_virtual": true, 
-        "name": "IN2P3-LAPP_SE_1_ATLAS", 
-        "state": "ACTIVE", 
-        "status": null, 
-        "type": "SE", 
-        "version": "1.15.2"
-      }, 
-      {
-        "arch": "Disk", 
         "description": "lapp-dccentral01.in2p3.fr", 
         "endpoint": null, 
         "flavour": null, 
         "id": 3266, 
-        "impl": "dcache", 
+        "impl": "dCache", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "IN2P3-LAPP_SE_2_ATLAS", 
@@ -14628,21 +14553,6 @@
         "state": "ACTIVE", 
         "status": "production", 
         "type": "PerfSonar", 
-        "version": null
-      }, 
-      {
-        "arch": "Disk", 
-        "description": "", 
-        "endpoint": null, 
-        "flavour": null, 
-        "id": 1422, 
-        "impl": "", 
-        "is_monitored": false, 
-        "is_virtual": true, 
-        "name": "IN2P3-SUBATECH_SE_ALICE", 
-        "state": "ACTIVE", 
-        "status": null, 
-        "type": "SE", 
         "version": null
       }
     ], 
@@ -15206,14 +15116,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 3189, 
-        "impl": "", 
+        "impl": "StoRM", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T3_IT_Bologna_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }
     ], 
     "sites": [
@@ -15518,21 +15428,6 @@
     "oim_groupid": null, 
     "rc_tier_level": 3, 
     "services": [
-      {
-        "arch": "", 
-        "description": "", 
-        "endpoint": "htc-recas-ce-03.cs.infn.it", 
-        "flavour": "HTCONDOR-CE", 
-        "id": 3248, 
-        "impl": "", 
-        "is_monitored": true, 
-        "is_virtual": false, 
-        "name": "INFN-COSENZA-CE-HTCONDOR-CE-htc-recas-ce-03.cs.infn.it", 
-        "state": "ACTIVE", 
-        "status": "production", 
-        "type": "CE", 
-        "version": ""
-      }, 
       {
         "arch": "", 
         "description": "", 
@@ -15888,7 +15783,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "1.15.1"
+        "version": "1.15.2"
       }
     ], 
     "sites": [
@@ -15961,7 +15856,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1625, 
-        "impl": "StoRM", 
+        "impl": "storm", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "INFN-GENOVA_SE_0_ATLAS", 
@@ -16066,7 +15961,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1681, 
-        "impl": "StoRM", 
+        "impl": "storm", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "INFN-LECCE_SE_0_ATLAS", 
@@ -16426,7 +16321,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2902, 
-        "impl": "StoRM", 
+        "impl": "storm", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T3_IT_MIB_SE_CMS", 
@@ -16591,7 +16486,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1666, 
-        "impl": "StoRM", 
+        "impl": "storm", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "INFN-MILANO-ATLASC_SE_0_ATLAS", 
@@ -17486,7 +17381,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "5.2.14"
+        "version": "7.2.26"
       }
     ], 
     "sites": [
@@ -17539,7 +17434,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1717, 
-        "impl": "StoRM", 
+        "impl": "storm", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "INFN-ROMA2_SE_0_ATLAS", 
@@ -17629,7 +17524,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1713, 
-        "impl": "StoRM", 
+        "impl": "storm", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "INFN-ROMA3_SE_0_ATLAS", 
@@ -17664,7 +17559,7 @@
     "cpu_capacity": 278249, 
     "crr_url": "", 
     "description": "INFN-T1 Site", 
-    "disk_capacity": 39949379879472800, 
+    "disk_capacity": 40570306664819574, 
     "federations": [
       "IT-INFN-CNAF"
     ], 
@@ -17916,7 +17811,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1617, 
-        "impl": "StoRM", 
+        "impl": "storm", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "INFN-T1_SE_0_ATLAS", 
@@ -17961,14 +17856,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1616, 
-        "impl": "StoRM", 
+        "impl": "storm", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "INFN-T1_SE_ATLAS_TAPE", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "1.11.19"
+        "version": "1.11.22"
       }, 
       {
         "arch": "Disk", 
@@ -17976,7 +17871,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1751, 
-        "impl": "StoRM", 
+        "impl": "storm", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "INFN-T1_SE_LHCB", 
@@ -17991,7 +17886,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2897, 
-        "impl": "StoRM", 
+        "impl": "storm", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T1_IT_CNAF_SE_CMS", 
@@ -18236,7 +18131,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1668, 
-        "impl": "StoRM", 
+        "impl": "storm", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "INFN-TRIESTE_SE_0_ATLAS", 
@@ -18266,7 +18161,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2841, 
-        "impl": "StoRM", 
+        "impl": "storm", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T3_IT_Trieste_SE_CMS", 
@@ -18902,14 +18797,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1598, 
-        "impl": "dCache", 
+        "impl": "dcache", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "JINR-LCG2_SE_0_ATLAS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.17"
+        "version": "8.2.20"
       }, 
       {
         "arch": "Disk", 
@@ -18932,14 +18827,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2889, 
-        "impl": "dCache", 
+        "impl": "dcache", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T2_RU_JINR_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.17"
+        "version": "8.2.20"
       }
     ], 
     "sites": [
@@ -19111,14 +19006,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2831, 
-        "impl": "dCache", 
+        "impl": "dcache", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T1_RU_JINR_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.17"
+        "version": "8.2.20"
       }
     ], 
     "sites": [
@@ -19480,7 +19375,7 @@
     "cpu_capacity": 0, 
     "crr_url": "", 
     "description": "GSDC ALICE Tier1", 
-    "disk_capacity": 4510000000000000, 
+    "disk_capacity": 21590046865843428, 
     "federations": [
       "KR-KISTI-GSDC"
     ], 
@@ -19802,14 +19697,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2901, 
-        "impl": "dCache", 
+        "impl": "dcache", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T2_KR_KISTI_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.18"
+        "version": "8.2.20"
       }
     ], 
     "sites": [
@@ -19924,14 +19819,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2907, 
-        "impl": "dCache", 
+        "impl": "dcache", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T3_KR_KNU_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "6.2.47"
+        "version": "7.2.40"
       }
     ], 
     "sites": [
@@ -20062,14 +19957,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2986, 
-        "impl": "", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T3_KR_UOS_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }
     ], 
     "sites": [
@@ -20908,14 +20803,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2871, 
-        "impl": "", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T2_US_MIT_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }
     ], 
     "sites": [
@@ -20968,14 +20863,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2837, 
-        "impl": "", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T3_US_MIT_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }
     ], 
     "sites": [
@@ -21279,7 +21174,7 @@
         "description": "", 
         "id": 9, 
         "info_url": "", 
-        "last_modified": "2022-03-30T22:47:15.672739", 
+        "last_modified": "2023-04-21T17:03:46.685067", 
         "lhcone_active": true, 
         "lhcone_aup_date": "2015-07-01T00:00:00", 
         "lhcone_bandwidth": 80, 
@@ -21288,7 +21183,7 @@
         ], 
         "lhcopn_active": false, 
         "lhcopn_bandwidth": -1, 
-        "monit_url": "", 
+        "monit_url": "https://www2.mwt2.org/wlcg-netmon/mwt2-netmon-iu.json", 
         "name": "US-MWT2 Indiana University", 
         "noc": [
           "noc@iu.edu"
@@ -21299,7 +21194,7 @@
         "description": "", 
         "id": 8, 
         "info_url": "", 
-        "last_modified": "2023-04-14T22:16:18.107666", 
+        "last_modified": "2023-04-21T17:04:00.927853", 
         "lhcone_active": true, 
         "lhcone_aup_date": "2015-07-02T00:00:00", 
         "lhcone_bandwidth": 200, 
@@ -21308,7 +21203,7 @@
         ], 
         "lhcopn_active": false, 
         "lhcopn_bandwidth": -1, 
-        "monit_url": "https://www.mwt2.org/wlcg-netmon/mwt2-netmon-uc.json", 
+        "monit_url": "https://www2.mwt2.org/wlcg-netmon/mwt2-netmon-uc.json", 
         "name": "US-MWT2 University of Chicago", 
         "noc": [
           "noc@uchicago.edu"
@@ -21765,7 +21660,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1632, 
-        "impl": "dCache", 
+        "impl": "dcache", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "MWT2_SE_0_ATLAS", 
@@ -22046,45 +21941,30 @@
         "description": "", 
         "endpoint": null, 
         "flavour": null, 
-        "id": 2089, 
-        "impl": "DPM", 
-        "is_monitored": false, 
-        "is_virtual": true, 
-        "name": "NCBJ-CIS_SE", 
-        "state": "ACTIVE", 
-        "status": null, 
-        "type": "SE", 
-        "version": "1.13.0 with DOME"
-      }, 
-      {
-        "arch": "Disk", 
-        "description": "", 
-        "endpoint": null, 
-        "flavour": null, 
         "id": 2128, 
-        "impl": "DPM", 
+        "impl": "dCache", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "NCBJ-CIS_SE_LHCB", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "1.15.2"
+        "version": "8.2.7"
       }, 
       {
-        "arch": "", 
+        "arch": "Disk", 
         "description": "", 
         "endpoint": null, 
         "flavour": null, 
         "id": 2878, 
-        "impl": "DPM", 
+        "impl": "dCache", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T2_PL_Swierk_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "1.15.2"
+        "version": "8.2.7"
       }
     ], 
     "sites": [
@@ -22222,7 +22102,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1658, 
-        "impl": "StoRM", 
+        "impl": "storm", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "NCG-INGRID-PT_SE_0_ATLAS", 
@@ -22237,7 +22117,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2877, 
-        "impl": "StoRM", 
+        "impl": "storm", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T2_PT_NCG_Lisbon_SE_CMS", 
@@ -22514,13 +22394,28 @@
       {
         "arch": "ARC-CE", 
         "description": "", 
-        "endpoint": "https://arctestcluster-slurm-el8-ce1.cern-test.uiocloud.no:443", 
+        "endpoint": "https://arctestcluster-slurm-el7-arc7-ce1.cern-test.uiocloud.no:443", 
         "flavour": "ARC-CE", 
-        "id": 3122, 
+        "id": 3284, 
         "impl": "", 
         "is_monitored": false, 
         "is_virtual": false, 
-        "name": "NDGF-T1-CE-ARC-CE-arctestcluster-slurm-el8-ce1.cern-test.uiocloud.no", 
+        "name": "NDGF-T1-CE-ARC-CE-arctestcluster-slurm-el7-arc7-ce1.cern-test.uiocloud.no", 
+        "state": "ACTIVE", 
+        "status": null, 
+        "type": "CE", 
+        "version": ""
+      }, 
+      {
+        "arch": "ARC-CE", 
+        "description": "", 
+        "endpoint": "arctestcluster-slurm-el8-arc7-ce1.cern-test.uiocloud.no", 
+        "flavour": "ARC-CE", 
+        "id": 3281, 
+        "impl": "", 
+        "is_monitored": false, 
+        "is_virtual": false, 
+        "name": "NDGF-T1-CE-ARC-CE-arctestcluster-slurm-el8-arc7-ce1.cern-test.uiocloud.no", 
         "state": "ACTIVE", 
         "status": "DISABLED", 
         "type": "CE", 
@@ -22536,21 +22431,6 @@
         "is_monitored": false, 
         "is_virtual": false, 
         "name": "NDGF-T1-CE-ARC-CE-arctestcluster-slurm-el9-arc7-ce1.cern-test.uiocloud.no", 
-        "state": "ACTIVE", 
-        "status": null, 
-        "type": "CE", 
-        "version": ""
-      }, 
-      {
-        "arch": "ARC-CE", 
-        "description": "", 
-        "endpoint": "https://arctestcluster-slurm-el9-ce1.cern-test.uiocloud.no:443", 
-        "flavour": "ARC-CE", 
-        "id": 3183, 
-        "impl": "", 
-        "is_monitored": false, 
-        "is_virtual": false, 
-        "name": "NDGF-T1-CE-ARC-CE-arctestcluster-slurm-el9-ce1.cern-test.uiocloud.no", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "CE", 
@@ -22833,7 +22713,7 @@
     "srr_url": "", 
     "state": "ACTIVE", 
     "status": "production", 
-    "tape_capacity": 23144288307795700, 
+    "tape_capacity": 27960000000000000, 
     "timezone": "Europe/Stockholm"
   }, 
   "NDSU-Lancium": {
@@ -23011,14 +22891,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2855, 
-        "impl": "", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T3_US_NERSC_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }
     ], 
     "sites": [
@@ -23434,7 +23314,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1932, 
-        "impl": "dCache", 
+        "impl": "dcache", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "NIKHEF-ELPROD_SE_167_ATLAS", 
@@ -23820,14 +23700,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2869, 
-        "impl": "", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T3_US_NotreDame_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }
     ], 
     "sites": [
@@ -24142,7 +24022,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2063, 
-        "impl": "", 
+        "impl": "Xrootd", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "Nebraska_SE", 
@@ -25139,14 +25019,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2886, 
-        "impl": "", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T3_US_Princeton_ICSE_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }
     ], 
     "sites": [
@@ -25365,14 +25245,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2845, 
-        "impl": "", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T2_US_Purdue_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }
     ], 
     "sites": [
@@ -25659,7 +25539,7 @@
     "cpu_capacity": 629000, 
     "crr_url": "https://www.gridpp.rl.ac.uk/RAL-LCG2/RAL-LCG2_CE.json", 
     "description": "Rutherford Appleton Laboratory - Tier1", 
-    "disk_capacity": 36742000000000000, 
+    "disk_capacity": 59820194444443276, 
     "federations": [
       "UK-T1-RAL"
     ], 
@@ -25728,21 +25608,21 @@
         "description": "", 
         "id": 59, 
         "info_url": "", 
-        "last_modified": "2022-07-19T16:51:14.849263", 
-        "lhcone_active": false, 
+        "last_modified": "2023-04-27T11:29:28.515609", 
+        "lhcone_active": true, 
         "lhcone_aup_date": "2017-01-01T00:00:00", 
-        "lhcone_bandwidth": -1, 
+        "lhcone_bandwidth": 200, 
         "lhcone_providers": [
           "JANET"
         ], 
         "lhcopn_active": true, 
-        "lhcopn_bandwidth": 100, 
+        "lhcopn_bandwidth": 200, 
         "monit_url": "", 
         "name": "UK-RAL", 
         "noc": [
           "lcg-support@gridpp.rl.ac.uk"
         ], 
-        "wan_bandwidth": 300
+        "wan_bandwidth": 400
       }
     }, 
     "oim_groupid": null, 
@@ -26024,7 +25904,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1935, 
-        "impl": "", 
+        "impl": "Ceph", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "RAL-LCG2_SE_0_ATLAS", 
@@ -26054,7 +25934,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1934, 
-        "impl": "", 
+        "impl": "Ceph", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "RAL-LCG2_SE_1_ATLAS", 
@@ -26084,7 +25964,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1653, 
-        "impl": "Echo", 
+        "impl": "Ceph", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "RAL-LCG2_SE_ATLAS_1", 
@@ -26114,7 +25994,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1842, 
-        "impl": "Echo", 
+        "impl": "Ceph", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "RAL-LCG2_SE_LHCB", 
@@ -26159,7 +26039,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2867, 
-        "impl": "Echo", 
+        "impl": "Ceph", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T1_UK_RAL_SE_CMS", 
@@ -26604,14 +26484,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1603, 
-        "impl": "DPM", 
+        "impl": "dCache", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "RO-07-NIPNE_SE_0_ATLAS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "1.14.2"
+        "version": "7.2.16"
       }, 
       {
         "arch": "Disk", 
@@ -26634,7 +26514,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1980, 
-        "impl": "dCache", 
+        "impl": "DPM", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "RO-07-NIPNE_SE_LHCB", 
@@ -27511,7 +27391,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "7.2.16"
+        "version": "7.2.17"
       }, 
       {
         "arch": "Tape", 
@@ -27526,7 +27406,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "7.2.17"
+        "version": "7.2.16"
       }, 
       {
         "arch": "Disk", 
@@ -28341,7 +28221,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.12"
+        "version": "8.2.20"
       }
     ], 
     "sites": [
@@ -28394,14 +28274,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2896, 
-        "impl": "", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T3_US_Rice_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }
     ], 
     "sites": [
@@ -28771,14 +28651,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2725, 
-        "impl": "xrootd", 
+        "impl": "EOS", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "SAMPA_SE_ATLAS_ATLAS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": null
+        "version": "5.0.2-1"
       }
     ], 
     "sites": [
@@ -28816,7 +28696,7 @@
     "cpu_capacity": 114428, 
     "crr_url": "", 
     "description": "SARA-MATRIX (GinA)", 
-    "disk_capacity": 12100000000000000, 
+    "disk_capacity": 12284000000000000, 
     "federations": [
       "NL-T1"
     ], 
@@ -29003,7 +28883,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2076, 
-        "impl": "dCache", 
+        "impl": "dcache", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "SARA-MATRIX_SE", 
@@ -29033,7 +28913,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1439, 
-        "impl": "dCache", 
+        "impl": "dcache", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "SARA-MATRIX_SE_ALICE", 
@@ -29048,7 +28928,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1884, 
-        "impl": "dCache", 
+        "impl": "dcache", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "SARA-MATRIX_SE_ALICE_TAPE", 
@@ -29063,7 +28943,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1677, 
-        "impl": "dCache", 
+        "impl": "dcache", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "SARA-MATRIX_SE_ATLAS_TAPE", 
@@ -29078,7 +28958,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1773, 
-        "impl": "dCache", 
+        "impl": "dcache", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "SARA-MATRIX_SE_LHCB", 
@@ -29109,7 +28989,7 @@
     "srr_url": "", 
     "state": "ACTIVE", 
     "status": "production", 
-    "tape_capacity": 31824000000000000, 
+    "tape_capacity": 37305000000000000, 
     "timezone": "Europe/Amsterdam"
   }, 
   "SBU_Tier3": {
@@ -29266,7 +29146,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1437, 
-        "impl": "", 
+        "impl": "dCache", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "SE-SNIC-T2_SE_ALICE", 
@@ -29583,7 +29463,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2830, 
-        "impl": "dCache", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T2_BR_SPRACE_SE_CMS", 
@@ -29905,14 +29785,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1660, 
-        "impl": "", 
+        "impl": "XRootD", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "SWT2_CPB_SE_0_ATLAS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": null
+        "version": "4.12.6"
       }, 
       {
         "arch": "", 
@@ -30452,7 +30332,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2858, 
-        "impl": "HDFS", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T2_EE_Estonia_SE_CMS", 
@@ -30745,7 +30625,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1829, 
-        "impl": "dCache", 
+        "impl": "dcache", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T3_CH_PSI_SE_CMS", 
@@ -30909,7 +30789,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1806, 
-        "impl": "", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T3_KR_KISTI_SE_CMS", 
@@ -30969,14 +30849,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2785, 
-        "impl": "", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T3_US_CMU_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }
     ], 
     "sites": [
@@ -31346,7 +31226,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1702, 
-        "impl": "StoRM", 
+        "impl": "storm", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "TECHNION-HEP_SE_0_ATLAS", 
@@ -32747,19 +32627,19 @@
     "rc_tier_level": 2, 
     "services": [
       {
-        "arch": "", 
-        "description": "", 
+        "arch": "Disk", 
+        "description": "Head node kept at 8.2.16 for avoiding the dCache soft link bug.", 
         "endpoint": null, 
         "flavour": null, 
         "id": 2852, 
-        "impl": "DPM", 
+        "impl": "dcache", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T2_TW_NCHC_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "1.15.2"
+        "version": "8.2.16"
       }, 
       {
         "arch": "", 
@@ -32898,7 +32778,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2832, 
-        "impl": "DPM", 
+        "impl": "EOS", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T3_TW_NCU_SE_CMS", 
@@ -32973,7 +32853,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2890, 
-        "impl": "DPM", 
+        "impl": "dCache", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T3_TW_NTU_HEP_SE_CMS", 
@@ -34128,14 +34008,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2899, 
-        "impl": "", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T2_US_UCSD_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }, 
       {
         "arch": "", 
@@ -34298,14 +34178,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2860, 
-        "impl": "", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T3_US_Colorado_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }, 
       {
         "arch": "", 
@@ -34362,8 +34242,57 @@
     "longitude": -43.056793, 
     "monit_tag": "Brazil", 
     "name": "UERJ", 
-    "netroutes": {}, 
-    "netsites": {}, 
+    "netroutes": {
+      "UERJ-LHCONE": {
+        "asn": 2715, 
+        "id": 285, 
+        "is_ms": false, 
+        "last_modified": "2023-05-10T21:10:13.135521", 
+        "lhcone_bandwidth_limit": 10, 
+        "lhcone_collaborations": [
+          " WLCG", 
+          "cms", 
+          "US-CMS"
+        ], 
+        "lhcopn_bandwidth_limit": -1, 
+        "monit_url": "", 
+        "name": "UERJ-LHCONE", 
+        "netsite": "BR-UERJ", 
+        "netsite_spare": null, 
+        "networks": {
+          "ipv4": [
+            "152.92.255.0/24"
+          ], 
+          "ipv6": [
+            "2804:1f10:8010:a032::1/64"
+          ]
+        }
+      }
+    }, 
+    "netsites": {
+      "BR-UERJ": {
+        "description": "", 
+        "id": 161, 
+        "info_url": "https://www.hepgrid.uerj.br/english", 
+        "last_modified": "2023-05-10T16:44:47.422790", 
+        "lhcone_active": true, 
+        "lhcone_aup_date": "2023-05-05T00:00:00", 
+        "lhcone_bandwidth": 10, 
+        "lhcone_providers": [
+          "RNP", 
+          "Rederio"
+        ], 
+        "lhcopn_active": false, 
+        "lhcopn_bandwidth": -1, 
+        "monit_url": "", 
+        "name": "BR-UERJ", 
+        "noc": [
+          "ceo@cbpf.br", 
+          "ceo@rederio.br"
+        ], 
+        "wan_bandwidth": 10
+      }
+    }, 
     "oim_groupid": 42, 
     "rc_tier_level": 2, 
     "services": [
@@ -34373,14 +34302,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2884, 
-        "impl": "", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T2_BR_UERJ_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }, 
       {
         "arch": "", 
@@ -34579,14 +34508,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2847, 
-        "impl": "", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T2_US_Florida_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }, 
       {
         "arch": "", 
@@ -34848,7 +34777,7 @@
         "endpoint": "dc2-grid-21.brunel.ac.uk:2811", 
         "flavour": "ARC-CE", 
         "id": 734, 
-        "impl": "", 
+        "impl": "DPM", 
         "is_monitored": true, 
         "is_virtual": false, 
         "name": "UKI-LT2-Brunel-CE-ARC-CE-dc2-grid-21.brunel.ac.uk", 
@@ -35176,7 +35105,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "7.2"
+        "version": "7.2.32"
       }, 
       {
         "arch": "Disk", 
@@ -35191,7 +35120,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "7.2"
+        "version": "7.2.32"
       }
     ], 
     "sites": [
@@ -35344,7 +35273,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1645, 
-        "impl": "StoRM", 
+        "impl": "storm", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "UKI-LT2-QMUL_SE_0_ATLAS", 
@@ -35359,7 +35288,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1644, 
-        "impl": "StoRM", 
+        "impl": "storm", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "UKI-LT2-QMUL_SE_1_ATLAS", 
@@ -35374,7 +35303,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1801, 
-        "impl": "StoRM", 
+        "impl": "storm", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "UKI-LT2-QMUL_SE_LHCB", 
@@ -35411,8 +35340,8 @@
   "UKI-LT2-RHUL": {
     "altname": "Royal Holloway", 
     "cert_status": "certified", 
-    "coreenergy": 10.0, 
-    "corepower": 0.0, 
+    "coreenergy": 8.0, 
+    "corepower": 11.6, 
     "cores": 0, 
     "country": "United Kingdom", 
     "country_code": "GB", 
@@ -35439,7 +35368,7 @@
     "rc_tier_level": 2, 
     "services": [
       {
-        "arch": "", 
+        "arch": "HTCondor-CE", 
         "description": "", 
         "endpoint": "htc01.ppgrid1.rhul.ac.uk:9619", 
         "flavour": "HTCONDOR-CE", 
@@ -35694,7 +35623,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 3123, 
-        "impl": "xrootd", 
+        "impl": "CEPHFS", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "UKI-NORTHGRID-LANCS-HEP_SE_1_ATLAS", 
@@ -36499,14 +36428,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1584, 
-        "impl": "DPM", 
+        "impl": "dCache", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "UKI-SCOTGRID-ECDF_SE_0_ATLAS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "1.15.2"
+        "version": "8.2.11"
       }, 
       {
         "arch": "Disk", 
@@ -37072,11 +37001,11 @@
     "altname": "University of Oxford", 
     "cert_status": "certified", 
     "coreenergy": 10.0, 
-    "corepower": 9.48392652123995, 
-    "cores": 391, 
+    "corepower": 12.45, 
+    "cores": 231, 
     "country": "United Kingdom", 
     "country_code": "GB", 
-    "cpu_capacity": 29685, 
+    "cpu_capacity": 50000, 
     "crr_url": "", 
     "description": "Tier 2 at Oxford Particle Physics Department", 
     "disk_capacity": 0, 
@@ -37226,7 +37155,7 @@
         "vo_name": "atlas"
       }
     ], 
-    "slots": 3130, 
+    "slots": 6022, 
     "srr_url": "", 
     "state": "ACTIVE", 
     "status": "production", 
@@ -37826,14 +37755,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2883, 
-        "impl": "", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T3_US_UMiss_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }, 
       {
         "arch": "", 
@@ -37961,7 +37890,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1627, 
-        "impl": "", 
+        "impl": "xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "UNI-BONN_SE_1_ATLAS", 
@@ -38130,7 +38059,7 @@
         "is_virtual": false, 
         "name": "UNI-FREIBURG-PerfSonar-Latency-ps01.bfg.uni-freiburg.de", 
         "state": "ACTIVE", 
-        "status": "production", 
+        "status": "DISABLED", 
         "type": "PerfSonar", 
         "version": null
       }, 
@@ -38553,14 +38482,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2887, 
-        "impl": "", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T2_US_Nebraska_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }
     ], 
     "sites": [], 
@@ -39312,7 +39241,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2870, 
-        "impl": "dCache", 
+        "impl": "EOS", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T3_US_FNALLPC_SE_CMS", 
@@ -39533,7 +39462,7 @@
     "srr_url": "", 
     "state": "ACTIVE", 
     "status": "production", 
-    "tape_capacity": 104062222222222224, 
+    "tape_capacity": 126400000000000000, 
     "timezone": ""
   }, 
   "USCST3": {
@@ -39927,14 +39856,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2863, 
-        "impl": "", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T2_US_Vanderbilt_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }, 
       {
         "arch": "", 
@@ -40303,21 +40232,6 @@
       {
         "arch": "", 
         "description": "", 
-        "endpoint": "osgserv06.slac.stanford.edu:9619", 
-        "flavour": "HTCONDOR-CE", 
-        "id": 1570, 
-        "impl": "", 
-        "is_monitored": true, 
-        "is_virtual": false, 
-        "name": "WT2-CE-HTCONDOR-CE-osgserv06.slac.stanford.edu", 
-        "state": "ACTIVE", 
-        "status": "production", 
-        "type": "CE", 
-        "version": null
-      }, 
-      {
-        "arch": "", 
-        "description": "", 
         "endpoint": "psnr-farm04.slac.stanford.edu", 
         "flavour": "Bandwidth", 
         "id": 969, 
@@ -40366,14 +40280,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2120, 
-        "impl": "", 
+        "impl": "xrootd", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "WT2_SE_ATLAS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": null
+        "version": "5.1.1"
       }
     ], 
     "sites": [
@@ -40759,14 +40673,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2835, 
-        "impl": "", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T3_US_Brown_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }
     ], 
     "sites": [
@@ -40834,14 +40748,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2895, 
-        "impl": "", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T3_MX_Cinvestav_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }
     ], 
     "sites": [
@@ -40894,14 +40808,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 3076, 
-        "impl": "", 
+        "impl": "StoRM", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T3_HR_IRB_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }
     ], 
     "sites": [
@@ -41065,7 +40979,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2088, 
-        "impl": "", 
+        "impl": "dcache", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "ifae_SE", 
@@ -41087,7 +41001,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "5.2.16"
+        "version": "8.2.14"
       }
     ], 
     "sites": [
@@ -41140,7 +41054,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1578, 
-        "impl": "StoRM", 
+        "impl": "storm", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "mainz_SE_0_ATLAS", 
@@ -41295,7 +41209,7 @@
     "cpu_capacity": 125811, 
     "crr_url": "", 
     "description": "Tier-1 Spanish site", 
-    "disk_capacity": 12080000000000000, 
+    "disk_capacity": 13480000000000000, 
     "federations": [
       "ES-PIC"
     ], 
@@ -41344,10 +41258,10 @@
         "description": "", 
         "id": 76, 
         "info_url": "", 
-        "last_modified": "2022-12-03T23:09:14.022795", 
+        "last_modified": "2023-05-09T21:19:44.296778", 
         "lhcone_active": true, 
         "lhcone_aup_date": "2017-01-01T00:00:00", 
-        "lhcone_bandwidth": 50, 
+        "lhcone_bandwidth": 70, 
         "lhcone_providers": [
           "REDIRIS"
         ], 
@@ -41505,7 +41419,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2045, 
-        "impl": "", 
+        "impl": "dCache", 
         "is_monitored": false, 
         "is_virtual": true, 
         "name": "pic_SE", 
@@ -41601,7 +41515,7 @@
     "srr_url": "", 
     "state": "ACTIVE", 
     "status": "production", 
-    "tape_capacity": 32640000000000000, 
+    "tape_capacity": 38760000000000000, 
     "timezone": "Europe/Madrid"
   }, 
   "praguelcg2": {
@@ -41665,8 +41579,8 @@
       "CZ-praguelcg": {
         "description": "", 
         "id": 57, 
-        "info_url": "", 
-        "last_modified": "2022-02-03T19:39:51.228562", 
+        "info_url": "https://www.farm.particle.cz/praguelcg2.html", 
+        "last_modified": "2023-04-25T12:53:38.627798", 
         "lhcone_active": true, 
         "lhcone_aup_date": "2017-01-01T00:00:00", 
         "lhcone_bandwidth": 100, 
@@ -41675,7 +41589,7 @@
         ], 
         "lhcopn_active": false, 
         "lhcopn_bandwidth": -1, 
-        "monit_url": "", 
+        "monit_url": "https://www.farm.particle.cz/wlcg-net-info.json", 
         "name": "CZ-praguelcg", 
         "noc": [], 
         "wan_bandwidth": 0
@@ -41684,21 +41598,6 @@
     "oim_groupid": null, 
     "rc_tier_level": 2, 
     "services": [
-      {
-        "arch": "", 
-        "description": "", 
-        "endpoint": "arc-it4i.farm.particle.cz:2811", 
-        "flavour": "ARC-CE", 
-        "id": 340, 
-        "impl": "", 
-        "is_monitored": false, 
-        "is_virtual": false, 
-        "name": "praguelcg2-CE-ARC-CE-arc-it4i.farm.particle.cz", 
-        "state": "ACTIVE", 
-        "status": "DISABLED", 
-        "type": "CE", 
-        "version": null
-      }, 
       {
         "arch": "", 
         "description": "", 
@@ -41892,7 +41791,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.16"
+        "version": "8.2.22"
       }, 
       {
         "arch": "Disk", 
@@ -42710,14 +42609,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2892, 
-        "impl": "", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T3_US_Rutgers_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }
     ], 
     "sites": [
@@ -42770,14 +42669,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2839, 
-        "impl": "", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T3_US_UMD_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }, 
       {
         "arch": "", 
@@ -42845,14 +42744,14 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 2904, 
-        "impl": "", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T3_US_PuertoRico_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": ""
+        "version": null
       }, 
       {
         "arch": "", 

@@ -73,7 +73,7 @@
         "asn": 237, 
         "id": 11, 
         "is_ms": false, 
-        "last_modified": "2021-11-12T15:09:29.499293", 
+        "last_modified": "2023-05-24T02:26:15.081929", 
         "lhcone_bandwidth_limit": 100, 
         "lhcone_collaborations": [
           "US-ATLAS", 
@@ -86,6 +86,7 @@
         "netsite_spare": null, 
         "networks": {
           "ipv6": [
+            "2001:48a8:68f7:8000::/50", 
             "2001:48a8:68f7:8001::/64"
           ]
         }
@@ -116,7 +117,7 @@
         "asn": 237, 
         "id": 10, 
         "is_ms": false, 
-        "last_modified": "2021-11-12T15:08:25.557327", 
+        "last_modified": "2023-05-24T02:27:10.970729", 
         "lhcone_bandwidth_limit": 80, 
         "lhcone_collaborations": [
           "US-ATLAS", 
@@ -129,7 +130,8 @@
         "netsite_spare": null, 
         "networks": {
           "ipv6": [
-            "2001:48a8:68f7:1::/64"
+            "2001:48a8:68f7:1::/64", 
+            "2001:48a8:68f7::/50"
           ]
         }
       }
@@ -514,8 +516,8 @@
         "asn": 683, 
         "id": 227, 
         "is_ms": false, 
-        "last_modified": "2022-01-19T15:43:38.158627", 
-        "lhcone_bandwidth_limit": 9, 
+        "last_modified": "2023-05-17T10:36:20.868378", 
+        "lhcone_bandwidth_limit": 100, 
         "lhcone_collaborations": [
           "wlcg"
         ], 
@@ -526,6 +528,7 @@
         "netsite_spare": null, 
         "networks": {
           "ipv4": [
+            "140.221.112.0/20", 
             "140.221.68.0/24", 
             "140.221.69.0/24", 
             "140.221.96.0/23"
@@ -541,7 +544,7 @@
         "description": "", 
         "id": 94, 
         "info_url": "", 
-        "last_modified": "2021-12-17T15:33:56.562407", 
+        "last_modified": "2023-05-17T10:37:31.406074", 
         "lhcone_active": true, 
         "lhcone_aup_date": "2017-01-01T00:00:00", 
         "lhcone_bandwidth": 100, 
@@ -555,7 +558,7 @@
         "noc": [
           "noc@anl.gov"
         ], 
-        "wan_bandwidth": 0
+        "wan_bandwidth": 400
       }
     }, 
     "oim_groupid": 283, 
@@ -1112,6 +1115,36 @@
       {
         "arch": "", 
         "description": "", 
+        "endpoint": "ce1atlas.coepp.org.au:2811", 
+        "flavour": "ARC-CE", 
+        "id": 339, 
+        "impl": "", 
+        "is_monitored": true, 
+        "is_virtual": false, 
+        "name": "Australia-ATLAS-CE-ARC-CE-ce1atlas.coepp.org.au", 
+        "state": "ACTIVE", 
+        "status": "production", 
+        "type": "CE", 
+        "version": null
+      }, 
+      {
+        "arch": "", 
+        "description": "", 
+        "endpoint": "ce3atlas.coepp.org.au:2811", 
+        "flavour": "ARC-CE", 
+        "id": 696, 
+        "impl": "", 
+        "is_monitored": true, 
+        "is_virtual": false, 
+        "name": "Australia-ATLAS-CE-ARC-CE-ce3atlas.coepp.org.au", 
+        "state": "ACTIVE", 
+        "status": "production", 
+        "type": "CE", 
+        "version": null
+      }, 
+      {
+        "arch": "", 
+        "description": "", 
         "endpoint": "ps-bandwidth.atlas.unimelb.edu.au", 
         "flavour": "Bandwidth", 
         "id": 956, 
@@ -1389,6 +1422,21 @@
         "status": "production", 
         "type": "Squid", 
         "version": null
+      }, 
+      {
+        "arch": "Disk", 
+        "description": "cceos.ihep.ac.cn", 
+        "endpoint": null, 
+        "flavour": null, 
+        "id": 3291, 
+        "impl": "EOS", 
+        "is_monitored": false, 
+        "is_virtual": true, 
+        "name": "BEIJING-LCG2_SE_1_ATLAS", 
+        "state": "ACTIVE", 
+        "status": null, 
+        "type": "SE", 
+        "version": "5.1.19-1"
       }, 
       {
         "arch": "Disk", 
@@ -1746,7 +1794,7 @@
         "asn": 43, 
         "id": 122, 
         "is_ms": false, 
-        "last_modified": "2022-03-23T16:09:03.445390", 
+        "last_modified": "2023-05-22T10:49:53.003754", 
         "lhcone_bandwidth_limit": 400, 
         "lhcone_collaborations": [
           "WLCG", 
@@ -1763,7 +1811,6 @@
           "ipv4": [
             "130.199.185.0/24", 
             "130.199.48.0/23", 
-            "130.199.54.0/24", 
             "192.12.15.0/24", 
             "192.33.128.0/24"
           ], 
@@ -2696,21 +2743,6 @@
         "status": null, 
         "type": "SE", 
         "version": null
-      }, 
-      {
-        "arch": "Tape", 
-        "description": "", 
-        "endpoint": null, 
-        "flavour": null, 
-        "id": 3120, 
-        "impl": "", 
-        "is_monitored": false, 
-        "is_virtual": true, 
-        "name": "BU_ATLAS_Tier2_SE_ATLAS_TAPE", 
-        "state": "ACTIVE", 
-        "status": null, 
-        "type": "SE", 
-        "version": ""
       }
     ], 
     "sites": [
@@ -5290,7 +5322,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "5.1.16-1"
+        "version": "5.1.22-1"
       }, 
       {
         "arch": "Disk", 
@@ -7416,23 +7448,7 @@
     "netsites": {}, 
     "oim_groupid": 388, 
     "rc_tier_level": 2, 
-    "services": [
-      {
-        "arch": "", 
-        "description": "", 
-        "endpoint": "crane-gw1.unl.edu:9619", 
-        "flavour": "HTCONDOR-CE", 
-        "id": 1371, 
-        "impl": "", 
-        "is_monitored": false, 
-        "is_virtual": false, 
-        "name": "Crane-CE-HTCONDOR-CE-crane-gw1.unl.edu", 
-        "state": "ACTIVE", 
-        "status": "production", 
-        "type": "CE", 
-        "version": "3.4.0"
-      }
-    ], 
+    "services": [], 
     "sites": [], 
     "slots": 0, 
     "srr_url": "", 
@@ -9512,7 +9528,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.17"
+        "version": "8.2.22"
       }, 
       {
         "arch": "Disk", 
@@ -9557,7 +9573,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.17"
+        "version": "8.2.22"
       }, 
       {
         "arch": "Tape", 
@@ -9572,7 +9588,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.10"
+        "version": "8.2.22"
       }, 
       {
         "arch": "Disk", 
@@ -9587,7 +9603,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.18"
+        "version": "8.2.22"
       }, 
       {
         "arch": "Tape", 
@@ -9602,7 +9618,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.18"
+        "version": "8.2.22"
       }, 
       {
         "arch": "Disk", 
@@ -9617,7 +9633,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.18"
+        "version": "8.2.22"
       }, 
       {
         "arch": "Tape", 
@@ -9632,7 +9648,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.18"
+        "version": "8.2.22"
       }, 
       {
         "arch": "", 
@@ -9647,7 +9663,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.10"
+        "version": "8.2.22"
       }
     ], 
     "sites": [
@@ -12340,7 +12356,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "7.2.37"
+        "version": "7.2.41"
       }, 
       {
         "arch": "Disk", 
@@ -14532,11 +14548,11 @@
         "flavour": "Bandwidth", 
         "id": 993, 
         "impl": "", 
-        "is_monitored": true, 
+        "is_monitored": false, 
         "is_virtual": false, 
         "name": "IN2P3-SUBATECH-PerfSonar-Bandwidth-nanperfs02.in2p3.fr", 
         "state": "ACTIVE", 
-        "status": "production", 
+        "status": "DISABLED", 
         "type": "PerfSonar", 
         "version": null
       }, 
@@ -14547,11 +14563,11 @@
         "flavour": "Latency", 
         "id": 1035, 
         "impl": "", 
-        "is_monitored": true, 
+        "is_monitored": false, 
         "is_virtual": false, 
         "name": "IN2P3-SUBATECH-PerfSonar-Latency-nanperfs01.in2p3.fr", 
         "state": "ACTIVE", 
-        "status": "production", 
+        "status": "DISABLED", 
         "type": "PerfSonar", 
         "version": null
       }
@@ -15428,6 +15444,21 @@
     "oim_groupid": null, 
     "rc_tier_level": 3, 
     "services": [
+      {
+        "arch": "", 
+        "description": "", 
+        "endpoint": "htc-recas-ce-03.cs.infn.it", 
+        "flavour": "HTCONDOR-CE", 
+        "id": 3248, 
+        "impl": "", 
+        "is_monitored": true, 
+        "is_virtual": false, 
+        "name": "INFN-COSENZA-CE-HTCONDOR-CE-htc-recas-ce-03.cs.infn.it", 
+        "state": "ACTIVE", 
+        "status": "production", 
+        "type": "CE", 
+        "version": ""
+      }, 
       {
         "arch": "", 
         "description": "", 
@@ -17559,7 +17590,7 @@
     "cpu_capacity": 278249, 
     "crr_url": "", 
     "description": "INFN-T1 Site", 
-    "disk_capacity": 40570306664819574, 
+    "disk_capacity": 37090000000000000, 
     "federations": [
       "IT-INFN-CNAF"
     ], 
@@ -19375,7 +19406,7 @@
     "cpu_capacity": 0, 
     "crr_url": "", 
     "description": "GSDC ALICE Tier1", 
-    "disk_capacity": 21590046865843428, 
+    "disk_capacity": 4510000000000000, 
     "federations": [
       "KR-KISTI-GSDC"
     ], 
@@ -20632,8 +20663,8 @@
         "asn": 3, 
         "id": 171, 
         "is_ms": false, 
-        "last_modified": "2022-02-11T16:08:38.050244", 
-        "lhcone_bandwidth_limit": 9, 
+        "last_modified": "2023-05-17T10:38:19.094857", 
+        "lhcone_bandwidth_limit": 100, 
         "lhcone_collaborations": [
           "WLCG"
         ], 
@@ -20644,7 +20675,8 @@
         "netsite_spare": null, 
         "networks": {
           "ipv4": [
-            "18.12.0.0/20"
+            "18.12.0.0/20", 
+            "18.12.17.0/24"
           ], 
           "ipv6": [
             "2603:4000:c00::/48"
@@ -20657,10 +20689,10 @@
         "description": "", 
         "id": 17, 
         "info_url": "", 
-        "last_modified": "2022-10-20T17:25:01.320616", 
+        "last_modified": "2023-05-17T10:38:49.410304", 
         "lhcone_active": true, 
         "lhcone_aup_date": "2017-01-01T00:00:00", 
-        "lhcone_bandwidth": 9, 
+        "lhcone_bandwidth": 100, 
         "lhcone_providers": [
           "ESnet"
         ], 
@@ -20671,7 +20703,7 @@
         "noc": [
           "network@mit.edu"
         ], 
-        "wan_bandwidth": 0
+        "wan_bandwidth": 100
       }
     }, 
     "oim_groupid": 66, 
@@ -21871,8 +21903,53 @@
     "longitude": 21.3364858, 
     "monit_tag": "Poland", 
     "name": "NCBJ-CIS", 
-    "netroutes": {}, 
-    "netsites": {}, 
+    "netroutes": {
+      "NCBJ-LHCOPN": {
+        "asn": 198743, 
+        "id": 287, 
+        "is_ms": false, 
+        "last_modified": "2023-05-24T13:31:55.351547", 
+        "lhcone_bandwidth_limit": 20, 
+        "lhcone_collaborations": [
+          " WLCG"
+        ], 
+        "lhcopn_bandwidth_limit": 20, 
+        "monit_url": "", 
+        "name": "NCBJ-LHCOPN", 
+        "netsite": "PL-NCBJ-CIS", 
+        "netsite_spare": null, 
+        "networks": {
+          "ipv4": [
+            "192.68.51.0/24"
+          ], 
+          "ipv6": [
+            "2001:67c:2870::/48"
+          ]
+        }
+      }
+    }, 
+    "netsites": {
+      "PL-NCBJ-CIS": {
+        "description": "", 
+        "id": 163, 
+        "info_url": "", 
+        "last_modified": "2023-05-24T13:21:21.331409", 
+        "lhcone_active": true, 
+        "lhcone_aup_date": null, 
+        "lhcone_bandwidth": 20, 
+        "lhcone_providers": [
+          "PIONIER"
+        ], 
+        "lhcopn_active": true, 
+        "lhcopn_bandwidth": 20, 
+        "monit_url": "", 
+        "name": "PL-NCBJ-CIS", 
+        "noc": [
+          "nst@cis.gov.pl"
+        ], 
+        "wan_bandwidth": 10
+      }
+    }, 
     "oim_groupid": null, 
     "rc_tier_level": 2, 
     "services": [
@@ -22945,8 +23022,53 @@
     "longitude": 0.0, 
     "monit_tag": "USA", 
     "name": "NET2", 
-    "netroutes": {}, 
-    "netsites": {}, 
+    "netroutes": {
+      "NET2-LHCONE": {
+        "asn": 1929, 
+        "id": 286, 
+        "is_ms": false, 
+        "last_modified": "2023-05-16T11:26:00.608365", 
+        "lhcone_bandwidth_limit": 10, 
+        "lhcone_collaborations": [
+          "US-ATLAS"
+        ], 
+        "lhcopn_bandwidth_limit": -1, 
+        "monit_url": "", 
+        "name": "NET2-LHCONE", 
+        "netsite": "US-NET2", 
+        "netsite_spare": null, 
+        "networks": {
+          "ipv4": [
+            "69.16.44.0/23"
+          ], 
+          "ipv6": [
+            "2001:48e8:6401::/63"
+          ]
+        }
+      }
+    }, 
+    "netsites": {
+      "US-NET2": {
+        "description": "", 
+        "id": 162, 
+        "info_url": "", 
+        "last_modified": "2023-05-16T11:23:18.833104", 
+        "lhcone_active": true, 
+        "lhcone_aup_date": "2022-12-14T00:00:00", 
+        "lhcone_bandwidth": 10, 
+        "lhcone_providers": [
+          "ESnet"
+        ], 
+        "lhcopn_active": false, 
+        "lhcopn_bandwidth": -1, 
+        "monit_url": "", 
+        "name": "US-NET2", 
+        "noc": [
+          "net2-noc@groups.umass.edu"
+        ], 
+        "wan_bandwidth": 10
+      }
+    }, 
     "oim_groupid": null, 
     "rc_tier_level": 2, 
     "services": [], 
@@ -23842,7 +23964,7 @@
         "asn": 7896, 
         "id": 177, 
         "is_ms": false, 
-        "last_modified": "2022-08-01T22:58:02.424480", 
+        "last_modified": "2023-05-16T16:10:29.916940", 
         "lhcone_bandwidth_limit": 100, 
         "lhcone_collaborations": [
           "WLCG", 
@@ -23856,6 +23978,7 @@
         "networks": {
           "ipv4": [
             "129.93.153.0/24", 
+            "129.93.179.0/24", 
             "129.93.182.0/23", 
             "129.93.239.128/26", 
             "129.93.244.192/26"
@@ -23864,8 +23987,12 @@
             "2600:900:6:1101::/64", 
             "2600:900:6:1102::/64", 
             "2600:900:6:1103::/64", 
+            "2600:900:6:1180::/64", 
+            "2600:900:6:1181::/64", 
+            "2600:900:6:1182::/64", 
             "2600:900:6:1301::/64", 
             "2600:900:6:1302::/64", 
+            "2600:900:6:1401::/64", 
             "2600:900:6:3103::/64"
           ]
         }
@@ -25845,11 +25972,11 @@
         "flavour": "Latency", 
         "id": 828, 
         "impl": "", 
-        "is_monitored": true, 
+        "is_monitored": false, 
         "is_virtual": false, 
         "name": "RAL-LCG2-PerfSonar-Latency-lcgps01.gridpp.rl.ac.uk", 
         "state": "ACTIVE", 
-        "status": "production", 
+        "status": "DISABLED", 
         "type": "PerfSonar", 
         "version": null
       }, 
@@ -30625,7 +30752,7 @@
         "endpoint": null, 
         "flavour": null, 
         "id": 1829, 
-        "impl": "dcache", 
+        "impl": "dCache", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T3_CH_PSI_SE_CMS", 
@@ -32297,7 +32424,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "6.2.39"
+        "version": "7.2.40"
       }, 
       {
         "arch": "Disk", 
@@ -32312,7 +32439,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "6.2.39"
+        "version": "7.2.40"
       }, 
       {
         "arch": "Disk", 
@@ -32342,7 +32469,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "6.2.39"
+        "version": "7.2.40"
       }, 
       {
         "arch": "Tape", 
@@ -33168,21 +33295,6 @@
         "status": null, 
         "type": "SE", 
         "version": "1.15.1"
-      }, 
-      {
-        "arch": "Disk", 
-        "description": "TAIWAN-LCG2 EOS instance", 
-        "endpoint": null, 
-        "flavour": null, 
-        "id": 3108, 
-        "impl": "EOS", 
-        "is_monitored": false, 
-        "is_virtual": true, 
-        "name": "Taiwan-LCG2_SE_1_ATLAS", 
-        "state": "ACTIVE", 
-        "status": null, 
-        "type": "SE", 
-        "version": null
       }
     ], 
     "sites": [
@@ -34682,50 +34794,6 @@
     "tape_capacity": 0, 
     "timezone": ""
   }, 
-  "UKI-GridPP-Cloud-IC": {
-    "altname": "GridPP Cloud, Imperial College", 
-    "cert_status": "candidate", 
-    "coreenergy": 10.0, 
-    "corepower": 0.0, 
-    "cores": 0, 
-    "country": "United Kingdom", 
-    "country_code": "GB", 
-    "cpu_capacity": 0, 
-    "crr_url": "", 
-    "description": "Imperial College GridPP Cloud", 
-    "disk_capacity": 0, 
-    "federations": [
-      "NON-MOU-Federation"
-    ], 
-    "gocdb_pk": "93068G08", 
-    "gocdb_url": "https://goc.egi.eu/portal/index.php?Page_Type=Site&id=1064", 
-    "id": 754, 
-    "infourl": "", 
-    "institute": "", 
-    "is_pledged": false, 
-    "latitude": 51.4994530034, 
-    "longitude": -0.17897844314575, 
-    "monit_tag": "UK", 
-    "name": "UKI-GridPP-Cloud-IC", 
-    "netroutes": {}, 
-    "netsites": {}, 
-    "oim_groupid": null, 
-    "rc_tier_level": 3, 
-    "services": [], 
-    "sites": [
-      {
-        "name": "UKI-GRIDPP-CLOUD-IC", 
-        "tier_level": 3, 
-        "vo_name": "atlas"
-      }
-    ], 
-    "slots": 0, 
-    "srr_url": "", 
-    "state": "ACTIVE", 
-    "status": "production", 
-    "tape_capacity": 0, 
-    "timezone": "Europe/London"
-  }, 
   "UKI-LT2-Brunel": {
     "altname": "Brunel University", 
     "cert_status": "certified", 
@@ -34860,21 +34928,6 @@
         "status": "production", 
         "type": "Squid", 
         "version": null
-      }, 
-      {
-        "arch": "Disk", 
-        "description": "", 
-        "endpoint": null, 
-        "flavour": null, 
-        "id": 1631, 
-        "impl": "DPM", 
-        "is_monitored": false, 
-        "is_virtual": true, 
-        "name": "UKI-LT2-Brunel_SE_0_ATLAS", 
-        "state": "ACTIVE", 
-        "status": null, 
-        "type": "SE", 
-        "version": "1.14.2"
       }
     ], 
     "sites": [
@@ -36888,19 +36941,19 @@
     "rc_tier_level": 2, 
     "services": [
       {
-        "arch": "", 
+        "arch": "Disk", 
         "description": "", 
         "endpoint": null, 
         "flavour": null, 
         "id": 2900, 
-        "impl": "DPM", 
+        "impl": "Xrootd", 
         "is_monitored": true, 
         "is_virtual": true, 
         "name": "T2_UK_SGrid_Bristol_SE_CMS", 
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "1.9.0"
+        "version": "5.5.4"
       }, 
       {
         "arch": "", 
@@ -39802,8 +39855,8 @@
         "asn": 7212, 
         "id": 209, 
         "is_ms": false, 
-        "last_modified": "2022-03-09T08:08:08.268535", 
-        "lhcone_bandwidth_limit": 9, 
+        "last_modified": "2023-05-24T14:16:39.923512", 
+        "lhcone_bandwidth_limit": 100, 
         "lhcone_collaborations": [
           "WLCG"
         ], 
@@ -39814,11 +39867,8 @@
         "netsite_spare": null, 
         "networks": {
           "ipv4": [
-            "129.59.177.96/27", 
             "129.59.197.0/24", 
-            "129.59.59.0/25", 
-            "192.111.108.0/24", 
-            "192.111.110.80/28"
+            "129.59.59.0/25"
           ], 
           "ipv6": [
             "2607:8a00:17:1496::/64", 
@@ -41001,7 +41051,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.14"
+        "version": "8.2.22"
       }
     ], 
     "sites": [
@@ -41209,7 +41259,7 @@
     "cpu_capacity": 125811, 
     "crr_url": "", 
     "description": "Tier-1 Spanish site", 
-    "disk_capacity": 13480000000000000, 
+    "disk_capacity": 12520000000000000, 
     "federations": [
       "ES-PIC"
     ], 
@@ -41426,7 +41476,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.14"
+        "version": "8.2.22"
       }, 
       {
         "arch": "Disk", 
@@ -41441,7 +41491,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.14"
+        "version": "8.2.22"
       }, 
       {
         "arch": "Tape", 
@@ -41456,7 +41506,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.14"
+        "version": "8.2.22"
       }, 
       {
         "arch": "Disk", 
@@ -41471,7 +41521,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.14"
+        "version": "8.2.22"
       }, 
       {
         "arch": "", 
@@ -41486,7 +41536,7 @@
         "state": "ACTIVE", 
         "status": null, 
         "type": "SE", 
-        "version": "8.2.14"
+        "version": "8.2.22"
       }
     ], 
     "sites": [
@@ -41515,7 +41565,7 @@
     "srr_url": "", 
     "state": "ACTIVE", 
     "status": "production", 
-    "tape_capacity": 38760000000000000, 
+    "tape_capacity": 38770000000000000, 
     "timezone": "Europe/Madrid"
   }, 
   "praguelcg2": {
@@ -41598,6 +41648,21 @@
     "oim_groupid": null, 
     "rc_tier_level": 2, 
     "services": [
+      {
+        "arch": "", 
+        "description": "", 
+        "endpoint": "arc-it4i.farm.particle.cz:2811", 
+        "flavour": "ARC-CE", 
+        "id": 340, 
+        "impl": "", 
+        "is_monitored": false, 
+        "is_virtual": false, 
+        "name": "praguelcg2-CE-ARC-CE-arc-it4i.farm.particle.cz", 
+        "state": "ACTIVE", 
+        "status": "DISABLED", 
+        "type": "CE", 
+        "version": null
+      }, 
       {
         "arch": "", 
         "description": "", 

@@ -73,3 +73,6 @@ for pfx in cric:
         pass
         #print(f"found prefix {pfx} in cric")
     #print(pfx)
+
+print(f"{len(esnetrib)} entries in esnet lhcone")
+print(f"{len(cric)} entries in cric")

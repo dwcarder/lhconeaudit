@@ -1,4 +1,4 @@
-#!/usr/local/bin/bash
+#!/usr/bin/bash
 
 wget --no-check-certificate https://wlcg-cric.cern.ch/api/core/rcsite/query/?json -O cric.json
 ssh routemon1 vtysh -c '"show bgp ipv4 vpn community 64805:12 json"' > lhcone.ipv4.sites.json

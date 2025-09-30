@@ -1,32 +1,42 @@
 prefix 2001:2f8:3e:cc23::/64 {'as-path': '2907'} not in cric
+prefix 2001:320:1b00:1::128/125 {'as-path': '17579'} not in cric
+prefix 2001:320:1b00:520::/64 {'as-path': '17579'} not in cric
+prefix 2001:320:1b00:532::/64 {'as-path': '17579'} not in cric
+prefix 2001:320:1b00:542::/64 {'as-path': '17579'} not in cric
+prefix 2001:320:1b00:552::/64 {'as-path': '17579'} not in cric
+prefix 2001:320:1b00:562::/64 {'as-path': '17579'} not in cric
 prefix 2001:320:8300:203::/64 {'as-path': '2907'} not in cric
 prefix 2001:620:400:fea8::/64 {'as-path': '20965 216467'} not in cric
 prefix 2001:660:3024::/48 {'as-path': '20965 789 2091'} not in cric
 prefix 2001:660:302c::/48 {'as-path': '20965 2091'} not in cric
 prefix 2001:660:3036::/48 {'as-path': '20965 789 2091'} not in cric
+prefix 2001:6a0:fff:ff14::/64 {'as-path': '20965 8501'} not in cric
+prefix 2001:6d8:0:2000::/64 {'as-path': '20965 8501 8267'} not in cric
 prefix 2001:718:401:6000::/52 {'as-path': '20965 2852'} not in cric
 prefix 2001:738:5001:fa::/64 {'as-path': '20965 1955 3314'} not in cric
 prefix 2001:760:4228::/48 {'as-path': '20965 137'} not in cric
+prefix 2001:760:422a:1237::/64 {'as-path': '20965 137'} not in cric
 prefix 2001:b30:800:311::/64 {'as-path': '20965 2614'} not in cric
 prefix 2001:b30:800:f0f0::/64 {'as-path': '20965 2614'} not in cric
 prefix 2001:b30:1900:224::/64 {'as-path': '20965 2614'} not in cric
 prefix 2001:b30:1900:1000::/64 {'as-path': '20965 2614'} not in cric
+prefix 2001:c08::/32 {'as-path': '17934 9264'} not in cric
 prefix 2001:12f0:500:400:ffff:ffff:3591:0/112 {'as-path': '1916 1916 1916'} not in cric
 prefix 2001:1470:8000:682::/64 {'as-path': '20965 2107'} not in cric
 prefix 2001:1470:ff90::/48 {'as-path': '20965 2107'} not in cric
 prefix 2001:48a8:68f7::/48 {'as-path': '229'} not in cric
 prefix 2401:de00:2:35::/64 {'as-path': '7497 3460'} not in cric
 prefix 2401:de00:2:1069::/64 {'as-path': '7497 3460'} not in cric
+prefix 2403:c240::/32 {'as-path': '17934 9264'} not in cric
 prefix 2404:d540:1:591::/64 {'as-path': '2907'} not in cric
 prefix 2404:d540:1:592::/64 {'as-path': '2907'} not in cric
 prefix 37.128.225.236/30 {'as-path': '20965 2614'} not in cric
 prefix 2605:2800:2000::/44 {'as-path': '32093'} not in cric
-prefix 2607:f5d8:5:2004::/64 {'as-path': '11096'} not in cric
-prefix 2620:0:c80:1501::/64 {'as-path': '38 1224'} not in cric
+prefix 2607:f8f0:16c0::/48 {'as-path': '6509 271'} not in cric
+prefix 2607:f8f0:16c1::/48 {'as-path': '6509 271'} not in cric
 prefix 2620:6a:0:2840::/60 {'as-path': '3152'} not in cric
 prefix 2620:6a:0:4841::/64 {'as-path': '3152'} not in cric
 prefix 2804:1f10:0:9696::/64 {'as-path': '1916 1916 1916 2715'} not in cric
-prefix 90.147.150.128/26 {'as-path': '20965 137'} not in cric
 prefix 92.61.14.0/25 {'as-path': '20965 8517 8678'} not in cric
 prefix 103.130.252.0/22 {'as-path': '17934 9264'} not in cric
 prefix 129.114.0.0/17 {'as-path': '32093'} not in cric
@@ -45,17 +55,14 @@ prefix 129.114.63.160/27 {'as-path': '32093'} not in cric
 prefix 129.114.64.0/19 {'as-path': '32093'} not in cric
 prefix 129.114.112.0/20 {'as-path': '32093'} not in cric
 prefix 130.92.140.0/24 {'as-path': '20965 216467'} not in cric
-prefix 130.246.216.48/30 {'as-path': '20965 786'} not in cric
-prefix 130.246.216.52/30 {'as-path': '20965 786'} not in cric
-prefix 130.246.217.0/24 {'as-path': '20965 786'} not in cric
 prefix 133.11.254.136/30 {'as-path': '2907'} not in cric
 prefix 133.11.254.140/30 {'as-path': '2907'} not in cric
+prefix 134.75.203.0/24 {'as-path': '17579'} not in cric
 prefix 134.75.208.112/30 {'as-path': '2907'} not in cric
 prefix 134.158.78.0/24 {'as-path': '20965 2091'} not in cric
 prefix 134.158.158.0/23 {'as-path': '20965 2091'} not in cric
 prefix 140.109.0.0/16 {'as-path': '17934 9264'} not in cric
 prefix 141.85.240.0/24 {'as-path': '20965 2614'} not in cric
-prefix 141.142.154.0/23 {'as-path': '38 1224'} not in cric
 prefix 148.6.8.0/21 {'as-path': '20965 1955 3314'} not in cric
 prefix 148.6.216.0/21 {'as-path': '20965 1955 3314'} not in cric
 prefix 150.254.182.2/31 {'as-path': '20965 8501'} not in cric
@@ -66,31 +73,33 @@ prefix 192.111.110.80/28 {'as-path': '7212'} not in cric
 prefix 193.2.41.146/31 {'as-path': '20965 2107'} not in cric
 prefix 193.140.83.0/24 {'as-path': '20965 8517'} not in cric
 prefix 193.140.100.128/27 {'as-path': '20965 8517'} not in cric
+prefix 193.206.186.128/27 {'as-path': '20965 137'} not in cric
 prefix 193.231.25.224/27 {'as-path': '20965 2614'} not in cric
 prefix 202.13.223.200/29 {'as-path': '2907'} not in cric
 prefix 202.122.32.232/29 {'as-path': '7497 3460'} not in cric
 prefix 202.169.160.0/20 {'as-path': '17934 9264'} not in cric
+prefix 209.87.0.0/24 {'as-path': '6509 271'} not in cric
+prefix 209.87.1.0/24 {'as-path': '6509 271'} not in cric
+prefix 213.135.50.144/30 {'as-path': '20965 8501'} not in cric
 prefix 14.139.119.64/26 {'asn': 55824, 'netsite': 'IN-ERNET-NREN-LHCONE-2', 'rcsite': 'IN-ERNET-NREN'} not in esnet rib
 prefix 2001:254:1:204::/64 {'asn': 23911, 'netsite': 'CN-CERNET-NREN-LHCONE', 'rcsite': 'CN-CERNET-NREN'} not in esnet rib
 prefix 2001:2f8:3e:cc21::/120 {'asn': 2505, 'netsite': 'JP-KEKCC-LHCONE', 'rcsite': 'JP-KEK-CRC-02'} not in esnet rib
 prefix 2001:2f8:ffd0:ffff::/64 {'asn': 2907, 'netsite': 'JP-SINET-NREN-LHCONE-P2P', 'rcsite': 'JP-SINET-NREN'} not in esnet rib
+prefix 2001:320:15:124::/64 {'asn': 17579, 'netsite': 'KR-KISTI-GSDC-01-LHCONE', 'rcsite': 'KR-KISTI-GSDC-01'} not in esnet rib
 prefix 2001:320:15:125::/64 {'asn': 17579, 'netsite': 'KR-KISTI-GSDC-1-LHCOPNE', 'rcsite': 'KR-KISTI-GSDC-01'} not in esnet rib
 prefix 2001:400:f000::/40 {'asn': 293, 'netsite': 'US-ESNET-LHCONE', 'rcsite': 'US-ESNET-NREN'} not in esnet rib
-prefix 2001:630:58:1820::/64 {'asn': 43475, 'netsite': 'RAL-LCG2-LHCOPN', 'rcsite': 'RAL-LCG2'} not in esnet rib
+prefix 2001:610:108:3014::/64 {'asn': 1162, 'netsite': 'NLT1-SARA-LHCONE', 'rcsite': 'SARA-MATRIX'} not in esnet rib
+prefix 2001:610:108:3017::/64 {'asn': 1162, 'netsite': 'NLT1-SARA-LHCONE', 'rcsite': 'SARA-MATRIX'} not in esnet rib
 prefix 2001:638:50a:125::/64 {'asn': 680, 'netsite': 'wuppertalprod-LHCONE', 'rcsite': 'wuppertalprod'} not in esnet rib
 prefix 2001:67c:1bec:237::/64 {'asn': 59624, 'netsite': 'RRC-KI-LHCONE', 'rcsite': 'RRC-KI'} not in esnet rib
 prefix 2001:67c:2870::/48 {'asn': 198743, 'netsite': 'NCBJ-LHCOPN', 'rcsite': 'NCBJ-CIS'} not in esnet rib
 prefix 2001:6a0:fff:ff0a::/64 {'asn': 8501, 'netsite': 'PL-PSNC-NREN-LHCONE', 'rcsite': 'PL-PSNC-NREN'} not in esnet rib
-prefix 2001:6a0:2001:112::/64 {'asn': 8664, 'netsite': 'WUT-LHCONE', 'rcsite': 'WUT'} not in esnet rib
-prefix 2001:6d8:0:20f::/64 {'asn': 8501, 'netsite': 'PL-PSNC-NREN-LHCONE', 'rcsite': 'PL-PSNC-NREN'} not in esnet rib
-prefix 2001:6d8:0:21f::/64 {'asn': 8501, 'netsite': 'PL-PSNC-NREN-LHCONE', 'rcsite': 'PL-PSNC-NREN'} not in esnet rib
 prefix 2001:808:2:22::/64 {'asn': 8501, 'netsite': 'PL-PSNC-NREN-LHCONE', 'rcsite': 'PL-PSNC-NREN'} not in esnet rib
 prefix 2001:b08:22:90::/64 {'asn': 56333, 'netsite': 'ru-Moscow-MEPHI-LCG2-LHCONE', 'rcsite': 'ru-Moscow-MEPHI-LCG2'} not in esnet rib
-prefix 2001:c08:ffff:ffff:ffff:ffff:fffa:800/119 {'asn': 18217, 'netsite': 'TW-ASGC', 'rcsite': 'TW-FTT'} not in esnet rib
-prefix 2001:12d0:8120::/64 {'asn': 1251, 'netsite': 'USP-LHCONE', 'rcsite': 'SAMPA'} not in esnet rib
 prefix 2001:1310:3121::/48 {'asn': 11340, 'netsite': 'EELA-UTFSM-LHCONE', 'rcsite': 'EELA-UTFSM'} not in esnet rib
 prefix 2001:1458:302::/48 {'asn': 513, 'netsite': 'CERN-PROD-LHCOPNE', 'rcsite': 'CERN-PROD'} not in esnet rib
 prefix 2001:1458:a00::/48 {'asn': 20641, 'netsite': 'CERN-PROD-CERNLIGHT-P2P', 'rcsite': 'CERN-PROD'} not in esnet rib
+prefix 2001:48e8:6400::/44 {'asn': 1929, 'netsite': 'NET2-LHCONE', 'rcsite': 'NET2'} not in esnet rib
 prefix 2001:48e8:6401::/63 {'asn': 1929, 'netsite': 'NET2-LHCONE', 'rcsite': 'NET2'} not in esnet rib
 prefix 35.199.60.100/32 {'asn': 229, 'netsite': 'AGLT2_UM', 'rcsite': 'AGLT2'} not in esnet rib
 prefix 2400:4500::/64 {'asn': 24167, 'netsite': 'Taiwan-LCG2-LHCOPNE', 'rcsite': 'Taiwan-LCG2'} not in esnet rib
@@ -99,15 +108,7 @@ prefix 2400:4500:0:2::/64 {'asn': 24167, 'netsite': 'Taiwan-LCG2-LHCOPNE', 'rcsi
 prefix 2401:de00:1:32::/64 {'asn': 3460, 'netsite': 'BEIJING-LCG2-LHCONE', 'rcsite': 'BEIJING-LCG2'} not in esnet rib
 prefix 2405:8a00:c012::/48 {'asn': 55824, 'netsite': 'IN-ERNET-NREN-LHCONE-2', 'rcsite': 'IN-ERNET-NREN'} not in esnet rib
 prefix 2406:f00:9::/48 {'asn': 58758, 'netsite': 'INDIACMS-TIFR-LHCONE-V6', 'rcsite': 'INDIACMS-TIFR'} not in esnet rib
-prefix 2600:900:6:1101::/64 {'asn': 7896, 'netsite': 'Nebraska-LHCONE', 'rcsite': 'Nebraska'} not in esnet rib
-prefix 2600:900:6:1102::/64 {'asn': 7896, 'netsite': 'Nebraska-LHCONE', 'rcsite': 'Nebraska'} not in esnet rib
-prefix 2600:900:6:1103::/64 {'asn': 7896, 'netsite': 'Nebraska-LHCONE', 'rcsite': 'Nebraska'} not in esnet rib
-prefix 2600:900:6:1180::/64 {'asn': 7896, 'netsite': 'Nebraska-LHCONE', 'rcsite': 'Nebraska'} not in esnet rib
 prefix 2600:900:6:1181::/64 {'asn': 7896, 'netsite': 'Nebraska-LHCONE', 'rcsite': 'Nebraska'} not in esnet rib
-prefix 2600:900:6:1182::/64 {'asn': 7896, 'netsite': 'Nebraska-LHCONE', 'rcsite': 'Nebraska'} not in esnet rib
-prefix 2600:900:6:1301::/64 {'asn': 7896, 'netsite': 'Nebraska-LHCONE', 'rcsite': 'Nebraska'} not in esnet rib
-prefix 2600:900:6:1302::/64 {'asn': 7896, 'netsite': 'Nebraska-LHCONE', 'rcsite': 'Nebraska'} not in esnet rib
-prefix 2600:900:6:1401::/64 {'asn': 7896, 'netsite': 'Nebraska-LHCONE', 'rcsite': 'Nebraska'} not in esnet rib
 prefix 2600:900:6:3103::/64 {'asn': 7896, 'netsite': 'Nebraska-LHCONE', 'rcsite': 'Nebraska'} not in esnet rib
 prefix 2607:f380:a4f::/48 {'asn': 32361, 'netsite': 'CIT_CMS_T2-LHCONE', 'rcsite': 'CIT_CMS_T2'} not in esnet rib
 prefix 2607:f5d8:5:1::/64 {'asn': 11096, 'netsite': 'UFlorida-HPC-LHCONE-2', 'rcsite': 'UFlorida-HPC'} not in esnet rib
@@ -118,6 +119,7 @@ prefix 2607:f5d8:5:5::/64 {'asn': 11096, 'netsite': 'UFlorida-HPC-LHCONE-2', 'rc
 prefix 2607:f5d8:5:6::/64 {'asn': 11096, 'netsite': 'UFlorida-HPC-LHCONE-2', 'rcsite': 'UFlorida-HPC'} not in esnet rib
 prefix 2607:f5d8:5:7::/64 {'asn': 11096, 'netsite': 'UFlorida-HPC-LHCONE-2', 'rcsite': 'UFlorida-HPC'} not in esnet rib
 prefix 2607:f5d8:5:ff::/64 {'asn': 11096, 'netsite': 'UFlorida-HPC-LHCONE-2', 'rcsite': 'UFlorida-HPC'} not in esnet rib
+prefix 2607:f5d8:5:401::/64 {'asn': 11096, 'netsite': 'UFlorida-HPC-LHCONE-2', 'rcsite': 'UFlorida-HPC'} not in esnet rib
 prefix 2607:f8f0:c10:70f3::/64 {'asn': 16462, 'netsite': 'CA-UVIC-CLOUD-LHCONE', 'rcsite': 'CA-UVic-Cloud'} not in esnet rib
 prefix 2620:0:2b3d::/56 {'asn': 50, 'netsite': 'ORNL-LHCONE', 'rcsite': 'ORNL'} not in esnet rib
 prefix 2620:6a:0:2::/64 {'asn': 3152, 'netsite': 'USCMS-FNAL-WC1-LHCOPNE', 'rcsite': 'USCMS-FNAL-WC1'} not in esnet rib
@@ -128,7 +130,6 @@ prefix 2a13:22c0:c010::/48 {'asn': 2683, 'netsite': 'ru-Moscow-SINP', 'rcsite': 
 prefix 62.40.103.0/24 {'asn': 20965, 'netsite': 'GEANT-LHCONE-PEERINGS', 'rcsite': 'GEANT REN'} not in esnet rib
 prefix 64.57.30.128/25 {'asn': 11537, 'netsite': 'US-INTERNET2-NREN-LHCONE', 'rcsite': 'US-INTERNET2-NREN'} not in esnet rib
 prefix 67.58.50.0/28 {'asn': 26397, 'netsite': 'UCSDT2-LHCONE', 'rcsite': 'UCSDT2'} not in esnet rib
-prefix 69.16.44.0/23 {'asn': 1929, 'netsite': 'NET2-LHCONE', 'rcsite': 'NET2'} not in esnet rib
 prefix 72.36.81.64/26 {'asn': 38, 'netsite': 'IllinoisHEP-LHCONE', 'rcsite': 'IllinoisHEP'} not in esnet rib
 prefix 85.143.115.32/27 {'asn': 56333, 'netsite': 'ru-Moscow-MEPHI-LCG2-LHCONE', 'rcsite': 'ru-Moscow-MEPHI-LCG2'} not in esnet rib
 prefix 90.147.66.0/24 {'asn': 137, 'netsite': 'INFN-BARI-LHCONE', 'rcsite': 'INFN-BARI'} not in esnet rib
@@ -150,23 +151,20 @@ prefix 128.227.235.192/26 {'asn': 6536, 'netsite': 'UFlorida-HPC-LHCONE', 'rcsit
 prefix 128.227.246.0/24 {'asn': 6536, 'netsite': 'UFlorida-HPC-LHCONE', 'rcsite': 'UFlorida-HPC'} not in esnet rib
 prefix 128.227.253.0/24 {'asn': 6536, 'netsite': 'UFlorida-HPC-LHCONE', 'rcsite': 'UFlorida-HPC'} not in esnet rib
 prefix 128.250.185.224/27 {'asn': 7575, 'netsite': 'Australia-ATLAS-LHCONE', 'rcsite': 'Australia-ATLAS'} not in esnet rib
-prefix 129.93.153.0/24 {'asn': 7896, 'netsite': 'Nebraska-LHCONE', 'rcsite': 'Nebraska'} not in esnet rib
-prefix 129.93.179.0/24 {'asn': 7896, 'netsite': 'Nebraska-LHCONE', 'rcsite': 'Nebraska'} not in esnet rib
-prefix 129.93.182.0/23 {'asn': 7896, 'netsite': 'Nebraska-LHCONE', 'rcsite': 'Nebraska'} not in esnet rib
-prefix 129.93.239.128/26 {'asn': 7896, 'netsite': 'Nebraska-LHCONE', 'rcsite': 'Nebraska'} not in esnet rib
-prefix 129.93.244.192/26 {'asn': 7896, 'netsite': 'Nebraska-LHCONE', 'rcsite': 'Nebraska'} not in esnet rib
-prefix 130.246.176.0/22 {'asn': 43475, 'netsite': 'RAL-LCG2-LHCOPN', 'rcsite': 'RAL-LCG2'} not in esnet rib
 prefix 131.225.2.0/24 {'asn': 3152, 'netsite': 'USCMS-FNAL-WC1-LHCOPNE', 'rcsite': 'USCMS-FNAL-WC1'} not in esnet rib
 prefix 131.225.160.0/24 {'asn': 3152, 'netsite': 'USCMS-FNAL-WC1-LHCOPNE', 'rcsite': 'USCMS-FNAL-WC1'} not in esnet rib
 prefix 132.195.124.0/23 {'asn': 680, 'netsite': 'wuppertalprod-LHCONE', 'rcsite': 'wuppertalprod'} not in esnet rib
 prefix 132.206.245.224/27 {'asn': 15318, 'netsite': 'CA-MCGILL-CLUMEQ-T2-LHCONE', 'rcsite': 'CA-MCGILL-CLUMEQ-T2'} not in esnet rib
 prefix 133.11.127.244/30 {'asn': 2501, 'netsite': 'TOKYO-LCG2-LHCONE-P2P', 'rcsite': 'TOKYO-LCG2'} not in esnet rib
 prefix 133.11.255.181/32 {'asn': 2501, 'netsite': 'TOKYO-LCG2-LHCONE-P2P', 'rcsite': 'TOKYO-LCG2'} not in esnet rib
+prefix 134.75.123.0/24 {'asn': 17579, 'netsite': 'KR-KISTI-GSDC-01-LHCONE', 'rcsite': 'KR-KISTI-GSDC-01'} not in esnet rib
+prefix 134.75.124.0/24 {'asn': 17579, 'netsite': 'KR-KISTI-GSDC-01-LHCONE', 'rcsite': 'KR-KISTI-GSDC-01'} not in esnet rib
 prefix 134.75.125.0/24 {'asn': 17579, 'netsite': 'KR-KISTI-GSDC-1-LHCOPNE', 'rcsite': 'KR-KISTI-GSDC-01'} not in esnet rib
-prefix 134.75.203.16/30 {'asn': 17579, 'netsite': 'KR-KREONET-NREN-LHCONE', 'rcsite': 'KR-KREONET-NREN'} not in esnet rib
-prefix 134.75.203.240/30 {'asn': 17579, 'netsite': 'KR-KREONET-NREN-LHCONE', 'rcsite': 'KR-KREONET-NREN'} not in esnet rib
+prefix 134.75.126.0/24 {'asn': 17579, 'netsite': 'KR-KISTI-GSDC-01-LHCONE', 'rcsite': 'KR-KISTI-GSDC-01'} not in esnet rib
+prefix 134.75.127.0/24 {'asn': 17579, 'netsite': 'KR-KISTI-GSDC-01-LHCONE', 'rcsite': 'KR-KISTI-GSDC-01'} not in esnet rib
 prefix 134.79.0.0/16 {'asn': 3671, 'netsite': 'US-SLAC-LHCONE', 'rcsite': 'US-SLAC'} not in esnet rib
 prefix 134.130.9.64/29 {'asn': 47610, 'netsite': 'RWTH-Aachen-LHCONE', 'rcsite': 'RWTH-Aachen'} not in esnet rib
+prefix 137.226.38.108/30 {'asn': 47610, 'netsite': 'RWTH-Aachen-LHCONE', 'rcsite': 'RWTH-Aachen'} not in esnet rib
 prefix 140.110.122.96/28 {'asn': 7539, 'netsite': 'TW-TWAREN-NREN-LHCONE', 'rcsite': 'TW-TWAREN-NREN'} not in esnet rib
 prefix 140.115.32.0/24 {'asn': 1659, 'netsite': 'TW-NCUHEP-LHCONE', 'rcsite': 'TW-NCUHEP'} not in esnet rib
 prefix 140.115.38.0/24 {'asn': 1659, 'netsite': 'TW-NCUHEP-LHCONE', 'rcsite': 'TW-NCUHEP'} not in esnet rib
@@ -175,11 +173,11 @@ prefix 142.244.105.64/27 {'asn': 3359, 'netsite': 'CA-ALBERTA-WESTGRID-T2-LHCONE
 prefix 144.16.111.0/24 {'asn': 2697, 'netsite': 'INDIACMS-TIFR-LHCONE-V4', 'rcsite': 'INDIACMS-TIFR'} not in esnet rib
 prefix 144.16.112.0/24 {'asn': 55824, 'netsite': 'IN-ERNET-NREN-LHCONE-1', 'rcsite': 'IN-ERNET-NREN'} not in esnet rib
 prefix 146.83.90.0/24 {'asn': 11340, 'netsite': 'EELA-UTFSM-LHCONE', 'rcsite': 'EELA-UTFSM'} not in esnet rib
-prefix 147.231.11.0/25 {'asn': 2852, 'netsite': 'praguelcg2-LHCONE', 'rcsite': 'praguelcg2'} not in esnet rib
 prefix 150.99.93.20/30 {'asn': 2907, 'netsite': 'JP-SINET-NREN-LHCONE-P2P', 'rcsite': 'JP-SINET-NREN'} not in esnet rib
 prefix 150.99.198.220/30 {'asn': 2501, 'netsite': 'TOKYO-LCG2-LHCONE-P2P', 'rcsite': 'TOKYO-LCG2'} not in esnet rib
 prefix 150.254.182.0/31 {'asn': 8501, 'netsite': 'PL-PSNC-NREN-LHCONE', 'rcsite': 'PL-PSNC-NREN'} not in esnet rib
 prefix 152.84.101.0/24 {'asn': 2715, 'netsite': 'CBPF-LHCONE', 'rcsite': 'CBPF'} not in esnet rib
+prefix 158.250.4.0/24 {'asn': 2683, 'netsite': 'ru-Moscow-SINP', 'rcsite': 'ru-Moscow-SINP-LCG2'} not in esnet rib
 prefix 185.141.124.192/27 {'asn': 52146, 'netsite': 'RU-SARFTI-LHCONE', 'rcsite': 'RU-SARFTI'} not in esnet rib
 prefix 188.1.153.0/24 {'asn': 680, 'netsite': 'DE-DFN-NREN-DFN-LHCONE-PERFSONAR', 'rcsite': 'DE-DFN-NREN'} not in esnet rib
 prefix 192.12.68.0/24 {'asn': 50, 'netsite': 'ORNL-LHCONE', 'rcsite': 'ORNL'} not in esnet rib
@@ -192,7 +190,6 @@ prefix 195.113.219.0/25 {'asn': 2852, 'netsite': 'praguelcg2-LHCONE', 'rcsite': 
 prefix 198.51.111.0/24 {'asn': 3671, 'netsite': 'US-SLAC-LHCONE', 'rcsite': 'US-SLAC'} not in esnet rib
 prefix 198.124.80.0/23 {'asn': 293, 'netsite': 'US-ESNET-LHCONE', 'rcsite': 'US-ESNET-NREN'} not in esnet rib
 prefix 199.241.165.64/26 {'asn': 46757, 'netsite': 'CA-WATERLOO-T2-LHCONE', 'rcsite': 'CA-WATERLOO-T2'} not in esnet rib
-prefix 200.17.30.0/24 {'asn': 28571, 'netsite': 'SAMPA-LHCONE', 'rcsite': 'SAMPA'} not in esnet rib
 prefix 202.13.207.128/25 {'asn': 2505, 'netsite': 'JP-KEKCC-LHCONE', 'rcsite': 'JP-KEK-CRC-02'} not in esnet rib
 prefix 202.122.35.0/24 {'asn': 3460, 'netsite': 'BEIJING-LCG2-LHCONE', 'rcsite': 'BEIJING-LCG2'} not in esnet rib
 prefix 202.140.160.0/19 {'asn': 24167, 'netsite': 'Taiwan-LCG2-LHCOPNE', 'rcsite': 'Taiwan-LCG2'} not in esnet rib
@@ -201,3 +198,6 @@ prefix 203.185.131.0/24 {'asn': 38296, 'netsite': 'TH-NECTEC-NREN-LHCONE', 'rcsi
 prefix 205.189.32.79/32 {'asn': 6509, 'netsite': 'CA-CANARIE-NREN-CA-CANARIE-LHCONE-KEK', 'rcsite': 'CA-CANARIE-NREN'} not in esnet rib
 prefix 206.12.24.0/25 {'asn': 11105, 'netsite': 'SFU-LCG2-LHCONE', 'rcsite': 'SFU-LCG2'} not in esnet rib
 prefix 206.12.154.0/24 {'asn': 16462, 'netsite': 'CA-UVIC-CLOUD-LHCONE', 'rcsite': 'CA-UVic-Cloud'} not in esnet rib
+prefix 213.135.50.84/30 {'asn': 8501, 'netsite': 'PL-PSNC-NREN-LHCONE', 'rcsite': 'PL-PSNC-NREN'} not in esnet rib
+506 entries in esnet lhcone
+507 entries in cric

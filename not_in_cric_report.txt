@@ -1,0 +1,89 @@
+==================================================
+Final Processed Results from not_in_cric.txt
+==================================================
+AS Number  | Prefix                    | Organization/NetName
+-----------+---------------------------+-----------------------------------------
+2907       | 2001:2f8:3e:cc23::/64     | SINET-AS Research Organization of Information and Systems, National Institute of Informatics, JP
+17579      | 2001:320:1b00:1::128/125  | KREONET-AS-KR KISTI, KR
+17579      | 2001:320:1b00:520::/64    | KREONET-AS-KR KISTI, KR
+17579      | 2001:320:1b00:532::/64    | KREONET-AS-KR KISTI, KR
+17579      | 2001:320:1b00:542::/64    | KREONET-AS-KR KISTI, KR
+17579      | 2001:320:1b00:552::/64    | KREONET-AS-KR KISTI, KR
+17579      | 2001:320:1b00:562::/64    | KREONET-AS-KR KISTI, KR
+2907       | 2001:320:8300:203::/64    | KREONET-AS-KR KISTI, KR
+216467     | 2001:620:400:fea8::/64    | SWITCH Switch, Swiss Academic and Research Network, CH
+2091       | 2001:660:3024::/48        | FR-RENATER Reseau National de telecommunications pour la Technologie, FR
+2091       | 2001:660:302c::/48        | FR-RENATER Reseau National de telecommunications pour la Technologie, FR
+2091       | 2001:660:3036::/48        | FR-RENATER Reseau National de telecommunications pour la Technologie, FR
+8501       | 2001:6a0:fff:ff14::/64    | ICM-PUB public network services, PL
+8267       | 2001:6d8:0:2000::/64      | CYFRONET-AS Metropolitan Area Network Autonomous System, PL
+2852       | 2001:718:401:6000::/52    | CESNET2, CZ
+3314       | 2001:738:5001:fa::/64     | HBONE-AS KIFU, HU
+137        | 2001:760:4228::/48        | ASGARR Consortium GARR, IT
+137        | 2001:760:422a:1237::/64   | ASGARR Consortium GARR, IT
+2614       | 2001:b30:800:311::/64     | ROEDUNET, RO
+2614       | 2001:b30:800:f0f0::/64    | ROEDUNET, RO
+2614       | 2001:b30:1900:224::/64    | ROEDUNET, RO
+2614       | 2001:b30:1900:1000::/64   | ROEDUNET, RO
+9264       | 2001:c08::/32             | ASNET Academia Sinica, TW
+1916       | 2001:12f0:500:400:ffff:ffff:3591:0/112 | Rede Nacional de Ensino e Pesquisa, BR
+2107       | 2001:1470:8000:682::/64   | ARNES-NET Academic and Research Network of Slovenia, SI
+2107       | 2001:1470:ff90::/48       | ARNES-NET Academic and Research Network of Slovenia, SI
+229        | 2001:48a8:68f7::/48       | MERIT-AS-6, US
+3460       | 2401:de00:2:35::/64       | CSTNET-AS-AP Computer Network Information Center of Chinese Academy of Sciences CNIC-CAS, CN
+3460       | 2401:de00:2:1069::/64     | CSTNET-AS-AP Computer Network Information Center of Chinese Academy of Sciences CNIC-CAS, CN
+9264       | 2403:c240::/32            | ASNET Academia Sinica, TW
+2907       | 2404:d540:1:591::/64      | UTNET The University of Tokyo, JP
+2907       | 2404:d540:1:592::/64      | UTNET The University of Tokyo, JP
+2614       | 37.128.225.236/30         | ROEDUNET, RO
+32093      | 2605:2800:2000::/44       | TACCNET, US
+271        | 2607:f8f0:16c0::/48       | NA
+271        | 2607:f8f0:16c1::/48       | NA
+3152       | 2620:6a:0:2840::/60       | FNAL-AS, US
+3152       | 2620:6a:0:4841::/64       | FNAL-AS, US
+2715       | 2804:1f10:0:9696::/64     | Fundacao Carlos Chagas Filho de Amparo a Pesquisa, BR
+8678       | 92.61.14.0/25             | ANKARA-NET, TR
+9264       | 103.130.252.0/22          | ASNET Academia Sinica, TW
+32093      | 129.114.0.0/17            | TACCNET, US
+32093      | 129.114.16.0/21           | TACCNET, US
+32093      | 129.114.40.0/22           | TACCNET, US
+32093      | 129.114.44.0/22           | TACCNET, US
+32093      | 129.114.51.0/26           | TACCNET, US
+32093      | 129.114.51.128/26         | TACCNET, US
+32093      | 129.114.52.0/24           | TACCNET, US
+32093      | 129.114.57.128/25         | TACCNET, US
+32093      | 129.114.59.192/27         | TACCNET, US
+32093      | 129.114.62.192/27         | TACCNET, US
+32093      | 129.114.63.96/27          | TACCNET, US
+32093      | 129.114.63.128/27         | TACCNET, US
+32093      | 129.114.63.160/27         | TACCNET, US
+32093      | 129.114.64.0/19           | TACCNET, US
+32093      | 129.114.112.0/20          | TACCNET, US
+216467     | 130.92.140.0/24           | SWITCH Switch, Swiss Academic and Research Network, CH
+2907       | 133.11.254.136/30         | UTNET The University of Tokyo, JP
+2907       | 133.11.254.140/30         | UTNET The University of Tokyo, JP
+17579      | 134.75.203.0/24           | KREONET-AS-KR KISTI, KR
+2907       | 134.75.208.112/30         | KREONET-AS-KR KISTI, KR
+2091       | 134.158.78.0/24           | IN2P3 IN2P3 Autonomous System, EU
+2091       | 134.158.158.0/23          | IN2P3 IN2P3 Autonomous System, EU
+9264       | 140.109.0.0/16            | ASNET Academia Sinica, TW
+2614       | 141.85.240.0/24           | ROEDUNET, RO
+3314       | 148.6.8.0/21              | KFKI-AS IP networks of KFKI, HU
+3314       | 148.6.216.0/21            | KFKI-AS IP networks of KFKI, HU
+8501       | 150.254.182.2/31          | POZMAN POZMAN-EDU, PL
+2107       | 153.5.84.176/28           | ARNES-NET Academic and Research Network of Slovenia, SI
+5078       | 156.110.31.128/29         | ONENET-AS-1, US
+8517       | 185.7.1.0/24              | ULAKNET, TR
+7212       | 192.111.110.80/28         | VANDERBILT, US
+2107       | 193.2.41.146/31           | ARNES-NET Academic and Research Network of Slovenia, SI
+8517       | 193.140.83.0/24           | ULAKNET, TR
+8517       | 193.140.100.128/27        | ULAKNET, TR
+137        | 193.206.186.128/27        | ASGARR Consortium GARR, IT
+2614       | 193.231.25.224/27         | ROEDUNET, RO
+2907       | 202.13.223.200/29         | HEPNET-J High Energy Accelerator Research Organization, KEK, JP
+3460       | 202.122.32.232/29         | CSTNET-AS-AP Computer Network Information Center of Chinese Academy of Sciences CNIC-CAS, CN
+9264       | 202.169.160.0/20          | ASNET Academia Sinica, TW
+271        | 209.87.0.0/24             | NA
+271        | 209.87.1.0/24             | NA
+8501       | 213.135.50.144/30         | ICM-PUB public network services, PL
+==================================================

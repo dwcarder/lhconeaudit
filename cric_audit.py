@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-CRI Audit Workflow - Combined Script
+CRIC Audit Workflow - Combined Script
 
 This script combines the full audit workflow:
 1. Fetch CRIC data from WLCG and produce cric.json
@@ -288,7 +288,7 @@ def main():
     output_file = sys.argv[1] if len(sys.argv) > 1 else "cric_audit_report.txt"
 
     print("=" * 60)
-    print("CRI Audit Workflow")
+    print("CRIC Audit Workflow")
     print("=" * 60)
 
     # Step 1: Fetch CRIC data
